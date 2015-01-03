@@ -13,15 +13,33 @@ defined('_JEXEC') or die('Restricted Access');
         <?php echo JHtml::_('grid.checkall'); ?>
     </th>
     <th width="5" class="nowrap">
-        <?php echo JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_HEADING_ID'); ?>
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_ID'); ?>
     </th>
     <th class="nowrap">
-        <?php echo JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_HEADING_NOM'); ?>
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_NOM'); ?>
     </th>
     <th class="nowrap">
-        <?php echo JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_HEADING_PRENOM'); ?>
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_PRENOM'); ?>
     </th>
     <th class="nowrap">
-        <?php echo JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_HEADING_AGE'); ?>
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_AGE'); ?>
+    </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_ADRESSE'); ?>
+    </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_CODEPOSTAL'); ?>
+    </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_VILLE'); ?>
+    </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_TELEPHONEFIXE'); ?>
+    </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_TELEPHONEPORTABLE'); ?>
+    </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_SECTION'); ?>
     </th>
 </tr>

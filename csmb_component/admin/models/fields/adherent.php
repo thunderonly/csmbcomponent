@@ -16,7 +16,7 @@ class JFormFieldAdherent extends JFormFieldList
      *
      * @var         string
      */
-    protected $type = 'HelloWorld';
+    protected $type = 'adherent';
 
     /**
      * Method to get a list of options for a list input.

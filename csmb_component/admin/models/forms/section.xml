@@ -8,8 +8,8 @@
         <field
             name="libelle"
             type="text"
-            label="COM_CSMBCOMPONENT_CSMBCOMPONENT_NOM_LABEL"
-            description="COM_CSMBCOMPONENT_CSMBCOMPONENT_NOM_DESC"
+            label="COM_CSMBCOMPONENT_SECTION_LIBELLE_LABEL"
+            description="COM_CSMBCOMPONENT_SECTION_LIBELLE_DESC"
             size="40"
             class="inputbox"
             default=""

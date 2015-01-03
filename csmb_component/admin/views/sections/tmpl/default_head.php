@@ -13,9 +13,9 @@ defined('_JEXEC') or die('Restricted Access');
         <?php echo JHtml::_('grid.checkall'); ?>
     </th>
     <th width="5" class="nowrap">
-        <?php echo JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_HEADING_ID'); ?>
+        <?php echo JText::_('COM_CSMBCOMPONENT_SECTION_HEADING_ID'); ?>
     </th>
     <th class="nowrap">
-        <?php echo JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_HEADING_NOM'); ?>
+        <?php echo JText::_('COM_CSMBCOMPONENT_SECTION_HEADING_LIBELLE'); ?>
     </th>
 </tr>

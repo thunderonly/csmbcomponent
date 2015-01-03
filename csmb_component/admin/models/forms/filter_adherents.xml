@@ -9,13 +9,13 @@
                 />
 
         <field
-                name="nom"
-                type="text"
+                name="section"
+                type="section"
                 label="Search_Name"
                 description="Search_Name"
                 onchange="this.form.submit();"
                 >
-            <option value=""></option>
+            <option value="">COM_CSMBCOMPONENT_ADHERENT_SELECT_SECTION</option>
         </field>
     </fields>
 

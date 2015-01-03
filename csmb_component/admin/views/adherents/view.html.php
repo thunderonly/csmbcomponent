@@ -54,7 +54,7 @@ class CsmbComponentViewAdherents extends JViewLegacy
      */
     protected function addToolBar()
     {
-        JToolBarHelper::title(JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT'));
+        JToolBarHelper::title(JText::_('COM_CSMBCOMPONENT_MANAGER_ADHERENT'));
         JToolBarHelper::deleteList('', 'adherents.delete');
         JToolBarHelper::editList('adherent.edit');
         JToolBarHelper::addNew('adherent.add');
@@ -67,6 +67,6 @@ class CsmbComponentViewAdherents extends JViewLegacy
     protected function setDocument()
     {
         $document = JFactory::getDocument();
-        $document->setTitle(JText::_('COM_CSMBCOMPONENT_ADMINISTRATION'));
+        $document->setTitle(JText::_('COM_CSMBCOMPONENT_ADMINISTRATION_ADHERENT'));
     }
 }

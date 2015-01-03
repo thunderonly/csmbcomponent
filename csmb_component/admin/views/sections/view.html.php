@@ -54,7 +54,7 @@ class CsmbComponentViewSections extends JViewLegacy
      */
     protected function addToolBar()
     {
-        JToolBarHelper::title(JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT'));
+        JToolBarHelper::title(JText::_('COM_CSMBCOMPONENT_MANAGER_SECTION'));
         JToolBarHelper::deleteList('', 'sections.delete');
         JToolBarHelper::editList('section.edit');
         JToolBarHelper::addNew('section.add');
@@ -67,6 +67,6 @@ class CsmbComponentViewSections extends JViewLegacy
     protected function setDocument()
     {
         $document = JFactory::getDocument();
-        $document->setTitle(JText::_('COM_CSMBCOMPONENT_ADMINISTRATION'));
+        $document->setTitle(JText::_('COM_CSMBCOMPONENT_SECTION'));
     }
 }

@@ -7,7 +7,7 @@ JHtml::_('behavior.tooltip');
       method="post" name="adminForm" id="adminForm">
     <div class="form-horizontal">
         <?php echo JHtml::_('bootstrap.startTabSet', 'myTab', array('active' => 'general')); ?>
-        <?php echo JHtml::_('bootstrap.addTab', 'myTab', 'general', JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_GENERAL_TAB', true)); ?>
+        <?php echo JHtml::_('bootstrap.addTab', 'myTab', 'general', JText::_('COM_CSMBCOMPONENT_MANAGER_ADHERENT_GENERAL_TAB', true)); ?>
         <div class="row-fluid form-horizontal-desktop">
             <div class="span6">
                 <?php foreach ($this->form->getFieldset('general') as $field): ?>
@@ -19,7 +19,7 @@ JHtml::_('behavior.tooltip');
             </div>
         </div>
         <?php echo JHtml::_('bootstrap.endTab'); ?>
-        <?php echo JHtml::_('bootstrap.addTab', 'myTab', 'admin', JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_ADMIN_TAB', true)); ?>
+        <?php echo JHtml::_('bootstrap.addTab', 'myTab', 'admin', JText::_('COM_CSMBCOMPONENT_MANAGER_ADHERENT_ADMIN_TAB', true)); ?>
         <div class="row-fluid form-horizontal-desktop">
             <div class="span6">
                 <?php foreach ($this->form->getFieldset('administratif') as $field): ?>

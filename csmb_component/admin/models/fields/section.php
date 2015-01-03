@@ -16,7 +16,7 @@ class JFormFieldSection extends JFormFieldList
      *
      * @var         string
      */
-    protected $type = 'HelloWorld';
+    protected $type = 'section';
 
     /**
      * Method to get a list of options for a list input.

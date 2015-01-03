@@ -8,8 +8,8 @@
         <field
             name="nom"
             type="text"
-            label="COM_CSMBCOMPONENT_CSMBCOMPONENT_NOM_LABEL"
-            description="COM_CSMBCOMPONENT_CSMBCOMPONENT_NOM_DESC"
+            label="COM_CSMBCOMPONENT_ADHERENT_NOM_LABEL"
+            description="COM_CSMBCOMPONENT_ADHERENT_NOM_DESC"
             size="40"
             class="inputbox"
             default=""
@@ -19,8 +19,8 @@
         <field
                 name="prenom"
                 type="text"
-                label="COM_CSMBCOMPONENT_CSMBCOMPONENT_PRENOM_LABEL"
-                description="COM_CSMBCOMPONENT_CSMBCOMPONENT_PRENOM_DESC"
+                label="COM_CSMBCOMPONENT_ADHERENT_PRENOM_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_PRENOM_DESC"
                 size="40"
                 class="inputbox"
                 default=""
@@ -28,11 +28,62 @@
         <field
                 name="age"
                 type="text"
-                label="COM_CSMBCOMPONENT_CSMBCOMPONENT_AGE_LABEL"
-                description="COM_CSMBCOMPONENT_CSMBCOMPONENT_AGE_DESC"
+                label="COM_CSMBCOMPONENT_ADHERENT_AGE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_AGE_DESC"
                 size="40"
                 class="inputbox"
                 default=""
                 />
+        <field
+                name="adresse"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_ADRESSE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_ADRESSE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="codepostal"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_CODEPOSTAL_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_CODEPOSTAL_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="ville"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_VILLE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_VILLE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="telephonefixe"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_TELEPHONEFIXE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_TELEPHONEFIXE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="telephoneportable"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_TELEPHONEPORTABLE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_TELEPHONEPORTABLE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="sectionid"
+                type="section"
+                label="COM_CSMBCOMPONENT_ADHERENT_SECTION_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_SECTION_DESC"
+                required="true"/>
     </fieldset>
 </form>

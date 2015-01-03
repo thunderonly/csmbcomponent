@@ -49,7 +49,7 @@ class CsmbComponentViewSection extends JViewLegacy
         $input = JFactory::getApplication()->input;
         $input->set('hidemainmenu', true);
         $isNew = ($this->item->id == 0);
-        JToolBarHelper::title($isNew ? JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_NEW') : JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_EDIT'));
+        JToolBarHelper::title($isNew ? JText::_('COM_CSMBCOMPONENT_MANAGER_SECTION_NEW') : JText::_('COM_CSMBCOMPONENT_MANAGER_SECTION_EDIT'));
         JToolBarHelper::save('section.save');
         JToolBarHelper::cancel('section.cancel', $isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE');
     }
@@ -62,7 +62,7 @@ class CsmbComponentViewSection extends JViewLegacy
     {
         $isNew = ($this->item->id < 1);
         $document = JFactory::getDocument();
-        $document->setTitle($isNew ? JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_CREATING')
-            : JText::_('COM_CSMBCOMPONENT_CSMBCOMPONENT_EDITING'));
+        $document->setTitle($isNew ? JText::_('COM_CSMBCOMPONENT_SECTION_CREATING')
+            : JText::_('COM_CSMBCOMPONENT_SECTION_EDITING'));
     }
 }
