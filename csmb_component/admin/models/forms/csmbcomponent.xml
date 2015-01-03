@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="general" label="Test">
+        <field
+            name="id"
+            type="hidden"
+            />
+        <field
+            name="nom"
+            type="text"
+            label="COM_CSMBCOMPONENT_CSMBCOMPONENT_NOM_LABEL"
+            description="COM_CSMBCOMPONENT_CSMBCOMPONENT_NOM_DESC"
+            size="40"
+            class="inputbox"
+            default=""
+            />
+    </fieldset>
+    <fieldset name="administratif" label="Test">
+        <field
+                name="prenom"
+                type="text"
+                label="COM_CSMBCOMPONENT_CSMBCOMPONENT_PRENOM_LABEL"
+                description="COM_CSMBCOMPONENT_CSMBCOMPONENT_PRENOM_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+    </fieldset>
+</form>

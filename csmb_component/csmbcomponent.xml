@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.3" method="upgrade">
+
+    <name>CSMB Component</name>
+    <creationDate>Janvier 2015</creationDate>
+    <author>Gael HENRY</author>
+    <authorEmail>thunderonly@gmail.com</authorEmail>
+    <authorUrl>www.csmb13.fr</authorUrl>
+    <copyright>libre</copyright>
+    <licence>libre</licence>
+    <version>0.0.1</version>
+    <description>Permet la gestion des adhérents du club</description>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <update>
+        <schemas>
+            <schemapath type="sql">sql/updates/mysql/</schemapath>
+        </schemas>
+    </update>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>csmbcomponent.php</filename>
+    </files>
+
+    <administration>
+        <menu>COM_CSMBCOMPONENT_ADMIN_MENU</menu>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>csmbcomponent.php</filename>
+            <filename>controller.php</filename>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>language</folder>
+            <!-- controllers files section -->
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+        </files>
+    </administration>
+</extension>
