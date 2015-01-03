@@ -9,7 +9,7 @@ JFormHelper::loadFieldClass('list');
 /**
  * HelloWorld Form Field class for the HelloWorld component
  */
-class JFormFieldCsmbComponent extends JFormFieldList
+class JFormFieldAdherent extends JFormFieldList
 {
     /**
      * The field type.
@@ -28,7 +28,7 @@ class JFormFieldCsmbComponent extends JFormFieldList
         $db    = JFactory::getDBO();
         $query = $db->getQuery(true);
         $query->select('id,nom,prenom');
-        $query->from('#__csmbcomponent');
+        $query->from('#__csmbadherents');
         $db->setQuery((string) $query);
         $messages = $db->loadObjectList();
         $options  = array();

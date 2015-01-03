@@ -6,15 +6,14 @@ jimport('joomla.application.component.modellist');
 /**
  * HelloWorldList Model
  */
-class CsmbComponentModelCsmbComponents extends JModelList
+class CsmbComponentModelSections extends JModelList
 {
     public function __construct($config = array())
     {
         if (empty($config['filter_fields'])) {
             $config['filter_fields'] = array(
                 'id', 'a.id',
-                'nom', 'a.nom',
-                'prenom', 'a.prenom');
+                'libelle', 'a.libelle');
         }
 
         parent::__construct($config);
@@ -26,8 +25,8 @@ class CsmbComponentModelCsmbComponents extends JModelList
         $app = JFactory::getApplication();
 
         // Other code goes here
-        $nom = $app->getUserStateFromRequest($this->context . 'filter.nom', 'filter_nom', '', 'string');
-        $this->setState('filter.nom', $nom);
+        $libelle = $app->getUserStateFromRequest($this->context . 'filter.libelle', 'filter_libelle', '', 'string');
+        $this->setState('filter.libelle', $libelle);
 
         // Other code goes here
 
@@ -47,15 +46,15 @@ class CsmbComponentModelCsmbComponents extends JModelList
         $query = $db->getQuery(true);
         // Select some fields from the hello table
         $query
-            ->select('id,nom,prenom')
-            ->from('#__csmbcomponent AS a');
+            ->select('*')
+            ->from('#__csmbsections AS a');
 
         // Filter by country
-        $nom = $this->getState('filter.nom');
+        $libelle = $this->getState('filter.libelle');
 
-        if (!empty($nom))
+        if (!empty($libelle))
         {
-            $query->where('a.nom = "' .  $nom . '"');
+            $query->where('a.libelle = "' .  $libelle . '"');
         }
 
         return $query;

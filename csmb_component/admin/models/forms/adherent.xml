@@ -25,5 +25,14 @@
                 class="inputbox"
                 default=""
                 />
+        <field
+                name="age"
+                type="text"
+                label="COM_CSMBCOMPONENT_CSMBCOMPONENT_AGE_LABEL"
+                description="COM_CSMBCOMPONENT_CSMBCOMPONENT_AGE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
     </fieldset>
 </form>

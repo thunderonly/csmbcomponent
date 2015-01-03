@@ -16,5 +16,8 @@ defined('_JEXEC') or die('Restricted Access');
         <td>
             <?php echo $item->prenom; ?>
         </td>
+        <td>
+            <?php echo $item->age; ?>
+        </td>
     </tr>
 <?php endforeach; ?>

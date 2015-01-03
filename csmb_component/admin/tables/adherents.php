@@ -14,7 +14,7 @@ jimport('joomla.database.table');
 /**
  * Hello Table class
  */
-class CsmbComponentTableCsmbComponent extends JTable
+class CsmbComponentTableAdherents extends JTable
 {
     /**
      * Constructor
@@ -23,6 +23,6 @@ class CsmbComponentTableCsmbComponent extends JTable
      */
     function __construct(&$db)
     {
-        parent::__construct('#__csmbcomponent', 'id', $db);
+        parent::__construct('#__csmbadherents', 'id', $db);
     }
 }

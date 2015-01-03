@@ -1,1 +1,2 @@
-DROP TABLE IF EXISTS `#__csmbcomponent`;
+DROP TABLE IF EXISTS `#__csmbadherents`;
+DROP TABLE IF EXISTS `#__csmbsections`;

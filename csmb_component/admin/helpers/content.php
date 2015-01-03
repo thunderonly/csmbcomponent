@@ -33,12 +33,12 @@ class ContentHelper extends JHelperContent
 	{
 		JHtmlSidebar::addEntry(
 			JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_SECTION_TAB'),
-			'index.php?option=com_csmbcomponent&view=csmbcomponents',
+			'index.php?option=com_csmbcomponent&view=sections',
 			$vName == 'section'
 		);
 		JHtmlSidebar::addEntry(
 			JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_ADHERENT_TAB'),
-			'index.php?option=com_csmbcomponent&view=csmbcomponents',
+			'index.php?option=com_csmbcomponent&view=adherents',
 			$vName == 'adherent');
 	}
 

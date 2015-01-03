@@ -19,7 +19,7 @@ class CsmbComponentController extends JControllerLegacy
     {
         // set default view if not set
         $input = JFactory::getApplication()->input;
-        $input->set('view', $input->getCmd('view', 'CsmbComponents'));
+        $input->set('view', $input->getCmd('view', 'Adherents'));
 
         // call parent behavior
         parent::display($cachable);

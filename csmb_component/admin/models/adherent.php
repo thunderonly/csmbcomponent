@@ -8,7 +8,7 @@ jimport('joomla.application.component.modeladmin');
 /**
  * HelloWorld Model
  */
-class CsmbComponentModelCsmbComponent extends JModelAdmin
+class CsmbComponentModelAdherent extends JModelAdmin
 {
     /**
      * Returns a reference to the a Table object, always creating it.
@@ -20,7 +20,7 @@ class CsmbComponentModelCsmbComponent extends JModelAdmin
      * @return      JTable  A database object
      * @since       2.5
      */
-    public function getTable($type = 'CsmbComponent', $prefix = 'CsmbComponentTable', $config = array())
+    public function getTable($type = 'Adherents', $prefix = 'CsmbComponentTable', $config = array())
     {
         return JTable::getInstance($type, $prefix, $config);
     }
@@ -37,7 +37,7 @@ class CsmbComponentModelCsmbComponent extends JModelAdmin
     public function getForm($data = array(), $loadData = true)
     {
         // Get the form.
-        $form = $this->loadForm('com_csmbcomponent.csmbcomponent', 'csmbcomponent',
+        $form = $this->loadForm('com_csmbcomponent.adherent', 'adherent',
             array('control' => 'jform', 'load_data' => $loadData));
         if (empty($form))
         {
@@ -56,7 +56,7 @@ class CsmbComponentModelCsmbComponent extends JModelAdmin
     protected function loadFormData()
     {
         // Check the session for previously entered form data.
-        $data = JFactory::getApplication()->getUserState('com_csmbcomponent.edit.csmbcomponent.data', array());
+        $data = JFactory::getApplication()->getUserState('com_csmbcomponent.edit.adherent.data', array());
         if (empty($data))
         {
             $data = $this->getItem();

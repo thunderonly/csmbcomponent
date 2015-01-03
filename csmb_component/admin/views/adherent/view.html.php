@@ -8,7 +8,7 @@ jimport('joomla.application.component.view');
 /**
  * HelloWorld View
  */
-class CsmbComponentViewCsmbComponent extends JViewLegacy
+class CsmbComponentViewAdherent extends JViewLegacy
 {
     /**
      * display method of Hello view
@@ -50,8 +50,8 @@ class CsmbComponentViewCsmbComponent extends JViewLegacy
         $input->set('hidemainmenu', true);
         $isNew = ($this->item->id == 0);
         JToolBarHelper::title($isNew ? JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_NEW') : JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_EDIT'));
-        JToolBarHelper::save('csmbcomponent.save');
-        JToolBarHelper::cancel('csmbcomponent.cancel', $isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE');
+        JToolBarHelper::save('adherent.save');
+        JToolBarHelper::cancel('adherent.cancel', $isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE');
     }
     /**
      * Method to set up the document properties

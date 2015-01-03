@@ -8,6 +8,6 @@ jimport('joomla.application.component.controllerform');
 /**
  * HelloWorld Controller
  */
-class CsmbComponentControllerCsmbComponent extends JControllerForm
+class CsmbComponentControllerAdherent extends JControllerForm
 {
 }

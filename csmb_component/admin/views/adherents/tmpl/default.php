@@ -12,7 +12,7 @@ defined('_JEXEC') or die('Restricted Access');
 JHtml::_('behavior.tooltip');
 ?>
 
-<form action="<?php echo JRoute::_('index.php?option=com_csmbcomponent'); ?>" method="post" name="adminForm" id="adminForm">
+<form action="<?php echo JRoute::_('index.php?option=com_csmbcomponent&view=adherents'); ?>" method="post" name="adminForm" id="adminForm">
     <div id="j-sidebar-container" class="span2">
         <?php echo JHtmlSidebar::render(); ?>
     </div>
@@ -21,7 +21,7 @@ JHtml::_('behavior.tooltip');
         // Search tools bar
         echo JLayoutHelper::render('joomla.searchtools.default', array('view' => $this));
         ?>
-            <table class="adminList">
+            <table class="table table-striped" id="articleList">
                 <thead><?php echo $this->loadTemplate('head');?></thead>
                 <tfoot><?php echo $this->loadTemplate('foot');?></tfoot>
                 <tbody><?php echo $this->loadTemplate('body');?></tbody>

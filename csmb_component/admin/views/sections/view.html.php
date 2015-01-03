@@ -8,7 +8,7 @@ jimport('joomla.application.component.view');
 /**
  * HelloWorlds View
  */
-class CsmbComponentViewCsmbComponents extends JViewLegacy
+class CsmbComponentViewSections extends JViewLegacy
 {
     /**
      * HelloWorlds view display method
@@ -19,7 +19,7 @@ class CsmbComponentViewCsmbComponents extends JViewLegacy
      */
     function display($tpl = null)
     {
-        ContentHelper::addSubmenu('adherent');
+        ContentHelper::addSubmenu('section');
         // Get data from the model
         $items      = $this->get('Items');
         $pagination = $this->get('Pagination');
@@ -55,9 +55,9 @@ class CsmbComponentViewCsmbComponents extends JViewLegacy
     protected function addToolBar()
     {
         JToolBarHelper::title(JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT'));
-        JToolBarHelper::deleteList('', 'csmbcomponents.delete');
-        JToolBarHelper::editList('csmbcomponent.edit');
-        JToolBarHelper::addNew('csmbcomponent.add');
+        JToolBarHelper::deleteList('', 'sections.delete');
+        JToolBarHelper::editList('section.edit');
+        JToolBarHelper::addNew('section.add');
     }
     /**
      * Method to set up the document properties

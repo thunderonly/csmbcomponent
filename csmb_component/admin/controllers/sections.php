@@ -6,16 +6,16 @@ defined('_JEXEC') or die('Restricted access');
 jimport('joomla.application.component.controlleradmin');
 
 /**
- * HelloWorlds Controller
+ * Sections Controller
  */
-class CsmbComponentControllerCsmbComponents extends JControllerAdmin
+class CsmbComponentControllerSections extends JControllerAdmin
 {
     /**
      * Proxy for getModel.
      *
      * @since       2.5
      */
-    public function getModel($name = 'CsmbComponent', $prefix = 'CsmbComponentModel')
+    public function getModel($name = 'Section', $prefix = 'CsmbComponentModel')
     {
         $model = parent::getModel($name, $prefix, array('ignore_request' => true));
 
