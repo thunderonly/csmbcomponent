@@ -17,6 +17,9 @@ defined('_JEXEC') or die('Restricted Access');
             <?php echo $item->prenom; ?>
         </td>
         <td>
+            <?php echo $item->sexe; ?>
+        </td>
+        <td>
             <?php echo $item->age; ?>
         </td>
         <td>
@@ -33,6 +36,9 @@ defined('_JEXEC') or die('Restricted Access');
         </td>
         <td>
             <?php echo $item->telephoneportable; ?>
+        </td>
+        <td>
+            <?php echo $item->email; ?>
         </td>
         <td>
             <?php echo $item->libelle_section; ?>

@@ -64,4 +64,28 @@ class CsmbComponentModelAdherent extends JModelAdmin
 
         return $data;
     }
+
+    public function reinit(&$pks) {
+
+        $pks = (array) $pks;
+        $table = $this->getTable();
+        // Iterate the items to delete each one.
+        foreach ($pks as $i => $pk) {
+
+            if ($table->load($pk)) {
+                $table->enveloppes = 0;
+                $table->photos = 0;
+                $table->identite = 0;
+                $table->reglement = '';
+                $table->certificat = '';
+                $table->datedemandelicence = '';
+                $table->datereceptionlicence = '';
+                if (!$table->store()) {
+                    $this->setError($table->getError());
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 }

@@ -58,6 +58,7 @@ class CsmbComponentViewAdherents extends JViewLegacy
         JToolBarHelper::deleteList('', 'adherents.delete');
         JToolBarHelper::editList('adherent.edit');
         JToolBarHelper::addNew('adherent.add');
+        JToolBarHelper::custom('adherents.test', 'unpublish', 'unpublish', 'COM_CSMBCOMPONENT_TOOLBAR_REINIT', true);
     }
     /**
      * Method to set up the document properties

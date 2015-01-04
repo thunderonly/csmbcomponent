@@ -22,6 +22,9 @@ defined('_JEXEC') or die('Restricted Access');
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_PRENOM'); ?>
     </th>
     <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_SEXE'); ?>
+    </th>
+    <th class="nowrap">
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_AGE'); ?>
     </th>
     <th class="nowrap">
@@ -38,6 +41,9 @@ defined('_JEXEC') or die('Restricted Access');
     </th>
     <th class="nowrap">
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_TELEPHONEPORTABLE'); ?>
+    </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_EMAIL'); ?>
     </th>
     <th class="nowrap">
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_SECTION'); ?>

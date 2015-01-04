@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
-    <fieldset name="general" label="Test">
+    <fieldset name="general" label="COM_CSMBCOMPONENT_ADHERENT_DETAILS">
         <field
-            name="id"
-            type="hidden"
-            />
+            name="sectionid"
+            type="section"
+            label="COM_CSMBCOMPONENT_ADHERENT_SECTION_LABEL"
+            description="COM_CSMBCOMPONENT_ADHERENT_SECTION_DESC"
+            required="true"/>
         <field
-            name="nom"
-            type="text"
-            label="COM_CSMBCOMPONENT_ADHERENT_NOM_LABEL"
-            description="COM_CSMBCOMPONENT_ADHERENT_NOM_DESC"
-            size="40"
-            class="inputbox"
-            default=""
-            />
-    </fieldset>
-    <fieldset name="administratif" label="Test">
+                name="nom"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_NOM_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_NOM_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
         <field
                 name="prenom"
                 type="text"
@@ -25,6 +25,16 @@
                 class="inputbox"
                 default=""
                 />
+        <field
+                name="sexe"
+                type="list"
+                label="COM_CSMBCOMPONENT_ADHERENT_SEXE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_SEXE_DESC"
+                default=""
+                >
+            <option value="Masculin">Masculin</option>
+            <option value="Féminin">Féminin</option>
+        </field>
         <field
                 name="age"
                 type="text"
@@ -80,10 +90,209 @@
                 default=""
                 />
         <field
-                name="sectionid"
-                type="section"
-                label="COM_CSMBCOMPONENT_ADHERENT_SECTION_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_SECTION_DESC"
-                required="true"/>
+                name="email"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_EMAIL_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_EMAIL_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="id"
+                type="hidden"
+                />
+    </fieldset>
+    <fieldset name="responsable1" label="COM_CSMBCOMPONENT_ADHERENT_RESPONSABLE1_LABEL">
+        <field
+                name="responsable1_fonction"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_FONCTION_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_FONCTION_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable1_nom"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_NOM_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_NOM_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable1_prenom"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_PRENOM_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_PRENOM_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable1_telephonefixe"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEFIXE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEFIXE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable1_telephoneportable"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEPORTABLE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEPORTABLE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable1_email"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_EMAIL_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_EMAIL_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+    </fieldset>
+
+    <fieldset name="responsable2" label="COM_CSMBCOMPONENT_ADHERENT_RESPONSABLE2_LABEL">
+        <field
+                name="responsable2_fonction"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_FONCTION_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_FONCTION_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable2_nom"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_NOM_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_NOM_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable2_prenom"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_PRENOM_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_PRENOM_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable2_telephonefixe"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEFIXE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEFIXE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable2_telephoneportable"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEPORTABLE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEPORTABLE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="responsable2_email"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_EMAIL_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_EMAIL_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+    </fieldset>
+    <fieldset name="pieces" label="COM_CSMBCOMPONENT_ADHERENT_PIECES_LABEL">
+            <field
+                    name="enveloppes"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="0"
+                    label="COM_CSMBCOMPONENT_ADHERENT_ENVELOPPES_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_ENVELOPPES_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+            </field>
+            <field
+                    name="photos"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="0"
+                    label="COM_CSMBCOMPONENT_ADHERENT_PHOTOS_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_PHOTOS_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+            </field>
+            <field
+                    name="identite"
+                    type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="0"
+                    label="COM_CSMBCOMPONENT_ADHERENT_IDENTITE_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_IDENTITE_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+            </field>
+            <field
+                    name="reglement"
+                    type="calendar"
+                    label="COM_CSMBCOMPONENT_ADHERENT_REGLEMENT_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_REGLEMENT_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    />
+            <field
+                    name="certificat"
+                    type="calendar"
+                    label="COM_CSMBCOMPONENT_ADHERENT_CERTIFICAT_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_CERTIFICAT_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    />
+    </fieldset>
+    <fieldset name="licence" label="COM_CSMBCOMPONENT_ADHERENT_LICENCE_LABEL">
+        <field
+                name="licence"
+                type="text"
+                label="COM_CSMBCOMPONENT_ADHERENT_LICENCE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_LICENCE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="datedemandelicence"
+                type="calendar"
+                label="COM_CSMBCOMPONENT_ADHERENT_DATEDEMANDELICENCE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_DATEDEMANDELICENCE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
+        <field
+                name="datereceptionlicence"
+                type="calendar"
+                label="COM_CSMBCOMPONENT_ADHERENT_DATERECEPTIONLICENCE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_DATERECEPTIONLICENCE_DESC"
+                size="40"
+                class="inputbox"
+                default=""
+                />
     </fieldset>
 </form>
