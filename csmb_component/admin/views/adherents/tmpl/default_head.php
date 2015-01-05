@@ -15,6 +15,9 @@ defined('_JEXEC') or die('Restricted Access');
     <th width="5" class="nowrap">
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_ID'); ?>
     </th>
+    <th width="5" class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_ETAT'); ?>
+    </th>
     <th class="nowrap">
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_NOM'); ?>
     </th>

@@ -54,7 +54,7 @@ class CsmbComponentModelAdherents extends JModelList
                 'a.responsable1_fonction, a.responsable1_nom, a.responsable1_prenom, a.responsable1_telephonefixe, a.responsable1_telephoneportable, a.responsable1_email,'.
                 'a.responsable2_fonction, a.responsable2_nom, a.responsable2_prenom, a.responsable2_telephonefixe, a.responsable2_telephoneportable, a.responsable2_email,'.
                 'a.enveloppes, a.photos, a.identite, a.reglement, a.certificat, a.licence, a.datedemandelicence, a.datereceptionlicence,'.
-                'a.sectionid')
+                'a.etat, a.sectionid')
             ->from('#__csmbadherents AS a');
 
         $query->select('s.libelle AS libelle_section')

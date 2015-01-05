@@ -7,6 +7,17 @@
             label="COM_CSMBCOMPONENT_ADHERENT_SECTION_LABEL"
             description="COM_CSMBCOMPONENT_ADHERENT_SECTION_DESC"
             required="true"/>
+            <field
+                    name="etat"
+                    type="list"
+                    label="COM_CSMBCOMPONENT_ADHERENT_ETAT_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_ETAT_DESC"
+                    default="En cours"
+                    >
+                    <option value="En cours">En Cours</option>
+                    <option value="Renouveler">Renouveler</option>
+                    <option value="Valider">Valider</option>
+            </field>
         <field
                 name="nom"
                 type="text"

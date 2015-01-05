@@ -1,6 +1,19 @@
 <?php
-// No direct access to this file
-defined('_JEXEC') or die('Restricted Access');
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_content
+ *
+ * @copyright   Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') or die;
+
+JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
+
+JHtml::_('bootstrap.tooltip');
+JHtml::_('behavior.multiselect');
+JHtml::_('formbehavior.chosen', 'select');
 ?>
 <?php foreach ($this->items as $i => $item): ?>
     <tr class="row<?php echo $i % 2; ?>">
@@ -9,6 +22,11 @@ defined('_JEXEC') or die('Restricted Access');
         </td>
         <td>
             <?php echo $item->id; ?>
+        </td>
+        <td>
+            <div class="btn-group">
+                <?php echo JHtml::_('contentadministrator.state', $item->etat, $i); ?>
+            </div>
         </td>
         <td>
             <?php echo $item->nom; ?>

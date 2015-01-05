@@ -66,5 +66,26 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
         $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
     }
 
+    public function reinit2() {
+        $ids    = JFactory::getApplication()->input->get('cid', array(), 'array');
+
+
+        if (empty($ids))
+        {
+            JError::raiseWarning(500, JText::_('JERROR_NO_ITEMS_SELECTED'));
+        }
+        else
+        {
+            // Get the model.
+            $model = $this->getModel();
+
+            // Publish the items.
+            if (!$model->reinit($ids))
+            {
+                JError::raiseWarning(500, $model->getError());
+            }
+        }
+    }
+
 
 }

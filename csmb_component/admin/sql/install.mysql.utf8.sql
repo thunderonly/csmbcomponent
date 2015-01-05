@@ -47,6 +47,7 @@ CREATE TABLE `#__csmbadherents` (
   `licence` VARCHAR(50) ,
   `datedemandelicence` TIMESTAMP ,
   `datereceptionlicence` TIMESTAMP ,
+  `etat` VARCHAR(50) ,
   `sectionid` INT(11),
   PRIMARY KEY (`id`),
   FOREIGN KEY (`sectionid`) REFERENCES `#__csmbsections`(`id`)
@@ -57,9 +58,9 @@ CREATE TABLE `#__csmbadherents` (
 
 INSERT INTO `#__csmbadherents` (`nom`, `prenom`, `sexe`, `age`, `adresse`, `ville`, `codepostal`, `telephonefixe`, `telephoneportable`, `email`,
                                 `responsable1_fonction`, `responsable1_nom`, `responsable1_prenom`, `responsable1_telephonefixe`, `responsable1_telephoneportable`, `responsable1_email`,
-                                `sectionid`) VALUES
+                                `etat`, `sectionid`) VALUES
   ('HENRY', 'Gael', 'Masculin', '31', '51a avenue jean compadieu', 'marseille', '13012', '0491000000', '0675191304', 'email@email.fr',
-   'fonction_res1', 'nom_res1', 'prenom_res1', '0123456789', '0123456789', 'email@email.fr', '1'),
+   'fonction_res1', 'nom_res1', 'prenom_res1', '0123456789', '0123456789', 'email@email.fr', 'Renouveler', '1'),
   ('HUYNH', 'David', 'Masculin', '18', 'vers aubagne', 'aubagne', '13100', '0491234567', '0612345678', 'email@email.fr',
-   'fonction_res1', 'nom_res1', 'prenom_res1', '0123456789', '0123456789', 'email@email.fr', '2');
+   'fonction_res1', 'nom_res1', 'prenom_res1', '0123456789', '0123456789', 'email@email.fr', 'En cours', '2');
 
