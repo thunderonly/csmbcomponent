@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+    <name>CSMB Template</name>
+    <creationDate>Décembre 2014</creationDate>
+    <author>Gael</author>
+    <authorEmail>thunderonly@hotmail.com</authorEmail>
+    <authorUrl>http://www.der-auftritt.de</authorUrl>
+    <copyright>Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.1</version>
+    <description>Template du site du CSMB</description>
+    <files>
+        <folder>images</folder>
+        <folder>css</folder>
+        <filename>templateDetails.xml</filename>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+    </files>
+    <positions>
+        <position>banniere</position>
+        <position>mainMenu</position>
+        <position>subMenu</position>
+        <position>news</position>
+        <position>subnews</position>
+        <position>footer</position>
+    </positions>
+</extension>

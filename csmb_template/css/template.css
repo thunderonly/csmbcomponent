@@ -1,0 +1,86 @@
+@import url("artmartiaux.css");
+@import url("general.css");
+@import url("danse.css");
+
+html{margin:0px; padding: 0px}
+body{
+    background: #EBEBEB;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    width: 100%;
+}
+
+.clr {clear:both}
+#cadre_exterieur {
+    background: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    min-width: 800px;
+    max-width: 1200px;
+    border: 2px outset #808080;
+    margin : auto;
+}
+
+#logo {
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+    background: url("../images/Logo.jpg") center no-repeat;
+}
+
+#cadre_principal {
+    width : 100%;
+    margin-top : 20px;
+}
+
+#cadre_gauche {
+    width: 20%;
+    float : left;
+    border: 0px outset #808080;
+    margin-left: 2%;
+    margin-right: 2%;
+    position : relative;
+    z-index:10;
+}
+
+#actualites {
+    margin-top: 20px;
+}
+
+#sous-actualites {
+    margin-top: 0px;
+}
+
+div#actualites:empty{
+    display:none
+}
+
+#actualites .newsitems {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#sous-actualites .newsitems {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#cadre_central {
+    width: 52%;
+    margin: 0px;
+    position : relative;
+    float : left;
+}
+
+#cadre_droite {
+    width: 20%;
+    float : left;
+    border: 0px outset #808080;
+    margin-left: 2%;
+    margin-right: 2%;
+    position : relative;
+    z-index:10;
+}
+
+#pied_de_page {padding:10px 0;text-align:center}Z

@@ -1,0 +1,98 @@
+.bodyartsmartiaux{
+    background: -moz-linear-gradient(top,  #FFFFFF 0%, #191970 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#191970));
+    background: -webkit-linear-gradient(top,  #FFFFFF 0%,#191970 100%);
+    background: -o-linear-gradient(top,  #FFFFFF 0%,#191970 100%);
+    background: -ms-linear-gradient(top,  #FFFFFF 0%,#191970 100%);
+    background: linear-gradient(top,  #FFFFFF 0%,#191970 100%);
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    width: 100%;
+}
+
+.actualitesartsmartiaux {
+    border: 2px solid #191970;
+    margin-top: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.actualitesartsmartiaux H3 {
+    background: #191970;
+    color: #FFFFFF;
+    margin-top: 0px;
+    text-align: center;
+    font-size:1.8em;
+}
+
+#cadre_central .item-pageartsmartiaux H1{
+    color: #191970;
+    #text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-size:3.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#cadre_central .blogartsmartiaux H1{
+    color: #191970;
+    #text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-size:3.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#cadre_central .pg-category-viewartsmartiaux H1 {
+    color: #191970;
+    #text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-size:3.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#cadre_central .item-pageartsmartiaux H2{
+    background: #191970;
+    color: #FFFFFF;
+    border: 2px solid #191970;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background: -moz-linear-gradient(left,  #191970 70%, #FFFFFF 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#191970), color-stop(100%,#FFFFFF));
+    background: -webkit-linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+    background: -o-linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+    background: -ms-linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+    background: linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+}
+
+#cadre_central .blogartsmartiaux H2{
+    background: #191970;
+    color: #FFFFFF;
+    border: 2px solid #191970;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background: -moz-linear-gradient(left,  #191970 70%, #FFFFFF 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#191970), color-stop(100%,#FFFFFF));
+    background: -webkit-linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+    background: -o-linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+    background: -ms-linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+    background: linear-gradient(left,  #191970 70%,#FFFFFF 100%);
+}
+
+#cadre_central .titre_cadre_centralartsmartiaux H1{
+    color: #191970;
+    #text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    font-size:3.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
