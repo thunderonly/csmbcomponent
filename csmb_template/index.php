@@ -17,7 +17,7 @@ $titleMenu = $menu->params->get('menu-anchor_title');
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" type="text/css" />
 </head>
 <body class="body<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>">
-<div id="cadre_exterieur">
+<div id="cadre_exterieur"  class="cadre_exterieur<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>">
     <div id="logo"></div>
     <div id="menu_principal"><jdoc:include type="modules" name="mainMenu" style="xhtml" /></div>
     <div id="cadre_principal">
@@ -25,7 +25,7 @@ $titleMenu = $menu->params->get('menu-anchor_title');
             <div id="menu_secondaire"><jdoc:include type="modules" name="subMenu" style="xhtml" /></div>
             <div id="actualites" class="actualites<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>"><jdoc:include type="modules" name="news" style="xhtml" /></div>
         </div>
-        <div id="cadre_central">
+        <div id="cadre_central" class="cadre_central<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>">
             <!--<div class="titre_cadre_central<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>">
                 <h1><?php echo $titleMenu; ?></h1>
             </div>-->

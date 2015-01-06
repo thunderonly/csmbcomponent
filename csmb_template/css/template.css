@@ -15,16 +15,16 @@ body{
     background: rgba(255, 255, 255, 0.5);
     width: 80%;
     min-width: 800px;
-    max-width: 1200px;
+    max-width: 1024px;
     border: 2px outset #808080;
     margin : auto;
 }
 
 #logo {
     width: 100%;
-    height: 200px;
+    height: 300px;
     margin: 0px auto;
-    background: url("../images/Logo.jpg") center no-repeat;
+    background: url("../images/csmb_banniere_bulles.jpg") center no-repeat;
 }
 
 #cadre_principal {
@@ -83,4 +83,4 @@ div#actualites:empty{
     z-index:10;
 }
 
-#pied_de_page {padding:10px 0;text-align:center}Z
+#pied_de_page {padding:10px 0;text-align:center}

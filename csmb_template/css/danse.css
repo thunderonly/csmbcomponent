@@ -1,24 +1,26 @@
 .bodydanse{
-    background: -moz-linear-gradient(top,  #FFFFFF 0%, #B40486 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#B40486));
-    background: -webkit-linear-gradient(top,  #FFFFFF 0%,#B40486 100%);
-    background: -o-linear-gradient(top,  #FFFFFF 0%,#B40486 100%);
-    background: -ms-linear-gradient(top,  #FFFFFF 0%,#B40486 100%);
-    background: linear-gradient(top,  #FFFFFF 0%,#B40486 100%);
+    background: url("../images/bg_papier.jpg") repeat;
+    /*background: -moz-linear-gradient(top,  #FFFFFF 0%, #FF8C00 100%);*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FF8C00));*/
+    /*background: -webkit-linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
+    /*background: -o-linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
+    /*background: -ms-linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
+    /*background: linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
     font-family: arial,sans-serif;
     font-size: 12px;
     width: 100%;
 }
 
 .actualitesdanse {
-    border: 2px solid #B40486;
+    border: 2px solid #085A95;
     margin-top: 20px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+
 .actualitesdanse H3 {
-    background: #B40486;
+    background: #085A95;
     color: #FFFFFF;
     margin-top: 0px;
     text-align: center;
@@ -26,7 +28,7 @@
 }
 
 #cadre_central .item-pagedanse H1{
-    color: #B40486;
+    color: #085A95;
     #text-shadow: 2px 2px 2px #000000;
     text-align: center;
     font-size:3.5em;
@@ -36,17 +38,7 @@
 }
 
 #cadre_central .blogdanse H1{
-    color: #B40486;
-    #text-shadow: 2px 2px 2px #000000;
-    text-align: center;
-    font-size:3.5em;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Times New Roman", Times, serif;
-}
-
-#cadre_central .pg-category-viewdanse H1 {
-    color: #B40486;
+    color: #085A95;
     #text-shadow: 2px 2px 2px #000000;
     text-align: center;
     font-size:3.5em;
@@ -56,39 +48,39 @@
 }
 
 #cadre_central .item-pagedanse H2{
-    background: #B40486;
+    background: #085A95;
     color: #FFFFFF;
-    border: 2px solid #B40486;
+    /*border: 2px solid #085A95;*/
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     text-align: center;
-    background: -moz-linear-gradient(left,  #B40486 70%, #FFFFFF 100%);
-    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#B40486), color-stop(100%,#FFFFFF));
-    background: -webkit-linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
-    background: -o-linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
-    background: -ms-linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
-    background: linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
+    background: -moz-linear-gradient(left,  #085A95 50%, #2a9ff3 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#085A95), color-stop(100%,#2a9ff3));
+    background: -webkit-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -o-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -ms-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
 }
 
 #cadre_central .blogdanse H2{
-    background: #B40486;
+    background: #085A95;
     color: #FFFFFF;
-    border: 2px solid #B40486;
+    /*border: 2px solid #085A95;*/
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     text-align: center;
-    background: -moz-linear-gradient(left,  #B40486 70%, #FFFFFF 100%);
-    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#B40486), color-stop(100%,#FFFFFF));
-    background: -webkit-linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
-    background: -o-linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
-    background: -ms-linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
-    background: linear-gradient(left,  #B40486 70%,#FFFFFF 100%);
+    background: -moz-linear-gradient(left,  #085A95 50%, #2a9ff3 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#085A95), color-stop(100%,#2a9ff3));
+    background: -webkit-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -o-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -ms-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
 }
 
 #cadre_central .titre_cadre_centraldanse H1{
-    color: #B40486;
+    color: #085A95;
     #text-shadow: 2px 2px 2px #000000;
     text-align: center;
     font-size:3.5em;
