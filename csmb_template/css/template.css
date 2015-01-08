@@ -1,6 +1,9 @@
-@import url("artmartiaux.css");
+@import url("vocotruyen.css");
+@import url("judo.css");
 @import url("general.css");
-@import url("danse.css");
+@import url("modernjazz.css");
+@import url("meditation.css");
+@import url("gymnastique.css");
 
 html{margin:0px; padding: 0px}
 body{
@@ -44,10 +47,36 @@ body{
 
 #actualites {
     margin-top: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#actualites H3 {
+    color: #FFFFFF;
+    margin-top: 0px;
+    text-align: center;
+    font-size:1.8em;
+}
+#actualites a {
+    color: black;
 }
 
 #sous-actualites {
+    margin-top: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#sous-actualites H3 {
+    color: #FFFFFF;
     margin-top: 0px;
+    text-align: center;
+    font-size:1.8em;
+}
+#sous-actualites a {
+    color: black;
 }
 
 div#actualites:empty{
@@ -71,6 +100,22 @@ div#actualites:empty{
     margin: 0px;
     position : relative;
     float : left;
+}
+
+#cadre_central H1 {
+    text-align: center;
+    font-size:3.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#cadre_central H2 {
+    color: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #cadre_droite {

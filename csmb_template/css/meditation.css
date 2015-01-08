@@ -1,0 +1,47 @@
+.bodymeditation{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurmeditation {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesmeditation {
+    border: 2px solid #C79047;
+}
+.actualitesmeditation H3 {
+    background: #C79047;
+}
+
+#cadre_central .item-pagemeditation H1{
+    color: #C79047;
+}
+
+#cadre_central .blogmeditation H1{
+    color: #C79047;
+}
+
+#cadre_central .pg-category-viewmeditation H1 {
+    color: #C79047;
+}
+
+#cadre_central .item-pagemeditation H2{
+    background: #C79047;
+    background: -moz-linear-gradient(left,  #C79047 50%, #dfbf96 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#dfbf96), color-stop(100%,#dfbf96));
+    background: -webkit-linear-gradient(left,  #C79047 50%,#dfbf96 100%);
+    background: -o-linear-gradient(left,  #C79047 50%,#dfbf96 100%);
+    background: -ms-linear-gradient(left,  #C79047 50%,#dfbf96 100%);
+    background: linear-gradient(left,  #C79047 50%,#dfbf96 100%);
+}
+
+#cadre_central .blogmeditation H2{
+    background: #C79047;
+    background: -moz-linear-gradient(left,  #C79047 70%, #dfbf96 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#C79047), color-stop(100%,#dfbf96));
+    background: -webkit-linear-gradient(left,  #C79047 70%,#dfbf96 100%);
+    background: -o-linear-gradient(left,  #C79047 70%,#dfbf96 100%);
+    background: -ms-linear-gradient(left,  #C79047 70%,#dfbf96 100%);
+    background: linear-gradient(left,  #C79047 70%,#dfbf96 100%);
+}

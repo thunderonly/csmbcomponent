@@ -1,0 +1,47 @@
+.bodyjudo{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurjudo {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesjudo {
+    border: 2px solid #E72F29;
+}
+.actualitesjudo H3 {
+    background: #E72F29;
+}
+
+#cadre_central .item-pagejudo H1{
+    color: #E72F29;
+}
+
+#cadre_central .blogjudo H1{
+    color: #E72F29;
+}
+
+#cadre_central .pg-category-viewjudo H1 {
+    color: #E72F29;
+}
+
+#cadre_central .item-pagejudo H2{
+    background: #E72F29;
+    background: -moz-linear-gradient(left,  #E72F29 50%, #ff7d7d 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#E72F29), color-stop(100%,#ff7d7d));
+    background: -webkit-linear-gradient(left,  #E72F29 50%,#ff7d7d 100%);
+    background: -o-linear-gradient(left,  #E72F29 50%,#ff7d7d 100%);
+    background: -ms-linear-gradient(left,  #E72F29 50%,#ff7d7d 100%);
+    background: linear-gradient(left,  #E72F29 50%,#ff7d7d 100%);
+}
+
+#cadre_central .blogjudo H2{
+    background: #E72F29;
+    background: -moz-linear-gradient(left,  #E72F29 70%, #ff7d7d 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#E72F29), color-stop(100%,#ff7d7d));
+    background: -webkit-linear-gradient(left,  #E72F29 70%,#ff7d7d 100%);
+    background: -o-linear-gradient(left,  #E72F29 70%,#ff7d7d 100%);
+    background: -ms-linear-gradient(left,  #E72F29 70%,#ff7d7d 100%);
+    background: linear-gradient(left,  #E72F29 70%,#ff7d7d 100%);
+}

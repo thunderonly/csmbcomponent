@@ -1,0 +1,47 @@
+.bodyvocotruyen{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurvocotruyen {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesvocotruyen {
+    border: 2px solid #E63023;
+}
+.actualitesvocotruyen H3 {
+    background: #E63023;
+}
+
+#cadre_central .item-pagevocotruyen H1{
+    color: #E63023;
+}
+
+#cadre_central .blogvocotruyen H1{
+    color: #E63023;
+}
+
+#cadre_central .pg-category-viewvocotruyen H1 {
+    color: #E63023;
+}
+
+#cadre_central .item-pagevocotruyen H2{
+    background: #E63023;
+    background: -moz-linear-gradient(left,  #E63023 50%, #ff7d7d 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#E63023), color-stop(100%,#ff7d7d));
+    background: -webkit-linear-gradient(left,  #E63023 50%,#ff7d7d 100%);
+    background: -o-linear-gradient(left,  #E63023 50%,#ff7d7d 100%);
+    background: -ms-linear-gradient(left,  #E63023 50%,#ff7d7d 100%);
+    background: linear-gradient(left,  #E63023 50%,#ff7d7d 100%);
+}
+
+#cadre_central .blogvocotruyen H2{
+    background: #E63023;
+    background: -moz-linear-gradient(left,  #E63023 70%, #ff7d7d 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#E63023), color-stop(100%,#ff7d7d));
+    background: -webkit-linear-gradient(left,  #E63023 70%,#ff7d7d 100%);
+    background: -o-linear-gradient(left,  #E63023 70%,#ff7d7d 100%);
+    background: -ms-linear-gradient(left,  #E63023 70%,#ff7d7d 100%);
+    background: linear-gradient(left,  #E63023 70%,#ff7d7d 100%);
+}

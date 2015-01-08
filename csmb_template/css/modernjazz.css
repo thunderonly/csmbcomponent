@@ -1,0 +1,39 @@
+.bodymodernjazz{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.actualitesmodernjazz {
+    border: 2px solid #085A95;
+}
+
+.actualitesmodernjazz H3 {
+    background: #085A95;
+}
+
+#cadre_central .item-pagemodernjazz H1{
+    color: #085A95;
+}
+
+#cadre_central .blogmodernjazz H1{
+    color: #085A95;
+}
+
+#cadre_central .item-pagemodernjazz H2{
+    background: #085A95;
+    background: -moz-linear-gradient(left,  #085A95 50%, #2a9ff3 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#085A95), color-stop(100%,#2a9ff3));
+    background: -webkit-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -o-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -ms-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+}
+
+#cadre_central .blogmodernjazz H2{
+    background: #085A95;
+    background: -moz-linear-gradient(left,  #085A95 50%, #2a9ff3 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#085A95), color-stop(100%,#2a9ff3));
+    background: -webkit-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -o-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: -ms-linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+    background: linear-gradient(left,  #085A95 50%,#2a9ff3 100%);
+}

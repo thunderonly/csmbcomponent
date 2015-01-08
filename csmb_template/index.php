@@ -26,9 +26,6 @@ $titleMenu = $menu->params->get('menu-anchor_title');
             <div id="actualites" class="actualites<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>"><jdoc:include type="modules" name="news" style="xhtml" /></div>
         </div>
         <div id="cadre_central" class="cadre_central<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>">
-            <!--<div class="titre_cadre_central<?php echo $pageclass ? htmlspecialchars($pageclass) : 'default'; ?>">
-                <h1><?php echo $titleMenu; ?></h1>
-            </div>-->
             <jdoc:include type="component" style="xhtml" />
         </div>
         <div id="cadre_droite">

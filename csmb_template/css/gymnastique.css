@@ -1,0 +1,47 @@
+.bodygymnastique{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurgymnastique {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesgymnastique {
+    border: 2px solid #1B9654;
+}
+.actualitesgymnastique H3 {
+    background: #1B9654;
+}
+
+#cadre_central .item-pagegymnastique H1{
+    color: #1B9654;
+}
+
+#cadre_central .bloggymnastique H1{
+    color: #1B9654;
+}
+
+#cadre_central .pg-category-viewgymnastique H1 {
+    color: #1B9654;
+}
+
+#cadre_central .item-pagegymnastique H2{
+    background: #1B9654;
+    background: -moz-linear-gradient(left,  #1B9654 50%, #51e093 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#1B9654), color-stop(100%,#51e093));
+    background: -webkit-linear-gradient(left,  #1B9654 50%,#51e093 100%);
+    background: -o-linear-gradient(left,  #1B9654 50%,#51e093 100%);
+    background: -ms-linear-gradient(left,  #1B9654 50%,#51e093 100%);
+    background: linear-gradient(left,  #1B9654 50%,#51e093 100%);
+}
+
+#cadre_central .bloggymnastique H2{
+    background: #1B9654;
+    background: -moz-linear-gradient(left,  #1B9654 70%, #51e093 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#1B9654), color-stop(100%,#51e093));
+    background: -webkit-linear-gradient(left,  #1B9654 70%,#51e093 100%);
+    background: -o-linear-gradient(left,  #1B9654 70%,#51e093 100%);
+    background: -ms-linear-gradient(left,  #1B9654 70%,#51e093 100%);
+    background: linear-gradient(left,  #1B9654 70%,#51e093 100%);
+}

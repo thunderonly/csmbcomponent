@@ -1,60 +1,25 @@
 .bodypresentation_club{
     background: url("../images/bg_papier.jpg") repeat;
-    /*background: -moz-linear-gradient(top,  #FFFFFF 0%, #FF8C00 100%);*/
-    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FF8C00));*/
-    /*background: -webkit-linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
-    /*background: -o-linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
-    /*background: -ms-linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
-    /*background: linear-gradient(top,  #FFFFFF 0%,#FF8C00 100%);*/
-    font-family: arial,sans-serif;
-    font-size: 12px;
-    width: 100%;
 }
 
 .actualitespresentation_club {
     border: 2px solid #ff8e0e;
-    margin-top: 20px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
 }
 
 .actualitespresentation_club H3 {
     background: #ff8e0e;
-    color: #FFFFFF;
-    margin-top: 0px;
-    text-align: center;
-    font-size:1.8em;
 }
 
 #cadre_central .item-pagepresentation_club H1{
     color: #ff8e0e;
-    #text-shadow: 2px 2px 2px #000000;
-    text-align: center;
-    font-size:3.5em;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Times New Roman", Times, serif;
 }
 
 #cadre_central .blogpresentation_club H1{
     color: #ff8e0e;
-    #text-shadow: 2px 2px 2px #000000;
-    text-align: center;
-    font-size:3.5em;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Times New Roman", Times, serif;
 }
 
 #cadre_central .item-pagepresentation_club H2{
     background: #ff8e0e;
-    color: #FFFFFF;
-    /*border: 2px solid #ff8e0e;*/
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    text-align: center;
     background: -moz-linear-gradient(left,  #ff8e0e 50%, #ffd29f 100%);
     background: -webkit-gradient(linear, left left, left right, color-stop(50%,#ff8e0e), color-stop(100%,#ffd29f));
     background: -webkit-linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
@@ -65,26 +30,10 @@
 
 #cadre_central .blogpresentation_club H2{
     background: #ff8e0e;
-    color: #FFFFFF;
-    /*border: 2px solid #ff8e0e;*/
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    text-align: center;
     background: -moz-linear-gradient(left,  #ff8e0e 50%, #ffd29f 100%);
     background: -webkit-gradient(linear, left left, left right, color-stop(50%,#ff8e0e), color-stop(100%,#ffd29f));
     background: -webkit-linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
     background: -o-linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
     background: -ms-linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
     background: linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
-}
-
-#cadre_central .titre_cadre_centralpresentation_club H1{
-    color: #ff8e0e;
-    #text-shadow: 2px 2px 2px #000000;
-    text-align: center;
-    font-size:3.5em;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Times New Roman", Times, serif;
 }
