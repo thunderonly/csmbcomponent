@@ -18,14 +18,16 @@ abstract class JHtmlContentAdministrator {
         JHtml::_('bootstrap.tooltip');
         // Array of image, task, title, action
         $states	= array(
-            0	=> array('featured',	'adherents.test',	'COM_CONTENT_FEATURED',		'COM_CONTENT_TOGGLE_TO_UNFEATURE'),
-            1	=> array('featured',	'adherents.test',	'COM_CONTENT_FEATURED',		'COM_CONTENT_TOGGLE_TO_UNFEATURE'),
+            "Renouveler"	=> array('unpublish',	'adherents.test',	'COM_CONTENT_FEATURED',		'COM_CSMBCOMPONENT_TITLE_STATUS_RENOUVELLER'),
+            "En cours"	=> array('edit',	'adherents.test',	'COM_CONTENT_FEATURED',		'COM_CSMBCOMPONENT_TITLE_STATUS_ENCOURS'),
+            "Valider"	=> array('publish',	'adherents.test',	'COM_CONTENT_FEATURED',		'COM_CSMBCOMPONENT_TITLE_STATUS_VALIDER'),
         );
-        $state	= JArrayHelper::getValue($states, (int) $value, $states[1]);
+        $state	= JArrayHelper::getValue($states, $value, $states["Renouveler"]);
         $icon	= $state[0];
 
-        $html	= '<a href="#" onclick="return listItemTask(\'cb' . $i . '\',\'' . $state[1] . '\')" class="btn btn-micro hasTooltip' . ($value == 1 ? ' active' : '') . '" title="' . JHtml::tooltipText($state[3]) . '"><i class="icon-'
-            . $icon . '"></i></a>';
+//        $html	= '<a href="#" onclick="return listItemTask(\'cb' . $i . '\',\'' . $state[1] . '\')" class="btn btn-micro hasTooltip' . ($value == 1 ? ' active' : '') . '" title="' . JHtml::tooltipText($state[3]) . '"><i class="icon-'
+//            . $icon . '"></i></a>';
+        $html	= '<p class="btn btn-micro hasTooltip' . ($value == 1 ? ' active' : '') . '"  title="' . JHtml::tooltipText($state[3]) . '"><i class="icon-' . $icon . '"></i></p>';
         return $html;
     }
 }

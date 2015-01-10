@@ -80,12 +80,89 @@ class CsmbComponentModelAdherent extends JModelAdmin
                 $table->certificat = '';
                 $table->datedemandelicence = '';
                 $table->datereceptionlicence = '';
+                $table->etat = 'Renouveler';
                 if (!$table->store()) {
                     $this->setError($table->getError());
                     return false;
                 }
             }
         }
+        return true;
+    }
+
+    public function toValidate(&$pks) {
+
+        $pks = (array) $pks;
+        $table = $this->getTable();
+        // Iterate the items to delete each one.
+        foreach ($pks as $i => $pk) {
+
+            if ($table->load($pk)) {
+                $table->etat = 'En cours';
+                if (!$table->store()) {
+                    $this->setError($table->getError());
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public function validate(&$pks) {
+
+        $pks = (array) $pks;
+        $table = $this->getTable();
+        // Iterate the items to delete each one.
+        foreach ($pks as $i => $pk) {
+
+            if ($table->load($pk)) {
+                $table->etat = 'Valider';
+                if (!$table->store()) {
+                    $this->setError($table->getError());
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public function word(&$pks) {
+
+        $pks = (array) $pks;
+        $table = $this->getTable();
+        // Iterate the items to delete each one.
+
+        $file=file_get_contents('components/com_csmbcomponent/template.xml');
+        $pos_begin_sect = strripos($file,"<wx:sect>");
+        $pos_end_sect = strripos($file,"</wx:sect>")+10;
+
+        $beginDocument = substr($file, 0, $pos_begin_sect);
+        $endDocument = substr($file, (int)$pos_end_sect);
+        $sectTemplate = substr($file, (int)$pos_begin_sect, ((int)$pos_end_sect - $pos_begin_sect));
+
+        $document = $beginDocument;
+        $index = 1;
+        foreach ($pks as $i => $pk) {
+
+            if ($table->load($pk)) {
+                $sect = $sectTemplate;
+                $sect = str_replace('${Value1}', $table->nom, $sect);
+                $sect = str_replace('${Value2}', $table->prenom, $sect);
+                $document .= $sect;
+                if ($index < count($pks)) {
+                    $document .= '<w:p wsp:rsidR="00475ACF" wsp:rsidRDefault="00475ACF" wsp:rsidP="00475ACF"><w:r><w:br w:type="page"/></w:r></w:p>';
+                }
+                $index = $index + 1;
+                if (!$table->store()) {
+                    $this->setError($table->getError());
+                    return false;
+                }
+            }
+        }
+        $document .= $endDocument;
+        $newFile = fopen('components/com_csmbcomponent/fiche_renouvellement.xml', 'w');
+        fwrite($newFile, $document);
+        fclose($newFile);
         return true;
     }
 }

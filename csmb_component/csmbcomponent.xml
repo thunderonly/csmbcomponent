@@ -38,6 +38,7 @@
             <filename>index.html</filename>
             <filename>csmbcomponent.php</filename>
             <filename>controller.php</filename>
+            <filename>template.xml</filename>
             <folder>sql</folder>
             <folder>tables</folder>
             <folder>models</folder>

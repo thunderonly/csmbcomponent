@@ -39,7 +39,7 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
         return $model;
     }
 
-    public function test() {
+    public function reinit() {
         // Check for request forgeries
         JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
 
@@ -66,26 +66,85 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
         $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
     }
 
-    public function reinit2() {
-        $ids    = JFactory::getApplication()->input->get('cid', array(), 'array');
+    public function toValidate() {
+        // Check for request forgeries
+        JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
 
+        // Get items to remove from the request.
+        $cid = JFactory::getApplication()->input->get('cid', array(), 'array');
 
-        if (empty($ids))
+        if (!is_array($cid) || count($cid) < 1)
         {
-            JError::raiseWarning(500, JText::_('JERROR_NO_ITEMS_SELECTED'));
+            JLog::add(JText::_($this->text_prefix . '_NO_ITEM_SELECTED'), JLog::WARNING, 'jerror');
         }
         else
         {
-            // Get the model.
+            JArrayHelper::toInteger($cid);
             $model = $this->getModel();
-
-            // Publish the items.
-            if (!$model->reinit($ids))
-            {
-                JError::raiseWarning(500, $model->getError());
+            if ($model->toValidate($cid)) {
+                $this->setMessage(JText::plural($this->text_prefix . '_TO_VALIDATE', count($cid)));
+            } else {
+                $this->setMessage($model->getError(), 'error');
             }
         }
+        // Invoke the postDelete method to allow for the child class to access the model.
+        $this->postDeleteHook($model, $cid);
+
+        $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
     }
 
+    public function validate() {
+        // Check for request forgeries
+        JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
+
+        // Get items to remove from the request.
+        $cid = JFactory::getApplication()->input->get('cid', array(), 'array');
+
+        if (!is_array($cid) || count($cid) < 1)
+        {
+            JLog::add(JText::_($this->text_prefix . '_NO_ITEM_SELECTED'), JLog::WARNING, 'jerror');
+        }
+        else
+        {
+            JArrayHelper::toInteger($cid);
+            $model = $this->getModel();
+            if ($model->validate($cid)) {
+                $this->setMessage(JText::plural($this->text_prefix . '_VALIDATE', count($cid)));
+            } else {
+                $this->setMessage($model->getError(), 'error');
+            }
+        }
+        // Invoke the postDelete method to allow for the child class to access the model.
+        $this->postDeleteHook($model, $cid);
+
+        $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
+    }
+
+    public function word() {
+        // Check for request forgeries
+        JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
+
+        // Get items to remove from the request.
+        $cid = JFactory::getApplication()->input->get('cid', array(), 'array');
+
+        if (!is_array($cid) || count($cid) < 1)
+        {
+            JLog::add(JText::_($this->text_prefix . '_NO_ITEM_SELECTED'), JLog::WARNING, 'jerror');
+        }
+        else
+        {
+            JArrayHelper::toInteger($cid);
+            $model = $this->getModel();
+            if ($model->word($cid)) {
+                $this->setMessage(JText::plural($this->text_prefix . '_GENERATE_WORD', count($cid)));
+            } else {
+                $this->setMessage($model->getError(), 'error');
+            }
+        }
+        // Invoke the postDelete method to allow for the child class to access the model.
+        $this->postDeleteHook($model, $cid);
+
+        $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
+    }
 
 }
