@@ -16,14 +16,23 @@
 
 #cadre_central .item-pagegymnastique H1{
     color: #1B9654;
+    background: url("../images/elements/gym.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .bloggymnastique H1{
     color: #1B9654;
+    background: url("../images/elements/gym.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .pg-category-viewgymnastique H1 {
     color: #1B9654;
+    background: url("../images/elements/gym.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .item-pagegymnastique H2{

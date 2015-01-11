@@ -16,14 +16,23 @@
 
 #cadre_central .item-pagejudo H1{
     color: #E72F29;
+    background: url("../images/elements/judo.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .blogjudo H1{
     color: #E72F29;
+    background: url("../images/elements/judo.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .pg-category-viewjudo H1 {
     color: #E72F29;
+    background: url("../images/elements/judo.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .item-pagejudo H2{

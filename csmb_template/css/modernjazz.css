@@ -12,10 +12,16 @@
 
 #cadre_central .item-pagemodernjazz H1{
     color: #085A95;
+    background: url("../images/elements/moderne-jazz.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .blogmodernjazz H1{
     color: #085A95;
+    background: url("../images/elements/moderne-jazz.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .item-pagemodernjazz H2{

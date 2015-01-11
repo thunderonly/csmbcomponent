@@ -16,14 +16,23 @@
 
 #cadre_central .item-pagemeditation H1{
     color: #C79047;
+    background: url("../images/elements/yoga.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .blogmeditation H1{
     color: #C79047;
+    background: url("../images/elements/yoga.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .pg-category-viewmeditation H1 {
     color: #C79047;
+    background: url("../images/elements/yoga.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .item-pagemeditation H2{
