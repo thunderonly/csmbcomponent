@@ -108,7 +108,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
         return true;
     }
 
-    public function validate(&$pks) {
+    public function valider(&$pks) {
 
         $pks = (array) $pks;
         $table = $this->getTable();
@@ -144,7 +144,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
         $index = 1;
         foreach ($pks as $i => $pk) {
 
-            if ($table->load($pk)) {
+            if ($table->load($pk) && ($table->etat != "Renouveler")) {
                 $sect = $sectTemplate;
                 $sect = str_replace('${Value1}', $table->nom, $sect);
                 $sect = str_replace('${Value2}', $table->prenom, $sect);
@@ -163,6 +163,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
         $newFile = fopen('components/com_csmbcomponent/fiche_renouvellement.xml', 'w');
         fwrite($newFile, $document);
         fclose($newFile);
+
         return true;
     }
 }

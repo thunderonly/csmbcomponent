@@ -30,4 +30,12 @@ abstract class JHtmlContentAdministrator {
         $html	= '<p class="btn btn-micro hasTooltip' . ($value == 1 ? ' active' : '') . '"  title="' . JHtml::tooltipText($state[3]) . '"><i class="icon-' . $icon . '"></i></p>';
         return $html;
     }
+
+    public static function link_download() {
+
+        JHtml::_('bootstrap.tooltip');
+
+        $html	= '<a href="components/com_csmbcomponent/fiche_renouvellement.xml" download="fiche_renouvellement.xml">Télécharger le document</a>';
+        return $html;
+    }
 }

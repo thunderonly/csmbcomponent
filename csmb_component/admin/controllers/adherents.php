@@ -4,6 +4,7 @@ defined('_JEXEC') or die('Restricted access');
 
 // import Joomla controlleradmin library
 jimport('joomla.application.component.controlleradmin');
+JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
 
 /**
  * HelloWorlds Controller
@@ -108,7 +109,7 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
         {
             JArrayHelper::toInteger($cid);
             $model = $this->getModel();
-            if ($model->validate($cid)) {
+            if ($model->valider($cid)) {
                 $this->setMessage(JText::plural($this->text_prefix . '_VALIDATE', count($cid)));
             } else {
                 $this->setMessage($model->getError(), 'error');
@@ -136,7 +137,9 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
             JArrayHelper::toInteger($cid);
             $model = $this->getModel();
             if ($model->word($cid)) {
-                $this->setMessage(JText::plural($this->text_prefix . '_GENERATE_WORD', count($cid)));
+                $message = JText::plural($this->text_prefix . '_GENERATE_WORD', count($cid));
+                $message .= "<br>".JHtml::_('contentadministrator.link_download');
+                $this->setMessage($message);
             } else {
                 $this->setMessage($model->getError(), 'error');
             }
