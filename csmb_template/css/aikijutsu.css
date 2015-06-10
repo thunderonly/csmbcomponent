@@ -1,0 +1,63 @@
+.bodyaikijutsu{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieuraikijutsu {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesaikijutsu {
+    border: 2px solid #E94F36;
+    display:block;empty-cells:hide;display:table-cell;
+}
+.actualitesaikijutsu H3 {
+    background: #E94F36;
+}
+
+#cadre_central .item-pageaikijutsu H1{
+    color: #E94F36;
+    background-image: url("../images/elements/aikido.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    height: 150px;
+}
+
+#cadre_central .blogaikijutsu H1{
+    color: #E94F36;
+    background-image: url("../images/elements/aikido.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewaikijutsu H1 {
+    color: #E94F36;
+    background-image: url("../images/elements/aikido.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    height: 150px;
+}
+
+#cadre_central .item-pageaikijutsu H2{
+    background: #E94F36;
+    background: -moz-linear-gradient(left,  #E94F36 50%, #f18b7b 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#E94F36), color-stop(100%,#f18b7b));
+    background: -webkit-linear-gradient(left,  #E94F36 50%,#f18b7b 100%);
+    background: -o-linear-gradient(left,  #E94F36 50%,#f18b7b 100%);
+    background: -ms-linear-gradient(left,  #E94F36 50%,#f18b7b 100%);
+    background: linear-gradient(left,  #E94F36 50%,#f18b7b 100%);
+}
+
+#cadre_central .blogaikijutsu H2{
+    background: #E94F36;
+    background: -moz-linear-gradient(left,  #E94F36 70%, #f18b7b 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#E94F36), color-stop(100%,#f18b7b));
+    background: -webkit-linear-gradient(left,  #E94F36 70%,#f18b7b 100%);
+    background: -o-linear-gradient(left,  #E94F36 70%,#f18b7b 100%);
+    background: -ms-linear-gradient(left,  #E94F36 70%,#f18b7b 100%);
+    background: linear-gradient(left,  #E94F36 70%,#f18b7b 100%);
+}

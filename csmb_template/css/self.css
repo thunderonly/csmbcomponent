@@ -1,0 +1,56 @@
+.bodyself{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurself {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesself {
+    border: 2px solid #CE4708;empty-cells:hide;display:table-cell;
+}
+.actualitesself H3 {
+    background: #CE4708;
+}
+
+#cadre_central .item-pageself H1{
+    color: #CE4708;
+    background: url("../images/elements/selfdefense.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogself H1{
+    color: #CE4708;
+    background: url("../images/elements/selfdefense.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewself H1 {
+    color: #CE4708;
+    background: url("../images/elements/selfdefense.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pageself H2{
+    background: #CE4708;
+    background: -moz-linear-gradient(left,  #CE4708 50%, #f87d45 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#CE4708), color-stop(100%,#f87d45));
+    background: -webkit-linear-gradient(left,  #CE4708 50%,#f87d45 100%);
+    background: -o-linear-gradient(left,  #CE4708 50%,#f87d45 100%);
+    background: -ms-linear-gradient(left,  #CE4708 50%,#f87d45 100%);
+    background: linear-gradient(left,  #CE4708 50%,#f87d45 100%);
+}
+
+#cadre_central .blogself H2{
+    background: #CE4708;
+    background: -moz-linear-gradient(left,  #CE4708 70%, #f87d45 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#CE4708), color-stop(100%,#f87d45));
+    background: -webkit-linear-gradient(left,  #CE4708 70%,#f87d45 100%);
+    background: -o-linear-gradient(left,  #CE4708 70%,#f87d45 100%);
+    background: -ms-linear-gradient(left,  #CE4708 70%,#f87d45 100%);
+    background: linear-gradient(left,  #CE4708 70%,#f87d45 100%);
+}

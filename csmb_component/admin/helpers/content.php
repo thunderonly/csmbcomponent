@@ -40,6 +40,10 @@ class ContentHelper extends JHelperContent
 			JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_ADHERENT_TAB'),
 			'index.php?option=com_csmbcomponent&view=adherents',
 			$vName == 'adherent');
+		JHtmlSidebar::addEntry(
+			JText::_('COM_CSMBCOMPONENT_MANAGER_CSMBCOMPONENT_MAIL_TAB'),
+			'index.php?option=com_csmbcomponent&view=mails',
+			$vName == 'mail');
 	}
 
 	/**

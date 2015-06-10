@@ -1,0 +1,56 @@
+.bodyalv{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieuralv {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesalv {
+    border: 2px solid #be0f39;empty-cells:hide;display:table-cell;
+}
+.actualitesalv H3 {
+    background: #be0f39;
+}
+
+#cadre_central .item-pagealv H1{
+    color: #be0f39;
+    background: url("../images/elements/artlonguevie.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogalv H1{
+    color: #be0f39;
+    background: url("../images/elements/artlonguevie.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewalv H1 {
+    color: #be0f39;
+    background: url("../images/elements/artlonguevie.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagealv H2{
+    background: #be0f39;
+    background: -moz-linear-gradient(left,  #be0f39 50%, #f0436c 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#f0436c), color-stop(100%,#f0436c));
+    background: -webkit-linear-gradient(left,  #be0f39 50%,#f0436c 100%);
+    background: -o-linear-gradient(left,  #be0f39 50%,#f0436c 100%);
+    background: -ms-linear-gradient(left,  #be0f39 50%,#f0436c 100%);
+    background: linear-gradient(left,  #be0f39 50%,#f0436c 100%);
+}
+
+#cadre_central .blogalv H2{
+    background: #be0f39;
+    background: -moz-linear-gradient(left,  #be0f39 70%, #f0436c 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#be0f39), color-stop(100%,#f0436c));
+    background: -webkit-linear-gradient(left,  #be0f39 70%,#f0436c 100%);
+    background: -o-linear-gradient(left,  #be0f39 70%,#f0436c 100%);
+    background: -ms-linear-gradient(left,  #be0f39 70%,#f0436c 100%);
+    background: linear-gradient(left,  #be0f39 70%,#f0436c 100%);
+}

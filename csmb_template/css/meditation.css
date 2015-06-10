@@ -8,7 +8,7 @@
 }
 
 .actualitesmeditation {
-    border: 2px solid #C79047;
+    border: 2px solid #C79047;empty-cells:hide;display:table-cell;
 }
 .actualitesmeditation H3 {
     background: #C79047;

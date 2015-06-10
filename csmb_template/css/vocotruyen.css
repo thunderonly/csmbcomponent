@@ -8,7 +8,7 @@
 }
 
 .actualitesvocotruyen {
-    border: 2px solid #E63023;
+    border: 2px solid #E63023;empty-cells:hide;display:table-cell;
 }
 .actualitesvocotruyen H3 {
     background: #E63023;
@@ -23,13 +23,16 @@
 
 #cadre_central .blogvocotruyen H1{
     color: #E63023;
-    background: url("../images/elements/vocotruyen.png") no-repeat center;
+    background: url("../images/elements/vocotruyen.png") no-repeat bottom;
     background-size: 100px 100px;
     height: 150px;
 }
 
 #cadre_central .pg-category-viewvocotruyen H1 {
     color: #E63023;
+    background: url("../images/elements/vocotruyen.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
 }
 
 #cadre_central .item-pagevocotruyen H2{

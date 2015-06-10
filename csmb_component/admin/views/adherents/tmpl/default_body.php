@@ -38,7 +38,7 @@ JHtml::_('formbehavior.chosen', 'select');
             <?php echo $item->sexe; ?>
         </td>
         <td>
-            <?php echo $item->age; ?>
+            <?php echo $item->date_naissance; ?>
         </td>
         <td>
             <?php echo $item->adresse; ?>

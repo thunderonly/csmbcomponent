@@ -8,7 +8,7 @@
 }
 
 .actualitesjudo {
-    border: 2px solid #E72F29;
+    border: 2px solid #E72F29;empty-cells:hide;display:table-cell;
 }
 .actualitesjudo H3 {
     background: #E72F29;

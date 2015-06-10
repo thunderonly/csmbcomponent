@@ -1,0 +1,56 @@
+.bodyfitness{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurfitness {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesfitness {
+    border: 2px solid #009640;empty-cells:hide;display:table-cell;
+}
+.actualitesfitness H3 {
+    background: #009640;
+}
+
+#cadre_central .item-pagefitness H1{
+    color: #009640;
+    background: url("../images/elements/fitness.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogfitness H1{
+    color: #009640;
+    background: url("../images/elements/fitness.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewfitness H1 {
+    color: #009640;
+    background: url("../images/elements/fitness.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagefitness H2{
+    background: #009640;
+    background: -moz-linear-gradient(left,  #009640 50%, #00fd6c 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#009640), color-stop(100%,#00fd6c));
+    background: -webkit-linear-gradient(left,  #009640 50%,#00fd6c 100%);
+    background: -o-linear-gradient(left,  #009640 50%,#00fd6c 100%);
+    background: -ms-linear-gradient(left,  #009640 50%,#00fd6c 100%);
+    background: linear-gradient(left,  #009640 50%,#00fd6c 100%);
+}
+
+#cadre_central .blogfitness H2{
+    background: #009640;
+    background: -moz-linear-gradient(left,  #009640 70%, #00fd6c 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#009640), color-stop(100%,#00fd6c));
+    background: -webkit-linear-gradient(left,  #009640 70%,#00fd6c 100%);
+    background: -o-linear-gradient(left,  #009640 70%,#00fd6c 100%);
+    background: -ms-linear-gradient(left,  #009640 70%,#00fd6c 100%);
+    background: linear-gradient(left,  #009640 70%,#00fd6c 100%);
+}

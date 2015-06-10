@@ -1,0 +1,56 @@
+.bodyhiphop{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurhiphop {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualiteshiphop {
+    border: 2px solid #11A19A;empty-cells:hide;display:table-cell;
+}
+.actualiteshiphop H3 {
+    background: #11A19A;
+}
+
+#cadre_central .item-pagehiphop H1{
+    color: #11A19A;
+    background: url("../images/elements/hiphop.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .bloghiphop H1{
+    color: #11A19A;
+    background: url("../images/elements/hiphop.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewhiphop H1 {
+    color: #11A19A;
+    background: url("../images/elements/hiphop.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagehiphop H2{
+    background: #11A19A;
+    background: -moz-linear-gradient(left,  #11A19A 50%, #2ee9e0 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#11A19A), color-stop(100%,#2ee9e0));
+    background: -webkit-linear-gradient(left,  #11A19A 50%,#2ee9e0 100%);
+    background: -o-linear-gradient(left,  #11A19A 50%,#2ee9e0 100%);
+    background: -ms-linear-gradient(left,  #11A19A 50%,#2ee9e0 100%);
+    background: linear-gradient(left,  #11A19A 50%,#2ee9e0 100%);
+}
+
+#cadre_central .bloghiphop H2{
+    background: #11A19A;
+    background: -moz-linear-gradient(left,  #11A19A 70%, #2ee9e0 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#11A19A), color-stop(100%,#2ee9e0));
+    background: -webkit-linear-gradient(left,  #11A19A 70%,#2ee9e0 100%);
+    background: -o-linear-gradient(left,  #11A19A 70%,#2ee9e0 100%);
+    background: -ms-linear-gradient(left,  #11A19A 70%,#2ee9e0 100%);
+    background: linear-gradient(left,  #11A19A 70%,#2ee9e0 100%);
+}

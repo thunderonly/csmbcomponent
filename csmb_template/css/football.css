@@ -1,0 +1,56 @@
+.bodyfootball{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurfootball {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesfootball {
+    border: 2px solid #96C11F;empty-cells:hide;display:table-cell;
+}
+.actualitesfootball H3 {
+    background: #96C11F;
+}
+
+#cadre_central .item-pagefootball H1{
+    color: #96C11F;
+    background: url("../images/elements/football.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogfootball H1{
+    color: #96C11F;
+    background: url("../images/elements/football.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewfootball H1 {
+    color: #96C11F;
+    background: url("../images/elements/football.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagefootball H2{
+    background: #96C11F;
+    background: -moz-linear-gradient(left,  #96C11F 50%, #c2e660 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#96C11F), color-stop(100%,#c2e660));
+    background: -webkit-linear-gradient(left,  #96C11F 50%,#c2e660 100%);
+    background: -o-linear-gradient(left,  #96C11F 50%,#c2e660 100%);
+    background: -ms-linear-gradient(left,  #96C11F 50%,#c2e660 100%);
+    background: linear-gradient(left,  #96C11F 50%,#c2e660 100%);
+}
+
+#cadre_central .blogfootball H2{
+    background: #96C11F;
+    background: -moz-linear-gradient(left,  #96C11F 70%, #c2e660 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#96C11F), color-stop(100%,#c2e660));
+    background: -webkit-linear-gradient(left,  #96C11F 70%,#c2e660 100%);
+    background: -o-linear-gradient(left,  #96C11F 70%,#c2e660 100%);
+    background: -ms-linear-gradient(left,  #96C11F 70%,#c2e660 100%);
+    background: linear-gradient(left,  #96C11F 70%,#c2e660 100%);
+}

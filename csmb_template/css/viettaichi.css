@@ -1,0 +1,56 @@
+.bodyviettaichi{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurviettaichi {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesviettaichi {
+    border: 2px solid #F9B000;empty-cells:hide;display:table-cell;
+}
+.actualitesviettaichi H3 {
+    background: #F9B000;
+}
+
+#cadre_central .item-pageviettaichi H1{
+    color: #F9B000;
+    background: url("../images/elements/viet-taichi.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogviettaichi H1{
+    color: #F9B000;
+    background: url("../images/elements/viet-taichi.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewviettaichi H1 {
+    color: #F9B000;
+    background: url("../images/elements/viet-taichi.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pageviettaichi H2{
+    background: #F9B000;
+    background: -moz-linear-gradient(left,  #F9B000 50%, #ffd061 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#ffd061), color-stop(100%,#ffd061));
+    background: -webkit-linear-gradient(left,  #F9B000 50%,#ffd061 100%);
+    background: -o-linear-gradient(left,  #F9B000 50%,#ffd061 100%);
+    background: -ms-linear-gradient(left,  #F9B000 50%,#ffd061 100%);
+    background: linear-gradient(left,  #F9B000 50%,#ffd061 100%);
+}
+
+#cadre_central .blogviettaichi H2{
+    background: #F9B000;
+    background: -moz-linear-gradient(left,  #F9B000 70%, #ffd061 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#F9B000), color-stop(100%,#ffd061));
+    background: -webkit-linear-gradient(left,  #F9B000 70%,#ffd061 100%);
+    background: -o-linear-gradient(left,  #F9B000 70%,#ffd061 100%);
+    background: -ms-linear-gradient(left,  #F9B000 70%,#ffd061 100%);
+    background: linear-gradient(left,  #F9B000 70%,#ffd061 100%);
+}

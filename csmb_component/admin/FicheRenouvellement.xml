@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
+	<w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+	<o:DocumentProperties>
+		<o:Title>FICHE INSCRIPTION : année 20</o:Title>
+		<o:Author>Claire</o:Author>
+		<o:LastAuthor>DarkALR</o:LastAuthor>
+		<o:Revision>12</o:Revision>
+		<o:TotalTime>10</o:TotalTime>
+		<o:LastPrinted>2014-08-24T09:26:00Z</o:LastPrinted>
+		<o:Created>2015-02-07T19:15:00Z</o:Created>
+		<o:LastSaved>2015-04-23T20:14:00Z</o:LastSaved>
+		<o:Pages>1</o:Pages>
+		<o:Words>293</o:Words>
+		<o:Characters>1613</o:Characters>
+		<o:Company>Tribunal de commerce de Marseille</o:Company>
+		<o:Lines>13</o:Lines>
+		<o:Paragraphs>3</o:Paragraphs>
+		<o:CharactersWithSpaces>1903</o:CharactersWithSpaces>
+		<o:Version>14</o:Version>
+	</o:DocumentProperties>
+	<w:fonts>
+		<w:defaultFonts w:ascii="Times New Roman" w:fareast="Times New Roman" w:h-ansi="Times New Roman" w:cs="Times New Roman"/>
+		<w:font w:name="Times New Roman">
+			<w:panose-1 w:val="02020603050405020304"/>
+			<w:charset w:val="00"/>
+			<w:family w:val="Roman"/>
+			<w:pitch w:val="variable"/>
+			<w:sig w:usb-0="20002A87" w:usb-1="80000000" w:usb-2="00000008" w:usb-3="00000000" w:csb-0="000001FF" w:csb-1="00000000"/>
+		</w:font>
+		<w:font w:name="Courier New">
+			<w:panose-1 w:val="02070309020205020404"/>
+			<w:charset w:val="00"/>
+			<w:family w:val="Modern"/>
+			<w:pitch w:val="fixed"/>
+			<w:sig w:usb-0="20002A87" w:usb-1="80000000" w:usb-2="00000008" w:usb-3="00000000" w:csb-0="000001FF" w:csb-1="00000000"/>
+		</w:font>
+		<w:font w:name="Symbol">
+			<w:panose-1 w:val="05050102010706020507"/>
+			<w:charset w:val="02"/>
+			<w:family w:val="Roman"/>
+			<w:pitch w:val="variable"/>
+			<w:sig w:usb-0="00000000" w:usb-1="10000000" w:usb-2="00000000" w:usb-3="00000000" w:csb-0="80000000" w:csb-1="00000000"/>
+		</w:font>
+		<w:font w:name="Wingdings">
+			<w:panose-1 w:val="05000000000000000000"/>
+			<w:charset w:val="02"/>
+			<w:family w:val="auto"/>
+			<w:pitch w:val="variable"/>
+			<w:sig w:usb-0="00000000" w:usb-1="10000000" w:usb-2="00000000" w:usb-3="00000000" w:csb-0="80000000" w:csb-1="00000000"/>
+		</w:font>
+		<w:font w:name="Cambria Math">
+			<w:panose-1 w:val="02040503050406030204"/>
+			<w:charset w:val="01"/>
+			<w:family w:val="Roman"/>
+			<w:notTrueType/>
+			<w:pitch w:val="variable"/>
+		</w:font>
+		<w:font w:name="Tahoma">
+			<w:panose-1 w:val="020B0604030504040204"/>
+			<w:charset w:val="00"/>
+			<w:family w:val="Swiss"/>
+			<w:notTrueType/>
+			<w:pitch w:val="variable"/>
+			<w:sig w:usb-0="00000003" w:usb-1="00000000" w:usb-2="00000000" w:usb-3="00000000" w:csb-0="00000001" w:csb-1="00000000"/>
+		</w:font>
+	</w:fonts>
+	<w:lists>
+		<w:listDef w:listDefId="0">
+			<w:lsid w:val="0DA76870"/>
+			<w:plt w:val="HybridMultilevel"/>
+			<w:tmpl w:val="E3EA4A1A"/>
+			<w:lvl w:ilvl="0" w:tplc="040C0001">
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val=""/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="720" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Symbol" w:fareast="Times New Roman" w:h-ansi="Symbol" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="1" w:tplc="040C0003">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val="o"/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="1440" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="2" w:tplc="040C0005">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val=""/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="2160" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Wingdings" w:h-ansi="Wingdings" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="3" w:tplc="040C0001">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val=""/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="2880" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Symbol" w:h-ansi="Symbol" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="4" w:tplc="040C0003">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val="o"/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="3600" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="5" w:tplc="040C0005">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val=""/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="4320" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Wingdings" w:h-ansi="Wingdings" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="6" w:tplc="040C0001">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val=""/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="5040" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Symbol" w:h-ansi="Symbol" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="7" w:tplc="040C0003">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val="o"/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="5760" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+			<w:lvl w:ilvl="8" w:tplc="040C0005">
+				<w:start w:val="1"/>
+				<w:nfc w:val="23"/>
+				<w:lvlText w:val=""/>
+				<w:lvlJc w:val="left"/>
+				<w:pPr>
+					<w:ind w:left="6480" w:hanging="360"/>
+				</w:pPr>
+				<w:rPr>
+					<w:rFonts w:ascii="Wingdings" w:h-ansi="Wingdings" w:hint="default"/>
+				</w:rPr>
+			</w:lvl>
+		</w:listDef>
+		<w:list w:ilfo="1">
+			<w:ilst w:val="0"/>
+		</w:list>
+	</w:lists>
+	<w:styles>
+		<w:versionOfBuiltInStylenames w:val="7"/>
+		<w:latentStyles w:defLockedState="off" w:latentStyleCount="267">
+			<w:lsdException w:name="Normal"/>
+			<w:lsdException w:name="heading 1"/>
+			<w:lsdException w:name="heading 2"/>
+			<w:lsdException w:name="heading 3"/>
+			<w:lsdException w:name="heading 4"/>
+			<w:lsdException w:name="heading 5"/>
+			<w:lsdException w:name="heading 6"/>
+			<w:lsdException w:name="heading 7"/>
+			<w:lsdException w:name="heading 8"/>
+			<w:lsdException w:name="heading 9"/>
+			<w:lsdException w:name="caption"/>
+			<w:lsdException w:name="Title"/>
+			<w:lsdException w:name="Subtitle"/>
+			<w:lsdException w:name="Strong"/>
+			<w:lsdException w:name="Emphasis"/>
+			<w:lsdException w:name="No Spacing"/>
+			<w:lsdException w:name="List Paragraph"/>
+			<w:lsdException w:name="Quote"/>
+			<w:lsdException w:name="Intense Quote"/>
+			<w:lsdException w:name="Subtle Emphasis"/>
+			<w:lsdException w:name="Intense Emphasis"/>
+			<w:lsdException w:name="Subtle Reference"/>
+			<w:lsdException w:name="Intense Reference"/>
+			<w:lsdException w:name="Book Title"/>
+			<w:lsdException w:name="TOC Heading"/>
+		</w:latentStyles>
+		<w:style w:type="paragraph" w:default="on" w:styleId="Normal">
+			<w:name w:val="Normal"/>
+			<w:rsid w:val="00E517D5"/>
+			<w:rPr>
+				<wx:font wx:val="Times New Roman"/>
+				<w:sz w:val="24"/>
+				<w:sz-cs w:val="24"/>
+				<w:lang w:val="FR" w:fareast="FR" w:bidi="AR-SA"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="character" w:default="on" w:styleId="Policepardfaut">
+			<w:name w:val="Default Paragraph Font"/>
+			<wx:uiName wx:val="Police par défaut"/>
+		</w:style>
+		<w:style w:type="table" w:default="on" w:styleId="TableauNormal">
+			<w:name w:val="Normal Table"/>
+			<wx:uiName wx:val="Tableau Normal"/>
+			<w:rPr>
+				<wx:font wx:val="Times New Roman"/>
+				<w:lang w:val="FR" w:fareast="FR" w:bidi="AR-SA"/>
+			</w:rPr>
+			<w:tblPr>
+				<w:tblInd w:w="0" w:type="dxa"/>
+				<w:tblCellMar>
+					<w:top w:w="0" w:type="dxa"/>
+					<w:left w:w="108" w:type="dxa"/>
+					<w:bottom w:w="0" w:type="dxa"/>
+					<w:right w:w="108" w:type="dxa"/>
+				</w:tblCellMar>
+			</w:tblPr>
+		</w:style>
+		<w:style w:type="list" w:default="on" w:styleId="Aucuneliste">
+			<w:name w:val="No List"/>
+			<wx:uiName wx:val="Aucune liste"/>
+		</w:style>
+		<w:style w:type="character" w:styleId="Lienhypertexte">
+			<w:name w:val="Hyperlink"/>
+			<wx:uiName wx:val="Lien hypertexte"/>
+			<w:rsid w:val="00E62CDA"/>
+			<w:rPr>
+				<w:rFonts w:cs="Times New Roman"/>
+				<w:color w:val="0000FF"/>
+				<w:u w:val="single"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="paragraph" w:styleId="En-tte">
+			<w:name w:val="header"/>
+			<wx:uiName wx:val="En-tête"/>
+			<w:basedOn w:val="Normal"/>
+			<w:link w:val="En-tteCar"/>
+			<w:rsid w:val="0063496F"/>
+			<w:pPr>
+				<w:tabs>
+					<w:tab w:val="center" w:pos="4536"/>
+					<w:tab w:val="right" w:pos="9072"/>
+				</w:tabs>
+			</w:pPr>
+			<w:rPr>
+				<wx:font wx:val="Times New Roman"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="character" w:styleId="En-tteCar">
+			<w:name w:val="En-tête Car"/>
+			<w:link w:val="En-tte"/>
+			<w:rsid w:val="002F3B94"/>
+			<w:rPr>
+				<w:rFonts w:cs="Times New Roman"/>
+				<w:sz w:val="24"/>
+				<w:sz-cs w:val="24"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="paragraph" w:styleId="Pieddepage">
+			<w:name w:val="footer"/>
+			<wx:uiName wx:val="Pied de page"/>
+			<w:basedOn w:val="Normal"/>
+			<w:link w:val="PieddepageCar"/>
+			<w:rsid w:val="0063496F"/>
+			<w:pPr>
+				<w:tabs>
+					<w:tab w:val="center" w:pos="4536"/>
+					<w:tab w:val="right" w:pos="9072"/>
+				</w:tabs>
+			</w:pPr>
+			<w:rPr>
+				<wx:font wx:val="Times New Roman"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="character" w:styleId="PieddepageCar">
+			<w:name w:val="Pied de page Car"/>
+			<w:link w:val="Pieddepage"/>
+			<w:rsid w:val="003C425A"/>
+			<w:rPr>
+				<w:rFonts w:cs="Times New Roman"/>
+				<w:sz w:val="24"/>
+				<w:sz-cs w:val="24"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="paragraph" w:styleId="Textedebulles">
+			<w:name w:val="Balloon Text"/>
+			<wx:uiName wx:val="Texte de bulles"/>
+			<w:basedOn w:val="Normal"/>
+			<w:link w:val="TextedebullesCar"/>
+			<w:rsid w:val="0063496F"/>
+			<w:rPr>
+				<w:rFonts w:ascii="Tahoma" w:h-ansi="Tahoma" w:cs="Tahoma"/>
+				<wx:font wx:val="Tahoma"/>
+				<w:sz w:val="16"/>
+				<w:sz-cs w:val="16"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="character" w:styleId="TextedebullesCar">
+			<w:name w:val="Texte de bulles Car"/>
+			<w:link w:val="Textedebulles"/>
+			<w:rsid w:val="002F3B94"/>
+			<w:rPr>
+				<w:rFonts w:cs="Times New Roman"/>
+				<w:sz w:val="2"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="paragraph" w:styleId="Explorateurdedocuments">
+			<w:name w:val="Document Map"/>
+			<wx:uiName wx:val="Explorateur de documents"/>
+			<w:basedOn w:val="Normal"/>
+			<w:link w:val="ExplorateurdedocumentsCar"/>
+			<w:rsid w:val="00841AC0"/>
+			<w:pPr>
+				<w:shd w:val="clear" w:color="auto" w:fill="000080"/>
+			</w:pPr>
+			<w:rPr>
+				<w:rFonts w:ascii="Tahoma" w:h-ansi="Tahoma" w:cs="Tahoma"/>
+				<wx:font wx:val="Tahoma"/>
+				<w:sz w:val="20"/>
+				<w:sz-cs w:val="20"/>
+			</w:rPr>
+		</w:style>
+		<w:style w:type="character" w:styleId="ExplorateurdedocumentsCar">
+			<w:name w:val="Explorateur de documents Car"/>
+			<w:link w:val="Explorateurdedocuments"/>
+			<w:rsid w:val="002F3B94"/>
+			<w:rPr>
+				<w:rFonts w:cs="Times New Roman"/>
+				<w:sz w:val="2"/>
+			</w:rPr>
+		</w:style>
+	</w:styles>
+	<w:shapeDefaults>
+		<o:shapedefaults v:ext="edit" spidmax="2049"/>
+		<o:shapelayout v:ext="edit">
+			<o:idmap v:ext="edit" data="1"/>
+		</o:shapelayout>
+	</w:shapeDefaults>
+	<w:docPr>
+		<w:view w:val="print"/>
+		<w:zoom w:percent="100"/>
+		<w:stylePaneFormatFilter w:val="3F01"/>
+		<w:defaultTabStop w:val="709"/>
+		<w:hyphenationZone w:val="425"/>
+		<w:doNotHyphenateCaps/>
+		<w:punctuationKerning/>
+		<w:characterSpacingControl w:val="DontCompress"/>
+		<w:optimizeForBrowser/>
+		<w:validateAgainstSchema/>
+		<w:saveInvalidXML w:val="off"/>
+		<w:ignoreMixedContent w:val="off"/>
+		<w:alwaysShowPlaceholderText w:val="off"/>
+		<w:hdrShapeDefaults>
+			<o:shapedefaults v:ext="edit" spidmax="2049"/>
+		</w:hdrShapeDefaults>
+		<w:footnotePr>
+			<w:footnote w:type="separator">
+				<w:p wsp:rsidR="00E7268B" wsp:rsidRDefault="00E7268B">
+					<w:r>
+						<w:separator/>
+					</w:r>
+				</w:p>
+			</w:footnote>
+			<w:footnote w:type="continuation-separator">
+				<w:p wsp:rsidR="00E7268B" wsp:rsidRDefault="00E7268B">
+					<w:r>
+						<w:continuationSeparator/>
+					</w:r>
+				</w:p>
+			</w:footnote>
+		</w:footnotePr>
+		<w:endnotePr>
+			<w:endnote w:type="separator">
+				<w:p wsp:rsidR="00E7268B" wsp:rsidRDefault="00E7268B">
+					<w:r>
+						<w:separator/>
+					</w:r>
+				</w:p>
+			</w:endnote>
+			<w:endnote w:type="continuation-separator">
+				<w:p wsp:rsidR="00E7268B" wsp:rsidRDefault="00E7268B">
+					<w:r>
+						<w:continuationSeparator/>
+					</w:r>
+				</w:p>
+			</w:endnote>
+		</w:endnotePr>
+		<w:compat>
+			<w:breakWrappedTables/>
+			<w:snapToGridInCell/>
+			<w:wrapTextWithPunct/>
+			<w:useAsianBreakRules/>
+			<w:useWord2002TableStyleRules/>
+		</w:compat>
+		<wsp:rsids>
+			<wsp:rsidRoot wsp:val="00566377"/>
+			<wsp:rsid wsp:val="00010486"/>
+			<wsp:rsid wsp:val="0001670C"/>
+			<wsp:rsid wsp:val="00017D1F"/>
+			<wsp:rsid wsp:val="00055D91"/>
+			<wsp:rsid wsp:val="00056F1A"/>
+			<wsp:rsid wsp:val="00070DE5"/>
+			<wsp:rsid wsp:val="000E40B4"/>
+			<wsp:rsid wsp:val="000F53AB"/>
+			<wsp:rsid wsp:val="00100041"/>
+			<wsp:rsid wsp:val="0011123C"/>
+			<wsp:rsid wsp:val="00121F3A"/>
+			<wsp:rsid wsp:val="00123FD5"/>
+			<wsp:rsid wsp:val="00136C43"/>
+			<wsp:rsid wsp:val="001D61CB"/>
+			<wsp:rsid wsp:val="001F3AB8"/>
+			<wsp:rsid wsp:val="00212B02"/>
+			<wsp:rsid wsp:val="00230A43"/>
+			<wsp:rsid wsp:val="00235562"/>
+			<wsp:rsid wsp:val="00247E46"/>
+			<wsp:rsid wsp:val="00287923"/>
+			<wsp:rsid wsp:val="002A2082"/>
+			<wsp:rsid wsp:val="002F3B94"/>
+			<wsp:rsid wsp:val="002F5BAF"/>
+			<wsp:rsid wsp:val="00312B01"/>
+			<wsp:rsid wsp:val="0033193C"/>
+			<wsp:rsid wsp:val="0035462E"/>
+			<wsp:rsid wsp:val="00386B27"/>
+			<wsp:rsid wsp:val="00391514"/>
+			<wsp:rsid wsp:val="003B0EEA"/>
+			<wsp:rsid wsp:val="003B386D"/>
+			<wsp:rsid wsp:val="003C425A"/>
+			<wsp:rsid wsp:val="003C7E6D"/>
+			<wsp:rsid wsp:val="0040566C"/>
+			<wsp:rsid wsp:val="004121C9"/>
+			<wsp:rsid wsp:val="00430491"/>
+			<wsp:rsid wsp:val="00452BBC"/>
+			<wsp:rsid wsp:val="00464A47"/>
+			<wsp:rsid wsp:val="00475212"/>
+			<wsp:rsid wsp:val="004A263A"/>
+			<wsp:rsid wsp:val="004B2DFE"/>
+			<wsp:rsid wsp:val="004B60D0"/>
+			<wsp:rsid wsp:val="004D23AD"/>
+			<wsp:rsid wsp:val="004E6912"/>
+			<wsp:rsid wsp:val="004F194B"/>
+			<wsp:rsid wsp:val="004F4C09"/>
+			<wsp:rsid wsp:val="004F7D32"/>
+			<wsp:rsid wsp:val="004F7D78"/>
+			<wsp:rsid wsp:val="00506CE5"/>
+			<wsp:rsid wsp:val="00566377"/>
+			<wsp:rsid wsp:val="005675BC"/>
+			<wsp:rsid wsp:val="00604A79"/>
+			<wsp:rsid wsp:val="00624314"/>
+			<wsp:rsid wsp:val="00630A0C"/>
+			<wsp:rsid wsp:val="00631E61"/>
+			<wsp:rsid wsp:val="0063496F"/>
+			<wsp:rsid wsp:val="00642D6E"/>
+			<wsp:rsid wsp:val="00646C60"/>
+			<wsp:rsid wsp:val="0066321A"/>
+			<wsp:rsid wsp:val="00692589"/>
+			<wsp:rsid wsp:val="006A3950"/>
+			<wsp:rsid wsp:val="006A692E"/>
+			<wsp:rsid wsp:val="006B574F"/>
+			<wsp:rsid wsp:val="006C6F87"/>
+			<wsp:rsid wsp:val="006E61BA"/>
+			<wsp:rsid wsp:val="00726151"/>
+			<wsp:rsid wsp:val="0075260A"/>
+			<wsp:rsid wsp:val="007817E6"/>
+			<wsp:rsid wsp:val="007B221C"/>
+			<wsp:rsid wsp:val="007D66A0"/>
+			<wsp:rsid wsp:val="00813C31"/>
+			<wsp:rsid wsp:val="00822C6F"/>
+			<wsp:rsid wsp:val="00841AC0"/>
+			<wsp:rsid wsp:val="008A0A74"/>
+			<wsp:rsid wsp:val="008B7F6A"/>
+			<wsp:rsid wsp:val="008D7B28"/>
+			<wsp:rsid wsp:val="008F32EE"/>
+			<wsp:rsid wsp:val="008F756A"/>
+			<wsp:rsid wsp:val="009049C2"/>
+			<wsp:rsid wsp:val="009076F6"/>
+			<wsp:rsid wsp:val="00915A8C"/>
+			<wsp:rsid wsp:val="009172B7"/>
+			<wsp:rsid wsp:val="009219EA"/>
+			<wsp:rsid wsp:val="00935228"/>
+			<wsp:rsid wsp:val="0096582F"/>
+			<wsp:rsid wsp:val="009A286C"/>
+			<wsp:rsid wsp:val="009A2CAA"/>
+			<wsp:rsid wsp:val="009C0107"/>
+			<wsp:rsid wsp:val="009D652C"/>
+			<wsp:rsid wsp:val="009E061D"/>
+			<wsp:rsid wsp:val="00A019D9"/>
+			<wsp:rsid wsp:val="00A148B2"/>
+			<wsp:rsid wsp:val="00A15CDC"/>
+			<wsp:rsid wsp:val="00A51331"/>
+			<wsp:rsid wsp:val="00A55666"/>
+			<wsp:rsid wsp:val="00A87F24"/>
+			<wsp:rsid wsp:val="00AB2810"/>
+			<wsp:rsid wsp:val="00AC32E8"/>
+			<wsp:rsid wsp:val="00AD1EB1"/>
+			<wsp:rsid wsp:val="00AD27EC"/>
+			<wsp:rsid wsp:val="00B13709"/>
+			<wsp:rsid wsp:val="00B16BA2"/>
+			<wsp:rsid wsp:val="00B261A2"/>
+			<wsp:rsid wsp:val="00B518EC"/>
+			<wsp:rsid wsp:val="00B90F57"/>
+			<wsp:rsid wsp:val="00B92E81"/>
+			<wsp:rsid wsp:val="00BB1A0C"/>
+			<wsp:rsid wsp:val="00BB5605"/>
+			<wsp:rsid wsp:val="00BE3622"/>
+			<wsp:rsid wsp:val="00C121D1"/>
+			<wsp:rsid wsp:val="00C17B97"/>
+			<wsp:rsid wsp:val="00C30A9D"/>
+			<wsp:rsid wsp:val="00C56AB1"/>
+			<wsp:rsid wsp:val="00C611D6"/>
+			<wsp:rsid wsp:val="00C64ACA"/>
+			<wsp:rsid wsp:val="00C9459D"/>
+			<wsp:rsid wsp:val="00CB3779"/>
+			<wsp:rsid wsp:val="00CC43D3"/>
+			<wsp:rsid wsp:val="00CC5554"/>
+			<wsp:rsid wsp:val="00CD5CE2"/>
+			<wsp:rsid wsp:val="00CD6B62"/>
+			<wsp:rsid wsp:val="00CE5096"/>
+			<wsp:rsid wsp:val="00CF0C31"/>
+			<wsp:rsid wsp:val="00D0706C"/>
+			<wsp:rsid wsp:val="00D15743"/>
+			<wsp:rsid wsp:val="00D20196"/>
+			<wsp:rsid wsp:val="00D27BD6"/>
+			<wsp:rsid wsp:val="00D42745"/>
+			<wsp:rsid wsp:val="00D55C54"/>
+			<wsp:rsid wsp:val="00D62656"/>
+			<wsp:rsid wsp:val="00D8468F"/>
+			<wsp:rsid wsp:val="00D856F3"/>
+			<wsp:rsid wsp:val="00D90948"/>
+			<wsp:rsid wsp:val="00D91F85"/>
+			<wsp:rsid wsp:val="00DB017F"/>
+			<wsp:rsid wsp:val="00DB569D"/>
+			<wsp:rsid wsp:val="00DC12E8"/>
+			<wsp:rsid wsp:val="00DF1CA2"/>
+			<wsp:rsid wsp:val="00E11D7C"/>
+			<wsp:rsid wsp:val="00E22D68"/>
+			<wsp:rsid wsp:val="00E3430A"/>
+			<wsp:rsid wsp:val="00E41D6E"/>
+			<wsp:rsid wsp:val="00E517D5"/>
+			<wsp:rsid wsp:val="00E5403C"/>
+			<wsp:rsid wsp:val="00E62CDA"/>
+			<wsp:rsid wsp:val="00E64A2E"/>
+			<wsp:rsid wsp:val="00E7268B"/>
+			<wsp:rsid wsp:val="00E749CA"/>
+			<wsp:rsid wsp:val="00E8679F"/>
+			<wsp:rsid wsp:val="00EB2E32"/>
+			<wsp:rsid wsp:val="00EC0BE9"/>
+			<wsp:rsid wsp:val="00EC1FCC"/>
+			<wsp:rsid wsp:val="00EC6732"/>
+			<wsp:rsid wsp:val="00ED0AC8"/>
+			<wsp:rsid wsp:val="00EE7304"/>
+			<wsp:rsid wsp:val="00F075C5"/>
+			<wsp:rsid wsp:val="00FA2FC3"/>
+			<wsp:rsid wsp:val="00FB1EF6"/>
+			<wsp:rsid wsp:val="00FC1148"/>
+			<wsp:rsid wsp:val="00FC2EE0"/>
+			<wsp:rsid wsp:val="00FF7722"/>
+		</wsp:rsids>
+	</w:docPr>
+	<w:body>
+		<wx:sect>
+			<wx:sub-section>
+				<wx:pBdrGroup>
+					<wx:borders>
+						<wx:top wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:left wx:val="solid" wx:bdrwidth="10" wx:space="4" wx:color="auto"/>
+						<wx:bottom wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:right wx:val="solid" wx:bdrwidth="10" wx:space="4" wx:color="auto"/>
+					</wx:borders>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00841AC0" wsp:rsidRDefault="00136C43" wsp:rsidP="00E64A2E">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+							</w:pBdr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="3420"/>
+							</w:tabs>
+							<w:spacing w:before="80" w:after="80"/>
+							<w:jc w:val="center"/>
+							<w:outlineLvl w:val="0"/>
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="32"/>
+								<w:sz-cs w:val="32"/>
+								<w:u w:val="single"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00136C43">
+							<w:rPr>
+								<w:noProof/>
+							</w:rPr>
+							<w:pict>
+								<v:group id="_x0000_s1138" style="position:absolute;left:0;text-align:left;margin-left:-31.95pt;margin-top:-74.75pt;width:2in;height:126pt;z-index:4" coordorigin="8946,40" coordsize="2880,2520">
+									<v:shapetype id="_x0000_t71" coordsize="21600,21600" o:spt="71" path="m10800,5800l8352,2295,7312,6320,370,2295,4627,7617,,8615r3722,3160l135,14587r5532,-650l4762,17617,7715,15627r770,5973l10532,14935r2715,4802l14020,14457r4125,3638l16837,12942r4763,348l17607,10475,21097,8137,16702,7315,18380,4457r-4225,868l14522,xe">
+										<v:stroke joinstyle="miter"/>
+										<v:path gradientshapeok="t" o:connecttype="custom" o:connectlocs="14522,0;0,8615;8485,21600;21600,13290" o:connectangles="270,180,90,0" textboxrect="4627,6320,16702,13937"/>
+									</v:shapetype>
+									<v:shape id="_x0000_s1136" type="#_x0000_t71" style="position:absolute;left:8946;top:40;width:2880;height:2520" strokecolor="#333"/>
+									<v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+										<v:stroke joinstyle="miter"/>
+										<v:path gradientshapeok="t" o:connecttype="rect"/>
+									</v:shapetype>
+									<v:shape id="_x0000_s1137" type="#_x0000_t202" style="position:absolute;left:9606;top:840;width:1530;height:900" stroked="f">
+										<v:fill opacity="0"/>
+										<v:textbox style="mso-next-textbox:#_x0000_s1137">
+											<w:txbxContent>
+												<w:p wsp:rsidR="00506CE5" wsp:rsidRPr="004121C9" wsp:rsidRDefault="00506CE5" wsp:rsidP="004121C9">
+													<w:pPr>
+														<w:jc w:val="center"/>
+														<w:rPr>
+															<w:b/>
+															<w:sz w:val="20"/>
+															<w:sz-cs w:val="20"/>
+														</w:rPr>
+													</w:pPr>
+													<w:r wsp:rsidRPr="004121C9">
+														<w:rPr>
+															<w:b/>
+															<w:sz w:val="20"/>
+															<w:sz-cs w:val="20"/>
+														</w:rPr>
+														<w:t>Tout dossier incomplet sera rejeté</w:t>
+													</w:r>
+												</w:p>
+											</w:txbxContent>
+										</v:textbox>
+									</v:shape>
+								</v:group>
+							</w:pict>
+						</w:r>
+						<w:r wsp:rsidRPr="00136C43">
+							<w:rPr>
+								<w:noProof/>
+							</w:rPr>
+							<w:pict>
+								<v:shape id="_x0000_s1026" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:453.35pt;margin-top:-65.15pt;width:85.15pt;height:108.9pt;z-index:2;mso-position-horizontal-relative:margin;mso-position-vertical-relative:margin">
+									<v:textbox style="mso-next-textbox:#_x0000_s1026">
+										<w:txbxContent>
+											<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="003C425A">
+												<w:pPr>
+													<w:jc w:val="center"/>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+												</w:pPr>
+											</w:p>
+											<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="003C425A">
+												<w:pPr>
+													<w:jc w:val="center"/>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+												</w:pPr>
+											</w:p>
+											<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="003C425A">
+												<w:pPr>
+													<w:jc w:val="center"/>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+												</w:pPr>
+											</w:p>
+											<w:p wsp:rsidR="008F756A" wsp:rsidRDefault="00EC6732" wsp:rsidP="008B7F6A">
+												<w:pPr>
+													<w:jc w:val="center"/>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+													<w:t>Photo </w:t>
+												</w:r>
+											</w:p>
+											<w:p wsp:rsidR="00EC6732" wsp:rsidRPr="003C425A" wsp:rsidRDefault="00FA2FC3" wsp:rsidP="008B7F6A">
+												<w:pPr>
+													<w:jc w:val="center"/>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+													<w:t>(ne pas coller</w:t>
+												</w:r>
+												<w:r wsp:rsidR="008F756A">
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+													<w:t> ni agrafer</w:t>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:sz w:val="20"/>
+														<w:sz-cs w:val="20"/>
+													</w:rPr>
+													<w:t>)</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</v:textbox>
+									<w10:wrap anchorx="margin" anchory="margin"/>
+								</v:shape>
+							</w:pict>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="00841AC0">
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="32"/>
+								<w:sz-cs w:val="32"/>
+								<w:u w:val="single"/>
+							</w:rPr>
+							<w:t>FICHE </w:t>
+						</w:r>
+						<w:r wsp:rsidR="00915A8C">
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="32"/>
+								<w:sz-cs w:val="32"/>
+								<w:u w:val="single"/>
+							</w:rPr>
+							<w:t>de RENOUVELLEMENT</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="0096582F" wsp:rsidRDefault="00915A8C" wsp:rsidP="0096582F">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+							</w:pBdr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="3420"/>
+								<w:tab w:val="left" w:pos="5220"/>
+							</w:tabs>
+							<w:spacing w:before="120"/>
+							<w:jc w:val="center"/>
+							<w:outlineLvl w:val="0"/>
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="28"/>
+								<w:sz-cs w:val="28"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="28"/>
+								<w:sz-cs w:val="28"/>
+							</w:rPr>
+							<w:t>A</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="00D55C54">
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="28"/>
+								<w:sz-cs w:val="28"/>
+							</w:rPr>
+							<w:t>nnée </w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F194B">
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="28"/>
+								<w:sz-cs w:val="28"/>
+							</w:rPr>
+							<w:t>${Value100}</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="00D55C54">
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="28"/>
+								<w:sz-cs w:val="28"/>
+							</w:rPr>
+							<w:t>  / </w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F194B">
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="28"/>
+								<w:sz-cs w:val="28"/>
+							</w:rPr>
+							<w:t>${Value101}</w:t>
+						</w:r>
+					</w:p>
+				</wx:pBdrGroup>
+				<w:p wsp:rsidR="00915A8C" wsp:rsidRPr="00BB5605" wsp:rsidRDefault="00915A8C" wsp:rsidP="00BB5605">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="5670"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:after="120"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:shadow/>
+							<w:sz w:val="36"/>
+							<w:sz-cs w:val="36"/>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00BB5605">
+						<w:rPr>
+							<w:shadow/>
+							<w:sz w:val="36"/>
+							<w:sz-cs w:val="36"/>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>SECTION : ${Value0}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00CC5554" wsp:rsidRPr="00123FD5" wsp:rsidRDefault="00136C43" wsp:rsidP="00CC5554">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="360"/>
+							<w:tab w:val="left" w:pos="2880"/>
+							<w:tab w:val="left" w:pos="5760"/>
+							<w:tab w:val="left" w:pos="8460"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:after="120"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00136C43">
+						<w:rPr>
+							<w:shadow/>
+							<w:noProof/>
+						</w:rPr>
+						<w:pict>
+							<v:group id="_x0000_s1141" style="position:absolute;left:0;text-align:left;margin-left:5.95pt;margin-top:1.9pt;width:414.35pt;height:68.85pt;z-index:5" coordorigin="839,2857" coordsize="8287,1377">
+								<v:group id="_x0000_s1140" style="position:absolute;left:839;top:2857;width:8287;height:1377" coordorigin="839,2857" coordsize="8287,1377">
+									<v:group id="_x0000_s1119" style="position:absolute;left:839;top:2857;width:8287;height:1377" coordorigin="839,3056" coordsize="8287,1377">
+										<v:rect id="_x0000_s1120" style="position:absolute;left:839;top:3056;width:180;height:180"/>
+										<v:rect id="_x0000_s1121" style="position:absolute;left:3366;top:3056;width:180;height:180"/>
+										<v:rect id="_x0000_s1122" style="position:absolute;left:3366;top:3441;width:180;height:180"/>
+										<v:rect id="_x0000_s1123" style="position:absolute;left:6233;top:3056;width:180;height:180"/>
+										<v:rect id="_x0000_s1124" style="position:absolute;left:6233;top:3441;width:180;height:180"/>
+										<v:rect id="_x0000_s1125" style="position:absolute;left:8946;top:3056;width:180;height:180"/>
+										<v:rect id="_x0000_s1126" style="position:absolute;left:839;top:3441;width:180;height:180"/>
+										<v:rect id="_x0000_s1127" style="position:absolute;left:8946;top:3441;width:180;height:180"/>
+										<v:rect id="_x0000_s1128" style="position:absolute;left:839;top:4253;width:180;height:180"/>
+										<v:rect id="_x0000_s1129" style="position:absolute;left:3366;top:3838;width:180;height:180"/>
+										<v:rect id="_x0000_s1130" style="position:absolute;left:6233;top:3838;width:180;height:180"/>
+										<v:rect id="_x0000_s1131" style="position:absolute;left:839;top:3838;width:180;height:180"/>
+										<v:rect id="_x0000_s1132" style="position:absolute;left:8946;top:3838;width:180;height:180"/>
+									</v:group>
+									<v:rect id="_x0000_s1133" style="position:absolute;left:3366;top:4054;width:180;height:180"/>
+									<v:rect id="_x0000_s1134" style="position:absolute;left:6233;top:4054;width:180;height:180"/>
+								</v:group>
+								<v:rect id="_x0000_s1139" style="position:absolute;left:8946;top:4054;width:180;height:180"/>
+							</v:group>
+						</w:pict>
+					</w:r>
+					<w:r wsp:rsidR="00CC5554" wsp:rsidRPr="004048B8">
+						<w:rPr>
+							<w:shadow/>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00CC5554" wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Aïki-Jutsu</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00CC5554" wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="008F756A">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Art de Longue Vie </w:t>
+					</w:r>
+					<w:r wsp:rsidR="00CC5554" wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="008F756A">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Battodo</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00CC5554" wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="008F756A">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Course à Pied</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00CC5554" wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00123FD5" wsp:rsidRDefault="00CC5554" wsp:rsidP="00CC5554">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="360"/>
+							<w:tab w:val="left" w:pos="2880"/>
+							<w:tab w:val="left" w:pos="5760"/>
+							<w:tab w:val="left" w:pos="8505"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:after="120"/>
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="008F756A">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Fitness</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="009A286C">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>GAF</w:t>
+					</w:r>
+					<w:r wsp:rsidR="004E6912">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>/</w:t>
+					</w:r>
+					<w:r wsp:rsidR="008F756A">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t> GAF Baby</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00123FD5" wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00506CE5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Judo</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00506CE5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Judo Baby</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00CC5554" wsp:rsidRPr="00123FD5" wsp:rsidRDefault="00CC5554" wsp:rsidP="00CC5554">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="360"/>
+							<w:tab w:val="left" w:pos="2880"/>
+							<w:tab w:val="left" w:pos="5760"/>
+							<w:tab w:val="left" w:pos="8505"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:after="120"/>
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="003E2F76">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00506CE5" wsp:rsidRPr="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Hip-hop</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="003E2F76">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Modern Jazz</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="003E2F76">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00915A8C">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Danse Latino</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00123FD5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00506CE5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Self Défense</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00CC5554" wsp:rsidRPr="009219EA" wsp:rsidRDefault="00CC5554" wsp:rsidP="00506CE5">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="360"/>
+							<w:tab w:val="left" w:pos="2880"/>
+							<w:tab w:val="left" w:pos="5760"/>
+							<w:tab w:val="left" w:pos="8460"/>
+						</w:tabs>
+						<w:spacing w:before="120"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:lang w:val="EN-GB"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="004048B8">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="00506CE5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Taekwondo</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00506CE5">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidRPr="004048B8">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Viet Taï Chi</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="004048B8">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="008F756A">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:t>Vo Co Truyen</w:t>
+					</w:r>
+					<w:r wsp:rsidR="008F756A">
+						<w:rPr>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+						<w:t>Yoga</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="003B386D" wsp:rsidRPr="008F756A" wsp:rsidRDefault="003B386D" wsp:rsidP="00CC5554">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="360"/>
+							<w:tab w:val="left" w:pos="2880"/>
+							<w:tab w:val="left" w:pos="5760"/>
+							<w:tab w:val="left" w:pos="8460"/>
+						</w:tabs>
+						<w:spacing w:before="80" w:line="276" w:line-rule="auto"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="4"/>
+							<w:sz-cs w:val="4"/>
+							<w:lang w:val="EN-GB"/>
+						</w:rPr>
+					</w:pPr>
+				</w:p>
+				<wx:pBdrGroup>
+					<wx:borders>
+						<wx:top wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:left wx:val="solid" wx:bdrwidth="10" wx:space="5" wx:color="auto"/>
+						<wx:bottom wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:right wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+					</wx:borders>
+					<wx:shd wx:bgcolor="D9D9D9"/>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="009219EA" wsp:rsidRDefault="004F7D78" wsp:rsidP="00915A8C">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="5" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+							</w:pBdr>
+							<w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="360"/>
+								<w:tab w:val="left" w:pos="2340"/>
+								<w:tab w:val="left" w:pos="5760"/>
+							</w:tabs>
+							<w:spacing w:line="360" w:line-rule="auto"/>
+							<w:jc w:val="center"/>
+							<w:rPr>
+								<w:sz w:val="16"/>
+								<w:sz-cs w:val="16"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="009219EA">
+							<w:rPr>
+								<w:sz w:val="16"/>
+								<w:sz-cs w:val="16"/>
+							</w:rPr>
+							<w:t>(</w:t>
+						</w:r>
+						<w:r wsp:rsidR="00506CE5">
+							<w:rPr>
+								<w:sz w:val="16"/>
+								<w:sz-cs w:val="16"/>
+							</w:rPr>
+							<w:t>cadre réservé au CSMB ; ne rien inscrire</w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="009219EA">
+							<w:rPr>
+								<w:sz w:val="16"/>
+								<w:sz-cs w:val="16"/>
+							</w:rPr>
+							<w:t>)</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="00915A8C" wsp:rsidRDefault="00136C43" wsp:rsidP="00915A8C">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="5" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+							</w:pBdr>
+							<w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="1080"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="3780"/>
+								<w:tab w:val="left" w:pos="4140"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+							</w:tabs>
+							<w:spacing w:line="360" w:line-rule="auto"/>
+							<w:jc w:val="both"/>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:noProof/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:pict>
+								<v:rect id="_x0000_s1142" style="position:absolute;left:0;text-align:left;margin-left:195pt;margin-top:1.75pt;width:9pt;height:9pt;z-index:9"/>
+							</w:pict>
+						</w:r>
+						<w:r wsp:rsidR="00915A8C">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Fédération :</w:t>
+						</w:r>
+						<w:r wsp:rsidR="00915A8C">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+						<w:r wsp:rsidR="00915A8C">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+						<w:r wsp:rsidR="00915A8C">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+						<w:r wsp:rsidR="00915A8C" wsp:rsidRPr="001D61CB">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Cotisation réglée le : </w:t>
+						</w:r>
+						<w:r wsp:rsidR="00915A8C" wsp:rsidRPr="001D61CB">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="001D61CB" wsp:rsidRDefault="00136C43" wsp:rsidP="00915A8C">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="5" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+							</w:pBdr>
+							<w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="1080"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="3780"/>
+								<w:tab w:val="left" w:pos="4140"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+							</w:tabs>
+							<w:spacing w:line="360" w:line-rule="auto"/>
+							<w:jc w:val="both"/>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r>
+							<w:rPr>
+								<w:noProof/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:pict>
+								<v:rect id="_x0000_s1045" style="position:absolute;left:0;text-align:left;margin-left:195pt;margin-top:2.25pt;width:9pt;height:9pt;z-index:6"/>
+							</w:pict>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="001D61CB">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Licence N° </w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="001D61CB">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+							<w:t>: </w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="001D61CB">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="001D61CB">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Certificat médical en date du : </w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="001D61CB" wsp:rsidRDefault="00136C43" wsp:rsidP="00915A8C">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="5" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+							</w:pBdr>
+							<w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="1080"/>
+								<w:tab w:val="left" w:pos="4140"/>
+							</w:tabs>
+							<w:spacing w:line="360" w:line-rule="auto"/>
+							<w:jc w:val="both"/>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00136C43">
+							<w:rPr>
+								<w:noProof/>
+							</w:rPr>
+							<w:pict>
+								<v:rect id="_x0000_s1046" style="position:absolute;left:0;text-align:left;margin-left:195pt;margin-top:2.1pt;width:9pt;height:9pt;z-index:7"/>
+							</w:pict>
+						</w:r>
+						<w:r wsp:rsidRPr="00136C43">
+							<w:rPr>
+								<w:noProof/>
+							</w:rPr>
+							<w:pict>
+								<v:group id="_x0000_s1049" style="position:absolute;left:0;text-align:left;margin-left:0;margin-top:1.95pt;width:9pt;height:26.25pt;z-index:1" coordorigin="720,5365" coordsize="180,525">
+									<v:rect id="_x0000_s1050" style="position:absolute;left:720;top:5365;width:180;height:180"/>
+									<v:rect id="_x0000_s1051" style="position:absolute;left:720;top:5710;width:180;height:180"/>
+								</v:group>
+							</w:pict>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>     Licence demandée</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="001D61CB">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>1 Photo d’identité </w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="0075260A" wsp:rsidRDefault="00136C43" wsp:rsidP="0075260A">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="5" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+							</w:pBdr>
+							<w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="284"/>
+								<w:tab w:val="left" w:pos="4140"/>
+							</w:tabs>
+							<w:spacing w:line="360" w:line-rule="auto"/>
+							<w:ind w:first-line="284"/>
+							<w:rPr>
+								<w:sz w:val="16"/>
+								<w:sz-cs w:val="16"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00136C43">
+							<w:rPr>
+								<w:noProof/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:pict>
+								<v:rect id="_x0000_s1047" style="position:absolute;left:0;text-align:left;margin-left:195pt;margin-top:2.05pt;width:9pt;height:9pt;z-index:8"/>
+							</w:pict>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Licence reçue</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:tab/>
+							<w:t>Pièce d</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004121C9">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>’identité</w:t>
+						</w:r>
+						<w:r wsp:rsidR="007B221C">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t> (</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004121C9">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>photocopie : CNI – Passeport – </w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Livret famille</w:t>
+						</w:r>
+						<w:r wsp:rsidR="00D27BD6">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t> – Extrait Naiss.</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>) </w:t>
+						</w:r>
+					</w:p>
+				</wx:pBdrGroup>
+				<w:p wsp:rsidR="004121C9" wsp:rsidRDefault="004F7D78" wsp:rsidP="00BB5605">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="4962"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="9072"/>
+						</w:tabs>
+						<w:spacing w:before="200"/>
+						<w:jc w:val="both"/>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00ED0AC8">
+						<w:t>NOM :${Value1}Prénom:${Value2}</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00312B01" wsp:rsidRPr="00E22D68">
+						<w:t>Sexe : ${Value3}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004121C9" wsp:rsidRDefault="004F7D78" wsp:rsidP="00BB5605">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="4962"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="9072"/>
+						</w:tabs>
+						<w:spacing w:before="120"/>
+						<w:jc w:val="both"/>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00ED0AC8">
+						<w:t>Né(e) le : ${Value4}</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00822C6F">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>à ${Value5}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00BB5605" wsp:rsidRPr="00ED0AC8" wsp:rsidRDefault="004F7D78" wsp:rsidP="00E11D7C">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="4962"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+						</w:tabs>
+						<w:spacing w:before="120"/>
+						<w:jc w:val="both"/>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00ED0AC8">
+						<w:t>Adresse* : ${Value6}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00BB5605" wsp:rsidRDefault="004F7D78" wsp:rsidP="00BB5605">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="3119"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="6521"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10632"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:after="160"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00ED0AC8">
+						<w:t>Code Postal : ${Value7}Ville : ${Value8}</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00BB5605" wsp:rsidRPr="00B16BA2">
+						<w:t>Tél. Domicile : ${Value9}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00506CE5" wsp:rsidRDefault="00506CE5" wsp:rsidP="00915A8C">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="3969"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:after="160"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00506CE5">
+						<w:t>Tél. Portable</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00D91F85">
+						<w:t> Adhérent</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00915A8C">
+						<w:t> ou responsable légal </w:t>
+					</w:r>
+					<w:r wsp:rsidR="00915A8C" wsp:rsidRPr="00915A8C">
+						<w:rPr>
+							<w:sz w:val="16"/>
+							<w:sz-cs w:val="16"/>
+						</w:rPr>
+						<w:t>(obligatoire)</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00506CE5">
+						<w:t> : ${Value10}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="00915A8C" wsp:rsidRPr="00915A8C" wsp:rsidRDefault="004F7D78" wsp:rsidP="00506CE5">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:after="160"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r>
+						<w:t>E.mail</w:t>
+					</w:r>
+					<w:r wsp:rsidR="00915A8C">
+						<w:rPr>
+							<w:sz w:val="16"/>
+							<w:sz-cs w:val="16"/>
+						</w:rPr>
+						<w:t> (obligatoire)</w:t>
+					</w:r>
+					<w:r>
+						<w:t> : ${Value11}</w:t>
+					</w:r>
+				</w:p>
+				<wx:pBdrGroup>
+					<wx:borders>
+						<wx:top wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:left wx:val="solid" wx:bdrwidth="10" wx:space="4" wx:color="auto"/>
+						<wx:bottom wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:right wx:val="solid" wx:bdrwidth="10" wx:space="4" wx:color="auto"/>
+					</wx:borders>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00BB5605" wsp:rsidRDefault="004F7D78" wsp:rsidP="0096582F">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+							</w:pBdr>
+							<w:tabs>
+								<w:tab w:val="left" w:leader="dot" w:pos="4253"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="7371"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+							</w:tabs>
+							<w:spacing w:before="80"/>
+							<w:jc w:val="both"/>
+							<w:rPr>
+								<w:i-cs/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00BB5605">
+							<w:rPr>
+								<w:i-cs/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Partie à remplir </w:t>
+						</w:r>
+						<w:r wsp:rsidR="00BB5605" wsp:rsidRPr="00BB5605">
+							<w:rPr>
+								<w:i-cs/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>obligatoirement </w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="00BB5605">
+							<w:rPr>
+								<w:i-cs/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>si l’adhérent est mineur</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="0096582F">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+							</w:pBdr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="709"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="4253"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="7371"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+							</w:tabs>
+							<w:spacing w:before="80"/>
+							<w:jc w:val="both"/>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00E749CA">
+							<w:rPr>
+								<w:u w:val="single"/>
+							</w:rPr>
+							<w:t>Père</w:t>
+						</w:r>
+						<w:r wsp:rsidR="00EB2E32">
+							<w:t> : </w:t>
+						</w:r>
+						<w:r>
+							<w:t>Nom : ${Value12} Prénom : ${Value13}</w:t>
+						</w:r>
+						<w:r>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Tel. Portable : ${Value14}</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00AB2810" wsp:rsidRDefault="004F7D78" wsp:rsidP="0096582F">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+							</w:pBdr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="709"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="4253"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="7371"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+							</w:tabs>
+							<w:spacing w:before="120" w:after="80"/>
+							<w:jc w:val="both"/>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00E749CA">
+							<w:rPr>
+								<w:u w:val="single"/>
+							</w:rPr>
+							<w:t>Mère</w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="00AB2810">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t> :</w:t>
+						</w:r>
+						<w:r>
+							<w:t>Nom : ${Value15} Prénom : ${Value16}</w:t>
+						</w:r>
+						<w:r>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>Tel. Portable</w:t>
+						</w:r>
+						<w:r>
+							<w:t> : ${Value17}</w:t>
+						</w:r>
+					</w:p>
+				</wx:pBdrGroup>
+			</wx:sub-section>
+			<wx:sub-section>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="008B7F6A" wsp:rsidRDefault="004F7D78" wsp:rsidP="0096582F">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="2160"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="7380"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+						</w:tabs>
+						<w:spacing w:before="80"/>
+						<w:jc w:val="both"/>
+						<w:outlineLvl w:val="0"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00E749CA">
+						<w:rPr>
+							<w:u w:val="single"/>
+						</w:rPr>
+						<w:t>Autres personnes à prévenir en cas d’urgence</w:t>
+					</w:r>
+					<w:r>
+						<w:t> : </w:t>
+					</w:r>
+					<w:r wsp:rsidR="00BB5605">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>(inscrire obligatoirement </w:t>
+					</w:r>
+					<w:r>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>au moins un nom si l’adhérent est majeur)</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="0096582F">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="4320"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="7380"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+						</w:tabs>
+						<w:spacing w:before="120"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r>
+						<w:t>1-Nom : ${Value18} Prénom : ${Value19}</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00AB2810">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>Tél. : ${Value20}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="0096582F">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="4320"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="7380"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+						</w:tabs>
+						<w:spacing w:before="120"/>
+						<w:jc w:val="both"/>
+					</w:pPr>
+					<w:r>
+						<w:t>2-Nom : ${Value21} Prénom : ${Value22}</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00AB2810">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>Tél. : ${Value23}</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="0096582F">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="3960"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10620"/>
+						</w:tabs>
+						<w:spacing w:before="120" w:line="360" w:line-rule="auto"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00E749CA">
+						<w:rPr>
+							<w:u w:val="single"/>
+						</w:rPr>
+						<w:t>Recommandations particulières</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00B13709">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>(santé &amp; autres)</w:t>
+					</w:r>
+					<w:r>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+				</w:p>
+				<wx:pBdrGroup>
+					<wx:borders>
+						<wx:top wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:left wx:val="solid" wx:bdrwidth="10" wx:space="4" wx:color="auto"/>
+						<wx:bottom wx:val="solid" wx:bdrwidth="10" wx:space="1" wx:color="auto"/>
+						<wx:right wx:val="solid" wx:bdrwidth="10" wx:space="4" wx:color="auto"/>
+					</wx:borders>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00AD1EB1" wsp:rsidRDefault="004F7D78" wsp:rsidP="00E749CA">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+							</w:pBdr>
+							<w:tabs>
+								<w:tab w:val="left" w:leader="dot" w:pos="5580"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+							</w:tabs>
+							<w:jc w:val="both"/>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00B261A2">
+							<w:rPr>
+								<w:u w:val="single"/>
+							</w:rPr>
+							<w:t>AUTOTISATION SPECIALE</w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="00AD1EB1">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>(</w:t>
+						</w:r>
+						<w:r>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>* </w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="009D652C">
+							<w:rPr>
+								<w:i/>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>rayer la mention inutile</w:t>
+						</w:r>
+						<w:r>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>)</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="009076F6" wsp:rsidP="00AD1EB1">
+						<w:pPr>
+							<w:pBdr>
+								<w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+								<w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="1" w:color="auto"/>
+								<w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="4" w:color="auto"/>
+							</w:pBdr>
+							<w:tabs>
+								<w:tab w:val="left" w:leader="dot" w:pos="5580"/>
+								<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+							</w:tabs>
+							<w:jc w:val="both"/>
+						</w:pPr>
+						<w:r>
+							<w:t>J’autorise /</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:t> n’autorise pas</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="00AB2810">
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+							<w:t>*</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:t> la prise de photos et/ou vidéos et leurs diffusions sur le Site </w:t>
+						</w:r>
+						<w:r wsp:rsidR="00604A79">
+							<w:t>Internet, la page Facebook </w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:t>et/ou </w:t>
+						</w:r>
+						<w:r wsp:rsidR="00604A79">
+							<w:t>l’affichage</w:t>
+						</w:r>
+						<w:r wsp:rsidR="004F7D78">
+							<w:t> du CSMB</w:t>
+						</w:r>
+						<w:r wsp:rsidR="00D27BD6">
+							<w:t>.</w:t>
+						</w:r>
+					</w:p>
+				</wx:pBdrGroup>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00E749CA" wsp:rsidRDefault="004F7D78" wsp:rsidP="00813C31">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="8280"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+						</w:tabs>
+						<w:spacing w:before="80" w:after="80"/>
+						<w:ind w:right="181"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:i/>
+							<w:i-cs/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00E749CA">
+						<w:rPr>
+							<w:i/>
+							<w:i-cs/>
+						</w:rPr>
+						<w:t>Le club informe que tout adhérent peut, s’il le souhaite, souscrire à une assurance supplémentaire au sein de la fédération de l’</w:t>
+					</w:r>
+					<w:r>
+						<w:rPr>
+							<w:i/>
+							<w:i-cs/>
+						</w:rPr>
+						<w:t>activité pratiquée</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00E749CA">
+						<w:rPr>
+							<w:i/>
+							<w:i-cs/>
+						</w:rPr>
+						<w:t> (se renseigner au secrétariat)</w:t>
+					</w:r>
+					<w:r>
+						<w:rPr>
+							<w:i/>
+							<w:i-cs/>
+						</w:rPr>
+						<w:t>.</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00BB5605" wsp:rsidRDefault="004F7D78" wsp:rsidP="009076F6">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="0"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="8280"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10632"/>
+						</w:tabs>
+						<w:spacing w:before="120"/>
+						<w:ind w:right="-12"/>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r wsp:rsidRPr="00EE7304">
+						<w:rPr>
+							<w:b/>
+							<w:b-cs/>
+							<w:u w:val="single"/>
+						</w:rPr>
+						<w:t>Règlement intérieur</w:t>
+					</w:r>
+					<w:r>
+						<w:t> (</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00BB5605">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>à </w:t>
+					</w:r>
+					<w:r wsp:rsidR="0075260A">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>consulter sur le site : csmb13.fr </w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00BB5605">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>) : </w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="009076F6">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="0"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+						</w:tabs>
+						<w:ind w:right="181"/>
+						<w:jc w:val="both"/>
+					</w:pPr>
+					<w:r>
+						<w:t>J’accepte le règlement intérieur du CSMB, dans sa totalité et m’engage à le respecter.   </w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="00EC1FCC">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:leader="dot" w:pos="3969"/>
+							<w:tab w:val="left" w:pos="5387"/>
+							<w:tab w:val="left" w:leader="dot" w:pos="10260"/>
+						</w:tabs>
+						<w:spacing w:before="160"/>
+						<w:ind w:right="181"/>
+						<w:jc w:val="both"/>
+					</w:pPr>
+					<w:r>
+						<w:t>Le</w:t>
+					</w:r>
+					<w:r wsp:rsidRPr="00CC43D3">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidRPr="00CC43D3">
+						<w:t>Signature</w:t>
+					</w:r>
+					<w:r>
+						<w:t> de l’Adhérent ou du Responsable légal:</w:t>
+					</w:r>
+				</w:p>
+				<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00DB017F" wsp:rsidRDefault="00136C43" wsp:rsidP="00CC5554">
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:val="left" w:pos="5387"/>
+						</w:tabs>
+						<w:jc w:val="both"/>
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+					</w:pPr>
+					<w:r>
+						<w:rPr>
+							<w:noProof/>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:pict>
+							<v:shape id="_x0000_s1102" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:-9.75pt;margin-top:6.15pt;width:233.25pt;height:64.5pt;z-index:3" strokecolor="#333">
+								<v:textbox style="mso-next-textbox:#_x0000_s1102">
+									<w:txbxContent>
+										<w:p wsp:rsidR="0096582F" wsp:rsidRPr="00EC1FCC" wsp:rsidRDefault="003B386D" wsp:rsidP="00EC1FCC">
+											<w:pPr>
+												<w:spacing w:before="100" w:before-autospacing="on"/>
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+											</w:pPr>
+											<w:r wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:b/>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:t>Pièce à fournir : </w:t>
+											</w:r>
+										</w:p>
+										<w:p wsp:rsidR="003B386D" wsp:rsidRPr="00EC1FCC" wsp:rsidRDefault="0096582F" wsp:rsidP="0096582F">
+											<w:pPr>
+												<w:tabs>
+													<w:tab w:val="left" w:pos="142"/>
+												</w:tabs>
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+											</w:pPr>
+											<w:r wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:tab/>
+											</w:r>
+											<w:r wsp:rsidR="003B386D" wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:t>1 Certificat médical</w:t>
+											</w:r>
+										</w:p>
+										<w:p wsp:rsidR="003B386D" wsp:rsidRPr="00EC1FCC" wsp:rsidRDefault="0096582F" wsp:rsidP="0096582F">
+											<w:pPr>
+												<w:tabs>
+													<w:tab w:val="left" w:pos="142"/>
+												</w:tabs>
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+											</w:pPr>
+											<w:r wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:tab/>
+											</w:r>
+											<w:r wsp:rsidR="003B386D" wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:t>1 photo d’identité récente (à agrafer au dossier)</w:t>
+											</w:r>
+										</w:p>
+										<w:p wsp:rsidR="0096582F" wsp:rsidRPr="00EC1FCC" wsp:rsidRDefault="0096582F" wsp:rsidP="0096582F">
+											<w:pPr>
+												<w:tabs>
+													<w:tab w:val="left" w:pos="142"/>
+												</w:tabs>
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+											</w:pPr>
+											<w:r wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:tab/>
+												<w:t>1 pièce d’identité (photocopie)</w:t>
+											</w:r>
+										</w:p>
+										<w:p wsp:rsidR="003B386D" wsp:rsidRPr="00EC1FCC" wsp:rsidRDefault="0096582F" wsp:rsidP="0096582F">
+											<w:pPr>
+												<w:tabs>
+													<w:tab w:val="left" w:pos="142"/>
+												</w:tabs>
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+											</w:pPr>
+											<w:r wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:tab/>
+											</w:r>
+											<w:r wsp:rsidR="003B386D" wsp:rsidRPr="00EC1FCC">
+												<w:rPr>
+													<w:sz w:val="20"/>
+													<w:sz-cs w:val="20"/>
+												</w:rPr>
+												<w:t>La cotisation annuelle</w:t>
+											</w:r>
+										</w:p>
+									</w:txbxContent>
+								</v:textbox>
+							</v:shape>
+						</w:pict>
+					</w:r>
+					<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="003B386D">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+							<w:lang w:val="EN-US"/>
+						</w:rPr>
+						<w:tab/>
+					</w:r>
+					<w:r wsp:rsidR="004F7D78" wsp:rsidRPr="00DB017F">
+						<w:rPr>
+							<w:sz w:val="20"/>
+							<w:sz-cs w:val="20"/>
+						</w:rPr>
+						<w:t>(Inscrire la mention « Lu et approuvé »)</w:t>
+					</w:r>
+				</w:p>
+			</wx:sub-section>
+			<w:sectPr wsp:rsidR="004F7D78" wsp:rsidRPr="00DB017F" wsp:rsidSect="009076F6">
+				<w:hdr w:type="odd">
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00D27BD6" wsp:rsidRDefault="004F7D78" wsp:rsidP="008F756A">
+						<w:pPr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="3600"/>
+							</w:tabs>
+							<w:jc w:val="center"/>
+							<w:rPr>
+								<w:sz w:val="40"/>
+								<w:sz-cs w:val="40"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00D27BD6">
+							<w:rPr>
+								<w:b/>
+								<w:b-cs/>
+								<w:sz w:val="40"/>
+								<w:sz-cs w:val="40"/>
+							</w:rPr>
+							<w:t>C.S.M.B. Omnisports</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRPr="00D27BD6" wsp:rsidRDefault="004F7D78" wsp:rsidP="008F756A">
+						<w:pPr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="3600"/>
+							</w:tabs>
+							<w:jc w:val="center"/>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00D27BD6">
+							<w:t>353 avenue de Montolivet – 13012 Marseille </w:t>
+						</w:r>
+						<w:r wsp:rsidR="002A2082">
+							<w:t>Tel : </w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="00D27BD6">
+							<w:t>04.91.06.47.69</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="004F7D78" wsp:rsidRDefault="004F7D78" wsp:rsidP="008F756A">
+						<w:pPr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="3600"/>
+							</w:tabs>
+							<w:jc w:val="center"/>
+							<w:rPr>
+								<w:sz w:val="22"/>
+								<w:sz-cs w:val="22"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="00D27BD6">
+							<w:rPr>
+								<w:sz w:val="22"/>
+								<w:sz-cs w:val="22"/>
+							</w:rPr>
+							<w:t>Association loi 1901, ag</w:t>
+						</w:r>
+						<w:r wsp:rsidR="008F756A">
+							<w:rPr>
+								<w:sz w:val="22"/>
+								<w:sz-cs w:val="22"/>
+							</w:rPr>
+							<w:t>rément jeunesse et sports n° 13S</w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="00D27BD6">
+							<w:rPr>
+								<w:sz w:val="22"/>
+								<w:sz-cs w:val="22"/>
+							</w:rPr>
+							<w:t>44 du 6.1.72</w:t>
+						</w:r>
+					</w:p>
+					<w:p wsp:rsidR="008F756A" wsp:rsidRPr="008F756A" wsp:rsidRDefault="008F756A" wsp:rsidP="008F756A">
+						<w:pPr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="4536"/>
+							</w:tabs>
+							<w:spacing w:after="80"/>
+							<w:jc w:val="center"/>
+							<w:rPr>
+								<w:sz w:val="18"/>
+								<w:sz-cs w:val="18"/>
+							</w:rPr>
+						</w:pPr>
+						<w:r wsp:rsidRPr="008F756A">
+							<w:rPr>
+								<w:sz w:val="18"/>
+								<w:sz-cs w:val="18"/>
+							</w:rPr>
+							<w:t>Site : </w:t>
+						</w:r>
+						<w:r wsp:rsidR="001F3AB8">
+							<w:rPr>
+								<w:sz w:val="18"/>
+								<w:sz-cs w:val="18"/>
+							</w:rPr>
+							<w:t>csmb13.fr</w:t>
+						</w:r>
+						<w:r wsp:rsidRPr="008F756A">
+							<w:rPr>
+								<w:sz w:val="18"/>
+								<w:sz-cs w:val="18"/>
+							</w:rPr>
+							<w:t> - www.facebook.com/omnisports.csmb - E.mail : csmb@wanadoo.fr</w:t>
+						</w:r>
+					</w:p>
+				</w:hdr>
+				<w:ftr w:type="odd">
+					<w:p wsp:rsidR="008F756A" wsp:rsidRDefault="008F756A" wsp:rsidP="00EC1FCC">
+						<w:pPr>
+							<w:tabs>
+								<w:tab w:val="left" w:pos="4536"/>
+							</w:tabs>
+							<w:jc w:val="center"/>
+							<w:rPr>
+								<w:sz w:val="20"/>
+								<w:sz-cs w:val="20"/>
+							</w:rPr>
+						</w:pPr>
+					</w:p>
+					<w:p wsp:rsidR="00EC1FCC" wsp:rsidRDefault="00EC1FCC" wsp:rsidP="00EC1FCC">
+						<w:pPr>
+							<w:pStyle w:val="Pieddepage"/>
+							<w:ind w:left="4536"/>
+						</w:pPr>
+					</w:p>
+				</w:ftr>
+				<w:pgSz w:w="11906" w:h="16838"/>
+				<w:pgMar w:top="284" w:right="566" w:bottom="426" w:left="720" w:header="256" w:footer="156" w:gutter="0"/>
+				<w:cols w:space="708"/>
+				<w:rtlGutter/>
+				<w:docGrid w:line-pitch="360"/>
+			</w:sectPr>
+		</wx:sect>
+	</w:body>
+</w:wordDocument>

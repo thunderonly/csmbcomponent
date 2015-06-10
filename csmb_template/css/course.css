@@ -1,0 +1,56 @@
+.bodycourse{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurcourse {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitescourse {
+    border: 2px solid #39AA34;empty-cells:hide;display:table-cell;
+}
+.actualitescourse H3 {
+    background: #39AA34;
+}
+
+#cadre_central .item-pagecourse H1{
+    color: #39AA34;
+    background: url("../images/elements/course.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogcourse H1{
+    color: #39AA34;
+    background: url("../images/elements/course.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewcourse H1 {
+    color: #39AA34;
+    background: url("../images/elements/course.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagecourse H2{
+    background: #39AA34;
+    background: -moz-linear-gradient(left,  #39AA34 50%, #75d370 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#39AA34), color-stop(100%,#75d370));
+    background: -webkit-linear-gradient(left,  #39AA34 50%,#75d370 100%);
+    background: -o-linear-gradient(left,  #39AA34 50%,#75d370 100%);
+    background: -ms-linear-gradient(left,  #39AA34 50%,#75d370 100%);
+    background: linear-gradient(left,  #39AA34 50%,#75d370 100%);
+}
+
+#cadre_central .blogcourse H2{
+    background: #39AA34;
+    background: -moz-linear-gradient(left,  #39AA34 70%, #75d370 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#39AA34), color-stop(100%,#75d370));
+    background: -webkit-linear-gradient(left,  #39AA34 70%,#75d370 100%);
+    background: -o-linear-gradient(left,  #39AA34 70%,#75d370 100%);
+    background: -ms-linear-gradient(left,  #39AA34 70%,#75d370 100%);
+    background: linear-gradient(left,  #39AA34 70%,#75d370 100%);
+}

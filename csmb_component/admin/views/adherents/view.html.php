@@ -21,10 +21,12 @@ class CsmbComponentViewAdherents extends JViewLegacy
     {
         ContentHelper::addSubmenu('adherent');
         // Get data from the model
+        $form = $this->get('Form');
         $items      = $this->get('Items');
         $pagination = $this->get('Pagination');
         $filterForm    = $this->get('FilterForm');
         $activeFilters = $this->get('ActiveFilters');
+        $state = $this->get('State');
 
         // Check for errors.
         if (count($errors = $this->get('Errors')))
@@ -34,14 +36,18 @@ class CsmbComponentViewAdherents extends JViewLegacy
             return false;
         }
         // Assign data to the view
+        $this->form = $form;
         $this->items      = $items;
         $this->pagination = $pagination;
         $this->filterForm      = $filterForm;
         $this->activeFilters      = $activeFilters;
+        $this->state = $state;
 
         // Set the toolbar
+        // Only set the toolbar if not modal
         $this->addToolBar();
         $this->sidebar = JHtmlSidebar::render();
+
 
         // Display the template
         parent::display($tpl);
@@ -62,7 +68,24 @@ class CsmbComponentViewAdherents extends JViewLegacy
         JToolBarHelper::custom('adherents.toValidate', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_EN_VALIDATION', true);
         JToolBarHelper::custom('adherents.validate', 'publish', 'publish', 'COM_CSMBCOMPONENT_TOOLBAR_VALIDATION', true);
         JToolBarHelper::custom('adherents.word', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_WORD', true);
+
+        $bar = JToolBar::getInstance('toolbar');
+        JHtml::_('bootstrap.modal', 'collapseModal');
+        $title = JText::_('JTOOLBAR_BATCH');
+
+        // Instantiate a new JLayoutFile instance and render the batch button
+        $layout = new JLayoutFile('joomla.toolbar.batch');
+
+        $dhtml = $layout->render(array('title' => $title));
+        $bar->appendButton('Custom', $dhtml, 'sendEmail');
+//        JToolBarHelper::custom('mails.sendEmail', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_EMAIL', true);
     }
+
+    protected function addModalToolBar() {
+
+        JToolBarHelper::custom('mails.select', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_REINIT', true);
+    }
+
     /**
      * Method to set up the document properties
      *

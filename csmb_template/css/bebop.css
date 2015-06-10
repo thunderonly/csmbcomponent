@@ -1,0 +1,56 @@
+.bodybebop{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurbebop {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesbebop {
+    border: 2px solid #A2195B;empty-cells:hide;display:table-cell;
+}
+.actualitesbebop H3 {
+    background: #A2195B;
+}
+
+#cadre_central .item-pagebebop H1{
+    color: #A2195B;
+    background: url("../images/elements/beebop.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogbebop H1{
+    color: #A2195B;
+    background: url("../images/elements/beebop.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewbebop H1 {
+    color: #A2195B;
+    background: url("../images/elements/beebop.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagebebop H2{
+    background: #A2195B;
+    background: -moz-linear-gradient(left,  #A2195B 50%, #e13f8d 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#A2195B), color-stop(100%,#e13f8d));
+    background: -webkit-linear-gradient(left,  #A2195B 50%,#e13f8d 100%);
+    background: -o-linear-gradient(left,  #A2195B 50%,#e13f8d 100%);
+    background: -ms-linear-gradient(left,  #A2195B 50%,#e13f8d 100%);
+    background: linear-gradient(left,  #A2195B 50%,#e13f8d 100%);
+}
+
+#cadre_central .blogbebop H2{
+    background: #A2195B;
+    background: -moz-linear-gradient(left,  #A2195B 70%, #e13f8d 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#A2195B), color-stop(100%,#e13f8d));
+    background: -webkit-linear-gradient(left,  #A2195B 70%,#e13f8d 100%);
+    background: -o-linear-gradient(left,  #A2195B 70%,#e13f8d 100%);
+    background: -ms-linear-gradient(left,  #A2195B 70%,#e13f8d 100%);
+    background: linear-gradient(left,  #A2195B 70%,#e13f8d 100%);
+}

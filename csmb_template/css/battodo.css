@@ -1,0 +1,56 @@
+.bodybattodo{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurbattodo {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitesbattodo {
+    border: 2px solid #F07C00;empty-cells:hide;display:table-cell;
+}
+.actualitesbattodo H3 {
+    background: #F07C00;
+}
+
+#cadre_central .item-pagebattodo H1{
+    color: #F07C00;
+    background: url("../images/elements/batto-do.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogbattodo H1{
+    color: #F07C00;
+    background: url("../images/elements/batto-do.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewbattodo H1 {
+    color: #F07C00;
+    background: url("../images/elements/batto-do.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagebattodo H2{
+    background: #F07C00;
+    background: -moz-linear-gradient(left,  #F07C00 50%, #ffad58 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#F07C00), color-stop(100%,#ffad58));
+    background: -webkit-linear-gradient(left,  #F07C00 50%,#ffad58 100%);
+    background: -o-linear-gradient(left,  #F07C00 50%,#ffad58 100%);
+    background: -ms-linear-gradient(left,  #F07C00 50%,#ffad58 100%);
+    background: linear-gradient(left,  #F07C00 50%,#ffad58 100%);
+}
+
+#cadre_central .blogbattodo H2{
+    background: #F07C00;
+    background: -moz-linear-gradient(left,  #F07C00 70%, #ffad58 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#F07C00), color-stop(100%,#ffad58));
+    background: -webkit-linear-gradient(left,  #F07C00 70%,#ffad58 100%);
+    background: -o-linear-gradient(left,  #F07C00 70%,#ffad58 100%);
+    background: -ms-linear-gradient(left,  #F07C00 70%,#ffad58 100%);
+    background: linear-gradient(left,  #F07C00 70%,#ffad58 100%);
+}

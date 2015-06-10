@@ -1,0 +1,56 @@
+.bodytaekwondo{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurtaekwondo {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitestaekwondo {
+    border: 2px solid #EA5B0C;empty-cells:hide;display:table-cell;
+}
+.actualitestaekwondo H3 {
+    background: #EA5B0C;
+}
+
+#cadre_central .item-pagetaekwondo H1{
+    color: #EA5B0C;
+    background: url("../images/elements/taekwondo.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogtaekwondo H1{
+    color: #EA5B0C;
+    background: url("../images/elements/taekwondo.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewtaekwondo H1 {
+    color: #EA5B0C;
+    background: url("../images/elements/taekwondo.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagetaekwondo H2{
+    background: #EA5B0C;
+    background: -moz-linear-gradient(left,  #EA5B0C 50%, #f79965 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#EA5B0C), color-stop(100%,#f79965));
+    background: -webkit-linear-gradient(left,  #EA5B0C 50%,#f79965 100%);
+    background: -o-linear-gradient(left,  #EA5B0C 50%,#f79965 100%);
+    background: -ms-linear-gradient(left,  #EA5B0C 50%,#f79965 100%);
+    background: linear-gradient(left,  #EA5B0C 50%,#f79965 100%);
+}
+
+#cadre_central .blogtaekwondo H2{
+    background: #EA5B0C;
+    background: -moz-linear-gradient(left,  #EA5B0C 70%, #f79965 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#EA5B0C), color-stop(100%,#f79965));
+    background: -webkit-linear-gradient(left,  #EA5B0C 70%,#f79965 100%);
+    background: -o-linear-gradient(left,  #EA5B0C 70%,#f79965 100%);
+    background: -ms-linear-gradient(left,  #EA5B0C 70%,#f79965 100%);
+    background: linear-gradient(left,  #EA5B0C 70%,#f79965 100%);
+}

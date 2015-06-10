@@ -3,7 +3,7 @@
 }
 
 .actualitespresentation_club {
-    border: 2px solid #ff8e0e;
+    border: 2px solid #ff8e0e;empty-cells:hide;display:table-cell;  
 }
 
 .actualitespresentation_club H3 {
@@ -36,4 +36,33 @@
     background: -o-linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
     background: -ms-linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
     background: linear-gradient(left,  #ff8e0e 50%,#ffd29f 100%);
+}
+
+#table-tarif {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#table-tarif th {
+    background: #ff8e0e;
+    color: #FFFFFF;
+    border: 1px solid black;
+}
+#table-tarif td {
+    border: 1px solid black;
+}
+
+#table-horaires {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#table-horaires th {
+    background: #ff8e0e;
+    color: #FFFFFF;
+    border: 1px solid black;
+}
+#table-horaires td {
+    border: 1px solid black;
+    vertical-align: top;
 }

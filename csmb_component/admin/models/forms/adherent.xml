@@ -47,14 +47,24 @@
             <option value="Féminin">Féminin</option>
         </field>
         <field
-                name="age"
+                name="date_naissance"
                 type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_AGE_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_AGE_DESC"
+                label="COM_CSMBCOMPONENT_ADHERENT_DATE_NAISSANCE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_DATE_NAISSANCE_DESC"
                 size="40"
                 class="inputbox"
                 default=""
                 />
+
+            <field
+                    name="ville_naissance"
+                    type="text"
+                    label="COM_CSMBCOMPONENT_ADHERENT_VILLE_NAISSANCE_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_VILLE_NAISSANCE_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    />
         <field
                 name="adresse"
                 type="text"
@@ -114,16 +124,65 @@
                 type="hidden"
                 />
     </fieldset>
+        <fieldset name="pere" label="COM_CSMBCOMPONENT_ADHERENT_PERE_LABEL">
+                <field
+                        name="pere_nom"
+                        type="text"
+                        label="COM_CSMBCOMPONENT_ADHERENT_PERE_NOM_LABEL"
+                        description="COM_CSMBCOMPONENT_ADHERENT_PERE_NOM_DESC"
+                        size="40"
+                        class="inputbox"
+                        default=""
+                        />
+                <field
+                        name="pere_prenom"
+                        type="text"
+                        label="COM_CSMBCOMPONENT_ADHERENT_PERE_PRENOM_LABEL"
+                        description="COM_CSMBCOMPONENT_ADHERENT_PERE_PRENOM_DESC"
+                        size="40"
+                        class="inputbox"
+                        default=""
+                        />
+                <field
+                        name="pere_telephoneportable"
+                        type="text"
+                        label="COM_CSMBCOMPONENT_ADHERENT_PERE_TELEPHONEPORTABLE_LABEL"
+                        description="COM_CSMBCOMPONENT_ADHERENT_PERE_TELEPHONEPORTABLE_DESC"
+                        size="40"
+                        class="inputbox"
+                        default=""
+                        />
+        </fieldset>
+        <fieldset name="mere" label="COM_CSMBCOMPONENT_ADHERENT_MERE_LABEL">
+                <field
+                        name="mere_nom"
+                        type="text"
+                        label="COM_CSMBCOMPONENT_ADHERENT_MERE_NOM_LABEL"
+                        description="COM_CSMBCOMPONENT_ADHERENT_MERE_NOM_DESC"
+                        size="40"
+                        class="inputbox"
+                        default=""
+                        />
+                <field
+                        name="mere_prenom"
+                        type="text"
+                        label="COM_CSMBCOMPONENT_ADHERENT_MERE_PRENOM_LABEL"
+                        description="COM_CSMBCOMPONENT_ADHERENT_MERE_PRENOM_DESC"
+                        size="40"
+                        class="inputbox"
+                        default=""
+                        />
+                <field
+                        name="mere_telephoneportable"
+                        type="text"
+                        label="COM_CSMBCOMPONENT_ADHERENT_MERE_TELEPHONEPORTABLE_LABEL"
+                        description="COM_CSMBCOMPONENT_ADHERENT_MERE_TELEPHONEPORTABLE_DESC"
+                        size="40"
+                        class="inputbox"
+                        default=""
+                        />
+        </fieldset>
     <fieldset name="responsable1" label="COM_CSMBCOMPONENT_ADHERENT_RESPONSABLE1_LABEL">
-        <field
-                name="responsable1_fonction"
-                type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_FONCTION_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_FONCTION_DESC"
-                size="40"
-                class="inputbox"
-                default=""
-                />
         <field
                 name="responsable1_nom"
                 type="text"
@@ -143,28 +202,10 @@
                 default=""
                 />
         <field
-                name="responsable1_telephonefixe"
+                name="responsable1_telephone"
                 type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEFIXE_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEFIXE_DESC"
-                size="40"
-                class="inputbox"
-                default=""
-                />
-        <field
-                name="responsable1_telephoneportable"
-                type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEPORTABLE_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONEPORTABLE_DESC"
-                size="40"
-                class="inputbox"
-                default=""
-                />
-        <field
-                name="responsable1_email"
-                type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_EMAIL_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_EMAIL_DESC"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP1_TELEPHONE_DESC"
                 size="40"
                 class="inputbox"
                 default=""
@@ -172,15 +213,6 @@
     </fieldset>
 
     <fieldset name="responsable2" label="COM_CSMBCOMPONENT_ADHERENT_RESPONSABLE2_LABEL">
-        <field
-                name="responsable2_fonction"
-                type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_FONCTION_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_FONCTION_DESC"
-                size="40"
-                class="inputbox"
-                default=""
-                />
         <field
                 name="responsable2_nom"
                 type="text"
@@ -200,28 +232,10 @@
                 default=""
                 />
         <field
-                name="responsable2_telephonefixe"
+                name="responsable2_telephone"
                 type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEFIXE_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEFIXE_DESC"
-                size="40"
-                class="inputbox"
-                default=""
-                />
-        <field
-                name="responsable2_telephoneportable"
-                type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEPORTABLE_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONEPORTABLE_DESC"
-                size="40"
-                class="inputbox"
-                default=""
-                />
-        <field
-                name="responsable2_email"
-                type="text"
-                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_EMAIL_LABEL"
-                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_EMAIL_DESC"
+                label="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONE_LABEL"
+                description="COM_CSMBCOMPONENT_ADHERENT_RESP2_TELEPHONE_DESC"
                 size="40"
                 class="inputbox"
                 default=""
@@ -278,6 +292,15 @@
                     />
     </fieldset>
     <fieldset name="licence" label="COM_CSMBCOMPONENT_ADHERENT_LICENCE_LABEL">
+            <field
+                    name="saison"
+                    type="text"
+                    label="COM_CSMBCOMPONENT_ADHERENT_SAISON_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_SAISON_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    />
         <field
                 name="licence"
                 type="text"

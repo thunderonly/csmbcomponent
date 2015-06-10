@@ -2,8 +2,19 @@
 @import url("judo.css");
 @import url("general.css");
 @import url("modernjazz.css");
-@import url("meditation.css");
+@import url("alv.css");
 @import url("gymnastique.css");
+@import url("aikijutsu.css");
+@import url("fitness.css");
+@import url("hiphop.css");
+@import url("taekwondo.css");
+@import url("viettaichi.css");
+@import url("battodo.css");
+@import url("bebop.css");
+@import url("course.css");
+@import url("self.css");
+@import url("football.css");
+@import url("cyclisme.css");
 
 html{margin:0px; padding: 0px}
 body{
@@ -58,8 +69,17 @@ body{
     text-align: center;
     font-size:1.8em;
 }
+
 #actualites a {
     color: black;
+}
+
+div#sous-actualites:empty{
+    display:none
+}
+
+div#sous-actualites{
+    empty-cells:hide;
 }
 
 #sous-actualites {
@@ -80,7 +100,12 @@ body{
 }
 
 div#actualites:empty{
-    display:none
+    display:none;
+  empty-cells:hide;display:table-cell;
+}
+
+div#actualites{
+  empty-cells:hide;
 }
 
 #actualites .newsitems {

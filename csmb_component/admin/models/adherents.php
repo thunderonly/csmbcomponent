@@ -50,9 +50,9 @@ class CsmbComponentModelAdherents extends JModelList
         $query = $db->getQuery(true);
         // Select some fields from the hello table
         $query
-            ->select('a.id, a.nom, a.prenom, a.sexe, a.age, a.adresse, a.codepostal, a.ville, a.telephonefixe, a.telephoneportable, a.email,'.
-                'a.responsable1_fonction, a.responsable1_nom, a.responsable1_prenom, a.responsable1_telephonefixe, a.responsable1_telephoneportable, a.responsable1_email,'.
-                'a.responsable2_fonction, a.responsable2_nom, a.responsable2_prenom, a.responsable2_telephonefixe, a.responsable2_telephoneportable, a.responsable2_email,'.
+            ->select('a.id, a.saison, a.nom, a.prenom, a.sexe, a.date_naissance, a.ville_naissance, a.adresse, a.codepostal, a.ville, a.telephonefixe, a.telephoneportable, a.email,'.
+                'a.pere_nom, a.pere_prenom, a.pere_telephoneportable, a.mere_nom, a.mere_prenom, a.mere_telephoneportable,'.
+                'a.responsable1_nom, a.responsable1_prenom, a.responsable1_telephone, a.responsable2_nom, a.responsable2_prenom, a.responsable2_telephone,'.
                 'a.enveloppes, a.photos, a.identite, a.reglement, a.certificat, a.licence, a.datedemandelicence, a.datereceptionlicence,'.
                 'a.etat, a.sectionid')
             ->from('#__csmbadherents AS a');

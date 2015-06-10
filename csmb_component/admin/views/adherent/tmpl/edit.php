@@ -25,6 +25,8 @@ JHtml::_('behavior.tooltip');
 <!--                        <div class="controls">--><?php //echo $field->input; ?><!--</div>-->
 <!--                    </div>-->
 <!--                --><?php //endforeach; ?>
+                <?php echo $this->loadTemplate('pere'); ?>
+                <?php echo $this->loadTemplate('mere'); ?>
                 <?php echo $this->loadTemplate('responsable1'); ?>
                 <?php echo $this->loadTemplate('responsable2'); ?>
             </div>

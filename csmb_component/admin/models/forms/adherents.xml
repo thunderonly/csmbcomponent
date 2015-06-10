@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="mailadherent" label="Test">
+        <field
+                name="id"
+                type="hidden"
+                />
+        <field
+                name="sujet"
+                type="text"
+                label="COM_MESSAGES_FIELD_SUBJECT_LABEL"
+                description="COM_MESSAGES_FIELD_SUBJECT_DESC"
+                required="true" />
+
+        <field
+                name="message"
+                type="editor"
+                label="COM_MESSAGES_FIELD_MESSAGE_LABEL"
+                description="COM_MESSAGES_FIELD_MESSAGE_DESC"
+                required="true"
+                filter="JComponentHelper::filterText"
+                buttons="true"
+                hide="readmore,pagebreak,image,article" />
+    </fieldset>
+</form>

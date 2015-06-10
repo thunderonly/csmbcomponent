@@ -1,0 +1,56 @@
+.bodycyclisme{
+    background: url("../images/bg_papier.jpg") repeat;
+}
+
+.cadre_exterieurcyclisme {
+    width : 100%;
+    margin-top : 20px;
+}
+
+.actualitescyclisme {
+    border: 2px solid #AAAA00;empty-cells:hide;display:table-cell;
+}
+.actualitescyclisme H3 {
+    background: #AAAA00;
+}
+
+#cadre_central .item-pagecyclisme H1{
+    color: #AAAA00;
+    background: url("../images/elements/cyclisme.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .blogcyclisme H1{
+    color: #AAAA00;
+    background: url("../images/elements/cyclisme.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .pg-category-viewcyclisme H1 {
+    color: #AAAA00;
+    background: url("../images/elements/cyclisme.png") no-repeat bottom;
+    background-size: 100px 100px;
+    height: 150px;
+}
+
+#cadre_central .item-pagecyclisme H2{
+    background: #AAAA00;
+    background: -moz-linear-gradient(left,  #AAAA00 50%, #ffff12 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(50%,#AAAA00), color-stop(100%,#ffff12));
+    background: -webkit-linear-gradient(left,  #AAAA00 50%,#ffff12 100%);
+    background: -o-linear-gradient(left,  #AAAA00 50%,#ffff12 100%);
+    background: -ms-linear-gradient(left,  #AAAA00 50%,#ffff12 100%);
+    background: linear-gradient(left,  #AAAA00 50%,#ffff12 100%);
+}
+
+#cadre_central .blogcyclisme H2{
+    background: #AAAA00;
+    background: -moz-linear-gradient(left,  #AAAA00 70%, #ffff12 100%);
+    background: -webkit-gradient(linear, left left, left right, color-stop(70%,#AAAA00), color-stop(100%,#ffff12));
+    background: -webkit-linear-gradient(left,  #AAAA00 70%,#ffff12 100%);
+    background: -o-linear-gradient(left,  #AAAA00 70%,#ffff12 100%);
+    background: -ms-linear-gradient(left,  #AAAA00 70%,#ffff12 100%);
+    background: linear-gradient(left,  #AAAA00 70%,#ffff12 100%);
+}
