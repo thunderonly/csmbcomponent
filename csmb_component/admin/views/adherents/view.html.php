@@ -71,14 +71,19 @@ class CsmbComponentViewAdherents extends JViewLegacy
 
         $bar = JToolBar::getInstance('toolbar');
         JHtml::_('bootstrap.modal', 'collapseModal');
-        $title = JText::_('JTOOLBAR_BATCH');
+        $title = JText::_('JTOOLBAR_SEND_MAIL');
 
         // Instantiate a new JLayoutFile instance and render the batch button
         $layout = new JLayoutFile('joomla.toolbar.batch');
 
         $dhtml = $layout->render(array('title' => $title));
         $bar->appendButton('Custom', $dhtml, 'sendEmail');
-//        JToolBarHelper::custom('mails.sendEmail', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_EMAIL', true);
+
+        $title2 = JText::_('JTOOLBAR_WORD');
+        $layout2 = new JLayoutFile('word', 'components/com_csmbcomponent/layout/');
+
+        $dhtml2 = $layout2->render(array('title' => $title2));
+        $bar->appendButton('Custom', $dhtml2, 'word');
     }
 
     protected function addModalToolBar() {

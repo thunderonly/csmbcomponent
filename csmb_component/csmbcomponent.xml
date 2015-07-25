@@ -35,15 +35,19 @@
     <administration>
         <menu>COM_CSMBCOMPONENT_ADMIN_MENU</menu>
         <files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
             <filename>index.html</filename>
             <filename>csmbcomponent.php</filename>
             <filename>controller.php</filename>
             <filename>template.xml</filename>
+            <filename>FicheRenouvellement.xml</filename>
             <folder>sql</folder>
             <folder>tables</folder>
             <folder>models</folder>
             <folder>views</folder>
             <folder>language</folder>
+            <folder>layout</folder>
             <!-- controllers files section -->
             <folder>controllers</folder>
             <folder>helpers</folder>

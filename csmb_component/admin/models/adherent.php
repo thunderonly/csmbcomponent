@@ -127,7 +127,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
         return true;
     }
 
-    public function word(&$pks) {
+    public function word(&$pks, $saison) {
 
         $pks = (array) $pks;
         $table = $this->getTable();
@@ -147,8 +147,8 @@ class CsmbComponentModelAdherent extends JModelAdmin
 
             if ($table->load($pk) && ($table->etat != "Renouveler")) {
                 $sect = $sectTemplate;
-                $sect = str_replace('${Value100}', $table->saison, $sect);
-                $sect = str_replace('${Value101}', $table->saison + 1, $sect);
+                $sect = str_replace('${Value100}', $saison, $sect);
+                $sect = str_replace('${Value101}', $saison + 1, $sect);
                 $sect = str_replace('${Value0}', $this->getSection($table->sectionid), $sect);
                 $sect = str_replace('${Value1}', $this->formatData($table->nom, 50), $sect);
                 $sect = str_replace('${Value2}', $this->formatData($table->prenom, 50), $sect);
@@ -182,6 +182,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
                     $document .= '<w:p wsp:rsidR="00475ACF" wsp:rsidRDefault="00475ACF" wsp:rsidP="00475ACF"><w:r><w:br w:type="page"/></w:r></w:p>';
                 }
                 $index = $index + 1;
+                $table->saison = $saison;
                 if (!$table->store()) {
                     $this->setError($table->getError());
                     return false;

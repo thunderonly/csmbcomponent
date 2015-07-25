@@ -127,6 +127,7 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
 
         // Get items to remove from the request.
         $cid = JFactory::getApplication()->input->get('cid', array(), 'array');
+        $vars = $this->input->post->get('word', array(), 'array');
 
         if (!is_array($cid) || count($cid) < 1)
         {
@@ -136,7 +137,7 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
         {
             JArrayHelper::toInteger($cid);
             $model = $this->getModel();
-            if ($model->word($cid)) {
+            if ($model->word($cid, $vars['saison'])) {
                 $message = JText::plural($this->text_prefix . '_GENERATE_WORD', count($cid));
                 $message .= "<br>".JHtml::_('contentadministrator.link_download');
                 $this->setMessage($message);
