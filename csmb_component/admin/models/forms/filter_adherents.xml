@@ -17,6 +17,16 @@
                 >
             <option value="">COM_CSMBCOMPONENT_ADHERENT_SELECT_SECTION</option>
         </field>
+
+        <field
+                name="saison"
+                type="saison"
+                label="Search_Name"
+                description="Search_Name"
+                onchange="this.form.submit();"
+                >
+            <option value="">COM_CSMBCOMPONENT_ADHERENT_SELECT_SAISON</option>
+        </field>
     </fields>
 
     <fields name="list">

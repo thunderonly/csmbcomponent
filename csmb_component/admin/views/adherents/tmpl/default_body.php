@@ -61,5 +61,8 @@ JHtml::_('formbehavior.chosen', 'select');
         <td>
             <?php echo $item->libelle_section; ?>
         </td>
+        <td>
+            <?php echo $item->saison; ?>
+        </td>
     </tr>
 <?php endforeach; ?>

@@ -51,4 +51,7 @@ defined('_JEXEC') or die('Restricted Access');
     <th class="nowrap">
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_SECTION'); ?>
     </th>
+    <th class="nowrap">
+        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_SAISON'); ?>
+    </th>
 </tr>

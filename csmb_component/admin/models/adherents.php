@@ -54,19 +54,26 @@ class CsmbComponentModelAdherents extends JModelList
                 'a.pere_nom, a.pere_prenom, a.pere_telephoneportable, a.mere_nom, a.mere_prenom, a.mere_telephoneportable,'.
                 'a.responsable1_nom, a.responsable1_prenom, a.responsable1_telephone, a.responsable2_nom, a.responsable2_prenom, a.responsable2_telephone,'.
                 'a.enveloppes, a.photos, a.identite, a.reglement, a.certificat, a.licence, a.datedemandelicence, a.datereceptionlicence,'.
-                'a.etat, a.sectionid')
+                'a.etat, a.sectionid, a.saison')
             ->from('#__csmbadherents AS a');
 
         $query->select('s.libelle AS libelle_section')
             ->join('INNER', '#__csmbsections AS s on a.sectionid = s.id');
 
+
         // Filter by country
         $section = $this->getState('filter.section');
+        $saison = $this->getState('filter.saison');
         $search = $this->getState('filter.search');
 
         if (!empty($section))
         {
             $query->where('a.sectionid = "' .  $section . '"');
+        }
+
+        if (!empty($saison))
+        {
+            $query->where('a.saison = "' .  $saison . '"');
         }
 
         if (!empty($search))
