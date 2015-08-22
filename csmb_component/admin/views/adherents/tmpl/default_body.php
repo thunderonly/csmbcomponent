@@ -29,7 +29,8 @@ JHtml::_('formbehavior.chosen', 'select');
             </div>
         </td>
         <td>
-            <?php echo $item->nom; ?>
+            <a href="<?php echo JRoute::_('index.php?option=com_csmbcomponent&view=adherent&layout=edit&id=' . $item->id); ?>" title="<?php echo JText::_('JACTION_EDIT'); ?>">
+                <?php echo $this->escape($item->nom); ?></a>
         </td>
         <td>
             <?php echo $item->prenom; ?>
