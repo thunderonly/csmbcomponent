@@ -7,7 +7,37 @@
  */
 // No direct access to this file
 defined('_JEXEC') or die('Restricted Access');
+
+$app		= JFactory::getApplication();
+$user		= JFactory::getUser();
+$userId		= $user->get('id');
+$listOrder	= $this->escape($this->state->get('list.ordering'));
+$listDirn	= $this->escape($this->state->get('list.direction'));
+$archived	= $this->state->get('filter.published') == 2 ? true : false;
+$trashed	= $this->state->get('filter.published') == -2 ? true : false;
+$saveOrder	= $listOrder == 'a.ordering';
+
+
+$sortFields = $this->getSortFields();
+$assoc		= JLanguageAssociations::isEnabled();
 ?>
+<script type="text/javascript">
+    Joomla.orderTable = function()
+    {
+        table = document.getElementById("sortTable");
+        direction = document.getElementById("directionTable");
+        order = table.options[table.selectedIndex].value;
+        if (order != '<?php echo $listOrder; ?>')
+        {
+            dirn = 'asc';
+        }
+        else
+        {
+            dirn = direction.options[direction.selectedIndex].value;
+        }
+        Joomla.tableOrdering(order, dirn, '');
+    }
+</script>
 <tr>
     <th width="5" class="nowrap">
         <?php echo JHtml::_('grid.checkall'); ?>
@@ -19,7 +49,7 @@ defined('_JEXEC') or die('Restricted Access');
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_ETAT'); ?>
     </th>
     <th class="nowrap">
-        <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_NOM'); ?>
+        <?php echo JHtml::_('searchtools.sort', 'COM_CSMBCOMPONENT_ADHERENT_HEADING_NOM', 'a.nom', $listDirn, $listOrder); ?>
     </th>
     <th class="nowrap">
         <?php echo JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_PRENOM'); ?>

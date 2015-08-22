@@ -101,4 +101,18 @@ class CsmbComponentViewAdherents extends JViewLegacy
         $document = JFactory::getDocument();
         $document->setTitle(JText::_('COM_CSMBCOMPONENT_ADMINISTRATION_ADHERENT'));
     }
+
+    /**
+     * Returns an array of fields the table can be sorted by
+     *
+     * @return  array  Array containing the field name to sort by as the key and display text as value
+     *
+     * @since   3.0
+     */
+    protected function getSortFields()
+    {
+        return array(
+            'a.nom'     => JText::_('COM_CSMBCOMPONENT_ADHERENT_HEADING_NOM'),
+        );
+    }
 }

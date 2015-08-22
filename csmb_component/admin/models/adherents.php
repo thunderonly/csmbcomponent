@@ -35,7 +35,7 @@ class CsmbComponentModelAdherents extends JModelList
         // Other code goes here
 
         // List state information.
-        parent::populateState('a.id', 'asc');
+        parent::populateState('a.nom', 'asc');
     }
 
     /**
@@ -80,6 +80,12 @@ class CsmbComponentModelAdherents extends JModelList
         {
             $query->where('a.nom LIKE "' .  $search . '" OR a.prenom LIKE "' . $search . '"');
         }
+
+        // Add the list ordering clause.
+        $orderCol = $this->state->get('list.ordering', 'a.nom');
+        $orderDirn = $this->state->get('list.direction', 'asc');
+
+        $query->order($db->escape($orderCol . ' ' . $orderDirn));
 
         return $query;
     }
