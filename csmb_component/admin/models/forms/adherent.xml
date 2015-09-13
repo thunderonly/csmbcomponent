@@ -279,6 +279,7 @@
                     description="COM_CSMBCOMPONENT_ADHERENT_REGLEMENT_DESC"
                     size="40"
                     class="inputbox"
+                    format="%d-%m-%Y"
                     default=""
                     />
             <field
@@ -288,6 +289,7 @@
                     description="COM_CSMBCOMPONENT_ADHERENT_CERTIFICAT_DESC"
                     size="40"
                     class="inputbox"
+                    format="%d-%m-%Y"
                     default=""
                     />
     </fieldset>
@@ -335,6 +337,7 @@
                 description="COM_CSMBCOMPONENT_ADHERENT_DATEDEMANDELICENCE_DESC"
                 size="40"
                 class="inputbox"
+                format="%d-%m-%Y"
                 default=""
                 />
         <field
@@ -344,6 +347,7 @@
                 description="COM_CSMBCOMPONENT_ADHERENT_DATERECEPTIONLICENCE_DESC"
                 size="40"
                 class="inputbox"
+                format="%d-%m-%Y"
                 default=""
                 />
     </fieldset>

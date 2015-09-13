@@ -38,4 +38,12 @@ abstract class JHtmlContentAdministrator {
         $html	= '<a href="components/com_csmbcomponent/fiche_renouvellement.xml" download="fiche_renouvellement.xml">Télécharger le document</a>';
         return $html;
     }
+
+    public static function link_download_attestation() {
+
+        JHtml::_('bootstrap.tooltip');
+
+        $html	= '<a href="components/com_csmbcomponent/attestation_generee.xml" download="attestation_generee.xml">Télécharger le document</a>';
+        return $html;
+    }
 }

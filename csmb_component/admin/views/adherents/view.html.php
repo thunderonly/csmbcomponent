@@ -98,6 +98,11 @@ class CsmbComponentViewAdherents extends JViewLegacy
 
         $dhtml2 = $layout2->render(array('title' => $title2));
         $bar->appendButton('Custom', $dhtml2, 'saison');
+
+        $titleAttestation = JText::_('JTOOLBAR_ATTESTATION');
+        $layoutAttestation = new JLayoutFile('attestation', 'components/com_csmbcomponent/layout/');
+        $dhtmlAttestation = $layoutAttestation->render(array('title' => $titleAttestation));
+        $bar->appendButton('Custom', $dhtmlAttestation, 'attestation');
     }
 
     protected function addModalToolBar() {

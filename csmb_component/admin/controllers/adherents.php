@@ -121,6 +121,36 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
         $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
     }
 
+    public function word() {
+        // Check for request forgeries
+        JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
+
+        // Get items to remove from the request.
+        $cid = JFactory::getApplication()->input->get('cid', array(), 'array');
+        $vars = $this->input->post->get('word', array(), 'array');
+
+        if (!is_array($cid) || count($cid) < 1)
+        {
+            JLog::add(JText::_($this->text_prefix . '_NO_ITEM_SELECTED'), JLog::WARNING, 'jerror');
+        }
+        else
+        {
+            JArrayHelper::toInteger($cid);
+            $model = $this->getModel();
+            if ($model->word($cid, $vars['saison'])) {
+                $message = JText::plural($this->text_prefix . '_GENERATE_WORD', count($cid));
+                $message .= "<br>".JHtml::_('contentadministrator.link_download');
+                $this->setMessage($message);
+            } else {
+                $this->setMessage($model->getError(), 'error');
+            }
+        }
+        // Invoke the postDelete method to allow for the child class to access the model.
+        $this->postDeleteHook($model, $cid);
+
+        $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
+    }
+
     public function saison() {
         // Check for request forgeries
         JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
@@ -168,6 +198,36 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
             $model = $this->getModel();
             if ($model->sendEmail($cid, $vars['sujet'], $vars['message'])) {
                 $message = JText::plural($this->text_prefix . '_MESSAGE_SENT', count($cid));
+                $this->setMessage($message);
+            } else {
+                $this->setMessage($model->getError(), 'error');
+            }
+        }
+        // Invoke the postDelete method to allow for the child class to access the model.
+        $this->postDeleteHook($model, $cid);
+
+        $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
+    }
+
+    public function attestation() {
+        // Check for request forgeries
+        JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
+
+        // Get items to remove from the request.
+        $cid = JFactory::getApplication()->input->get('cid', array(), 'array');
+        $vars = $this->input->post->get('attestation', array(), 'array');
+
+        if (!is_array($cid) || count($cid) < 1)
+        {
+            JLog::add(JText::_($this->text_prefix . '_NO_ITEM_SELECTED'), JLog::WARNING, 'jerror');
+        }
+        else
+        {
+            JArrayHelper::toInteger($cid);
+            $model = $this->getModel();
+            if ($model->attestation($cid, $vars)) {
+                $message = JText::plural($this->text_prefix . '_GENERATE_ATTESTATION', count($cid));
+                $message .= "<br>".JHtml::_('contentadministrator.link_download_attestation');
                 $this->setMessage($message);
             } else {
                 $this->setMessage($model->getError(), 'error');
