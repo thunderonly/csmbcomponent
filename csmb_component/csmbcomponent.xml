@@ -2,13 +2,13 @@
 <extension type="component" version="3.3" method="upgrade">
 
     <name>COM_CSMBCOMPONENT</name>
-    <creationDate>Janvier 2015</creationDate>
+    <creationDate>Septembre 2015</creationDate>
     <author>Gael HENRY</author>
     <authorEmail>thunderonly@gmail.com</authorEmail>
     <authorUrl>www.csmb13.fr</authorUrl>
     <copyright>libre</copyright>
     <licence>libre</licence>
-    <version>0.0.1</version>
+    <version>1.0.1</version>
     <description>Permet la gestion des adhérents du club</description>
     <install>
         <sql>

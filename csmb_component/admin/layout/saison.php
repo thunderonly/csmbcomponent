@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 $title = $displayData['title'];
 
 ?>
-<button data-toggle="modal" data-target="#collapseModal-Word" class="btn btn-small">
+<button data-toggle="modal" data-target="#collapseModal-Saison" class="btn btn-small">
 	<i class="icon-checkbox-partial" title="<?php echo $title; ?>"></i>
 	<?php echo $title; ?>
 </button>

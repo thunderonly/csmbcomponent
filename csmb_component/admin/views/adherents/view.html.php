@@ -60,13 +60,27 @@ class CsmbComponentViewAdherents extends JViewLegacy
      */
     protected function addToolBar()
     {
+//        $user	= JFactory::getUser();
+//        $user->authorise('core.edit', 'com_csmbcomponent')
+        $canDo = JHelperContent::getActions('com_csmbcomponent', 'adherent');;
+        $canDelete = $canDo->get('core.delete');
+        $canCreate = $canDo->get('core.create');
+        $canEdit = $canDo->get('core.edit');
+
         JToolBarHelper::title(JText::_('COM_CSMBCOMPONENT_MANAGER_ADHERENT'));
-        JToolBarHelper::deleteList('', 'adherents.delete');
-        JToolBarHelper::editList('adherent.edit');
-        JToolBarHelper::addNew('adherent.add');
-        JToolBarHelper::custom('adherents.reinit', 'unpublish', 'unpublish', 'COM_CSMBCOMPONENT_TOOLBAR_REINIT', true);
-        JToolBarHelper::custom('adherents.toValidate', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_EN_VALIDATION', true);
-        JToolBarHelper::custom('adherents.validate', 'publish', 'publish', 'COM_CSMBCOMPONENT_TOOLBAR_VALIDATION', true);
+        if ($canDelete) {
+            JToolBarHelper::deleteList('', 'adherents.delete');
+        }
+        if ($canCreate) {
+            JToolBarHelper::addNew('adherent.add');
+        }
+        if ($canEdit) {
+            JToolBarHelper::editList('adherent.edit');
+            JToolBarHelper::custom('adherents.reinit', 'unpublish', 'unpublish', 'COM_CSMBCOMPONENT_TOOLBAR_REINIT', true);
+            JToolBarHelper::custom('adherents.toValidate', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_EN_VALIDATION', true);
+            JToolBarHelper::custom('adherents.validate', 'publish', 'publish', 'COM_CSMBCOMPONENT_TOOLBAR_VALIDATION', true);
+        }
+
         JToolBarHelper::custom('adherents.word', 'edit', 'edit', 'COM_CSMBCOMPONENT_TOOLBAR_WORD', true);
 
         $bar = JToolBar::getInstance('toolbar');
@@ -79,11 +93,11 @@ class CsmbComponentViewAdherents extends JViewLegacy
         $dhtml = $layout->render(array('title' => $title));
         $bar->appendButton('Custom', $dhtml, 'sendEmail');
 
-        $title2 = JText::_('JTOOLBAR_WORD');
-        $layout2 = new JLayoutFile('word', 'components/com_csmbcomponent/layout/');
+        $title2 = JText::_('JTOOLBAR_CHANGE_SAISON');
+        $layout2 = new JLayoutFile('saison', 'components/com_csmbcomponent/layout/');
 
         $dhtml2 = $layout2->render(array('title' => $title2));
-        $bar->appendButton('Custom', $dhtml2, 'word');
+        $bar->appendButton('Custom', $dhtml2, 'saison');
     }
 
     protected function addModalToolBar() {

@@ -16,7 +16,7 @@ defined('JPATH_PLATFORM') or die;
  * @subpackage  HTML
  * @since       1.7
  */
-abstract class JHtmlWord
+abstract class JHtmlSaison
 {
 	/**
 	 * Display a batch widget for the access level selector.
@@ -33,9 +33,9 @@ abstract class JHtmlWord
 		return
 			'<div class="control-label">'
 			.'<label id="batch-saison-lbl" for="batch-saison" class="modalTooltip" '
-			. 'title="' . JHtml::tooltipText('COM_CSMBCOMPONENT_WORD_SAISON_LABEL', 'COM_CSMBCOMPONENT_WORD_SAISON_DESC') . '">'
-			. JText::_('COM_CSMBCOMPONENT_WORD_SAISON_LABEL'). '</label></div>'
-			. '<div class="controls"><input type="text" name="word[saison]" class="required"/></div>';
+			. 'title="' . JHtml::tooltipText('COM_CSMBCOMPONENT_CHANGE_SAISON_LABEL', 'COM_CSMBCOMPONENT_CHANGE_SAISON_DESC') . '">'
+			. JText::_('COM_CSMBCOMPONENT_CHANGE_SAISON_LABEL'). '</label></div>'
+			. '<div class="controls"><input type="text" name="saison[saison]" class="required"/></div>';
 	}
 
 }

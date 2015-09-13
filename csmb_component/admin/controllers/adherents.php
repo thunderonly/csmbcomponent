@@ -121,13 +121,13 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
         $this->setRedirect(JRoute::_('index.php?option=' . $this->option . '&view=' . $this->view_list, false));
     }
 
-    public function word() {
+    public function saison() {
         // Check for request forgeries
         JSession::checkToken() or die(JText::_('JINVALID_TOKEN'));
 
         // Get items to remove from the request.
         $cid = JFactory::getApplication()->input->get('cid', array(), 'array');
-        $vars = $this->input->post->get('word', array(), 'array');
+        $vars = $this->input->post->get('saison', array(), 'array');
 
         if (!is_array($cid) || count($cid) < 1)
         {
@@ -138,8 +138,7 @@ class CsmbComponentControllerAdherents extends JControllerAdmin
             JArrayHelper::toInteger($cid);
             $model = $this->getModel();
             if ($model->word($cid, $vars['saison'])) {
-                $message = JText::plural($this->text_prefix . '_GENERATE_WORD', count($cid));
-                $message .= "<br>".JHtml::_('contentadministrator.link_download');
+                $message = "Changement effectué";
                 $this->setMessage($message);
             } else {
                 $this->setMessage($model->getError(), 'error');
