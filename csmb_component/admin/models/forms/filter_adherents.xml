@@ -27,6 +27,16 @@
                 >
             <option value="">COM_CSMBCOMPONENT_ADHERENT_SELECT_SAISON</option>
         </field>
+
+        <field
+                name="nb_cours"
+                type="text"
+                label="Search_Name"
+                description="Search_Name"
+                onchange="this.form.submit();"
+                hint="COM_CSMBCOMPONENT_ADHERENT_SELECT_NB_COURS"
+                >
+        </field>
     </fields>
 
     <fields name="list">

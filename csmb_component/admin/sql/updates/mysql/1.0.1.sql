@@ -1,0 +1,1 @@
+ALTER TABLE `#__csmbadherents` ADD COLUMN `nb_cours` INT(11) DEFAULT 2;

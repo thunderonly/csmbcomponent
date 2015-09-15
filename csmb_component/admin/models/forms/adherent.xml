@@ -292,6 +292,15 @@
                     format="%d-%m-%Y"
                     default=""
                     />
+            <field
+                    name="nb_cours"
+                    type="text"
+                    label="COM_CSMBCOMPONENT_ADHERENT_NB_COURS_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_NB_COURS_DESC"
+                    size="40"
+                    class="inputbox"
+                    default=""
+                    />
     </fieldset>
     <fieldset name="licence" label="COM_CSMBCOMPONENT_ADHERENT_LICENCE_LABEL">
             <field
