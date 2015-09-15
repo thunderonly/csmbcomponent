@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="component" version="3.3" method="upgrade">
+<extension type="component" version="1.6" method="upgrade">
 
     <name>COM_CSMBCOMPONENT</name>
     <creationDate>Septembre 2015</creationDate>
@@ -7,9 +7,10 @@
     <authorEmail>thunderonly@gmail.com</authorEmail>
     <authorUrl>www.csmb13.fr</authorUrl>
     <copyright>libre</copyright>
-    <licence>libre</licence>
-    <version>1.0.1</version>
+    <licence>none</licence>
+    <version>1.0</version>
     <description>Permet la gestion des adhérents du club</description>
+    <scriptfile>script.php</scriptfile>
     <install>
         <sql>
             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
@@ -23,7 +24,7 @@
 
     <update>
         <schemas>
-            <schemapath type="sql">sql/updates/mysql/</schemapath>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
         </schemas>
     </update>
 
@@ -42,6 +43,7 @@
             <filename>controller.php</filename>
             <filename>template.xml</filename>
             <filename>FicheRenouvellement.xml</filename>
+            <filename>Attestation.xml</filename>
             <folder>sql</folder>
             <folder>tables</folder>
             <folder>models</folder>
@@ -53,4 +55,9 @@
             <folder>helpers</folder>
         </files>
     </administration>
+    <!-- UPDATESERVER DEFINITION -->
+    <updateservers>
+        <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" priority="1" name="CSMB Component Update Site">http://www.csmb13.fr/update/csmb-update.xml</server>
+    </updateservers>
 </extension>
