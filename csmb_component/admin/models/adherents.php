@@ -54,7 +54,7 @@ class CsmbComponentModelAdherents extends JModelList
                 'a.pere_nom, a.pere_prenom, a.pere_telephoneportable, a.mere_nom, a.mere_prenom, a.mere_telephoneportable,'.
                 'a.responsable1_nom, a.responsable1_prenom, a.responsable1_telephone, a.responsable2_nom, a.responsable2_prenom, a.responsable2_telephone,'.
                 'a.enveloppes, a.photos, a.identite, a.reglement, a.certificat, a.licence, a.datedemandelicence, a.datereceptionlicence,'.
-                'a.etat, a.sectionid, a.saison, a.nb_cours')
+                'a.etat, a.sectionid, a.saison, a.nb_cours, a.reglement_complet')
             ->from('#__csmbadherents AS a');
 
         $query->select('s.libelle AS libelle_section')
@@ -63,13 +63,20 @@ class CsmbComponentModelAdherents extends JModelList
 
         // Filter by country
         $section = $this->getState('filter.section');
+        $etat = $this->getState('filter.etat');
         $saison = $this->getState('filter.saison');
         $nb_cours = $this->getState('filter.nb_cours');
+        $reglement_complet = $this->getState('filter.reglement_complet');
         $search = $this->getState('filter.search');
 
         if (!empty($section))
         {
             $query->where('a.sectionid = "' .  $section . '"');
+        }
+
+        if (!empty($etat))
+        {
+            $query->where('a.etat = "' .  $etat . '"');
         }
 
         if (!empty($saison))
@@ -80,6 +87,11 @@ class CsmbComponentModelAdherents extends JModelList
         if (!empty($nb_cours))
         {
             $query->where('a.nb_cours = "' .  $nb_cours . '"');
+        }
+
+        if (is_numeric($reglement_complet))
+        {
+            $query->where('a.reglement_complet = ' . (int)$reglement_complet);
         }
 
         if (!empty($search))

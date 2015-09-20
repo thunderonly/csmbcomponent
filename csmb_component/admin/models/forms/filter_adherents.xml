@@ -19,6 +19,16 @@
         </field>
 
         <field
+                name="etat"
+                type="etat"
+                label="Search_Name"
+                description="Search_Name"
+                onchange="this.form.submit();"
+                >
+            <option value="">COM_CSMBCOMPONENT_ADHERENT_SELECT_ETAT</option>
+        </field>
+
+        <field
                 name="saison"
                 type="saison"
                 label="Search_Name"
@@ -30,12 +40,20 @@
 
         <field
                 name="nb_cours"
-                type="text"
+                type="nbcours"
                 label="Search_Name"
                 description="Search_Name"
-                onchange="this.form.submit();"
-                hint="COM_CSMBCOMPONENT_ADHERENT_SELECT_NB_COURS"
-                >
+                onchange="this.form.submit();">
+            <option value="">COM_CSMBCOMPONENT_ADHERENT_SELECT_NB_COURS</option>
+        </field>
+
+        <field
+                name="reglement_complet"
+                type="reglementcomplet"
+                label="Search_Name"
+                description="Search_Name"
+                onchange="this.form.submit();">
+                <option value="" >COM_CSMBCOMPONENT_ADHERENT_SELECT_REGLEMENT</option>
         </field>
     </fields>
 

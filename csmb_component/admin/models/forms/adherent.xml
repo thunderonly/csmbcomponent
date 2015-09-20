@@ -301,6 +301,16 @@
                     class="inputbox"
                     default=""
                     />
+            <field
+                    name="reglement_complet"
+                    type="radio"
+                    label="COM_CSMBCOMPONENT_ADHERENT_REGLEMENT_COMPLET_LABEL"
+                    description="COM_CSMBCOMPONENT_ADHERENT_REGLEMENT_COMPLET_DESC"
+                    class="btn-group btn-group-yesno"
+                    default="0">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+            </field>
     </fieldset>
     <fieldset name="licence" label="COM_CSMBCOMPONENT_ADHERENT_LICENCE_LABEL">
             <field

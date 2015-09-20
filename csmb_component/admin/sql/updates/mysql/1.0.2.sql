@@ -1,0 +1,1 @@
+ALTER TABLE `#__csmbadherents` ADD COLUMN `reglement_complet` BOOLEAN DEFAULT TRUE ;

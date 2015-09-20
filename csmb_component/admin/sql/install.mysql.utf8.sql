@@ -551,3 +551,7 @@ INSERT INTO `#__csmbadherents` (`nom`, `prenom`, `sexe`, `date_naissance`, `vill
   ("ZAIDA","Kellya","Féminin","08/01/2007","MARSEILLE","257 Avenue de Montolivet ","MARSEILLE","13012","","0613854055","",""," ","","GARCIA Serena"," ","0613854055","DONIKIAN Patricia"," ","0652659565",""," ","","UFOLEP","013-96586100","27030","Renouveler","5","2015"),
   ("ZANNA","Noa","Féminin","01/08/2006","MARSEILLE","73 Avenue Jean Compadieu Rce La Pignatelle","MARSEILLE","13012","0491521615","","zannaveronique@hotmail.fr","ZANNA Ralph"," ","0632230820","ZANNA Véronique"," ","0788419299","COHEN Simone"," ","0679379480","COHEN Nathalie"," ","0611958731","UFOLEP","","27030","Renouveler","5","2015"),
   ("ZARBO","Serena","Féminin","10/06/2000","","20 Imp de Bois Lemaître ","MARSEILLE","13012","0491935520","","crocetta.zarbo@hotmail.fr","ZARBO Giuseppe"," ","0611920512","PROFETA Crocetta"," ","0649958549","CONTINO Letizia"," ","0623273353",""," ","","UFOLEP","013-10139053","27030","Renouveler","5","2015");
+
+
+ALTER TABLE `#__csmbadherents` ADD COLUMN `nb_cours` INT(11) DEFAULT 2;
+ALTER TABLE `#__csmbadherents` ADD COLUMN `reglement_complet` BOOLEAN DEFAULT TRUE ;
