@@ -274,22 +274,20 @@
             </field>
             <field
                     name="reglement"
-                    type="calendar"
+                    type="text"
                     label="COM_CSMBCOMPONENT_ADHERENT_REGLEMENT_LABEL"
                     description="COM_CSMBCOMPONENT_ADHERENT_REGLEMENT_DESC"
                     size="40"
                     class="inputbox"
-                    format="%d-%m-%Y"
                     default=""
                     />
             <field
                     name="certificat"
-                    type="calendar"
+                    type="text"
                     label="COM_CSMBCOMPONENT_ADHERENT_CERTIFICAT_LABEL"
                     description="COM_CSMBCOMPONENT_ADHERENT_CERTIFICAT_DESC"
                     size="40"
                     class="inputbox"
-                    format="%d-%m-%Y"
                     default=""
                     />
             <field
@@ -351,22 +349,20 @@
                     />
         <field
                 name="datedemandelicence"
-                type="calendar"
+                type="text"
                 label="COM_CSMBCOMPONENT_ADHERENT_DATEDEMANDELICENCE_LABEL"
                 description="COM_CSMBCOMPONENT_ADHERENT_DATEDEMANDELICENCE_DESC"
                 size="40"
                 class="inputbox"
-                format="%d-%m-%Y"
                 default=""
                 />
         <field
                 name="datereceptionlicence"
-                type="calendar"
+                type="text"
                 label="COM_CSMBCOMPONENT_ADHERENT_DATERECEPTIONLICENCE_LABEL"
                 description="COM_CSMBCOMPONENT_ADHERENT_DATERECEPTIONLICENCE_DESC"
                 size="40"
                 class="inputbox"
-                format="%d-%m-%Y"
                 default=""
                 />
     </fieldset>

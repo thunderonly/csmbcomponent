@@ -35,7 +35,7 @@ abstract class JHtmlContentAdministrator {
 
         JHtml::_('bootstrap.tooltip');
 
-        $html	= '<a href="components/com_csmbcomponent/fiche_renouvellement.xml" download="fiche_renouvellement.xml">Télécharger le document</a>';
+        $html	= '<a href="components/com_csmbcomponent/fiche_renouvellement.doc" download="fiche_renouvellement.doc">Télécharger le document</a>';
         return $html;
     }
 
@@ -43,7 +43,7 @@ abstract class JHtmlContentAdministrator {
 
         JHtml::_('bootstrap.tooltip');
 
-        $html	= '<a href="components/com_csmbcomponent/attestation_generee.xml" download="attestation_generee.xml">Télécharger le document</a>';
+        $html	= '<a href="components/com_csmbcomponent/attestation_generee.pdf" target="_blank">Télécharger le document</a>';
         return $html;
     }
 }

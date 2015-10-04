@@ -555,3 +555,7 @@ INSERT INTO `#__csmbadherents` (`nom`, `prenom`, `sexe`, `date_naissance`, `vill
 
 ALTER TABLE `#__csmbadherents` ADD COLUMN `nb_cours` INT(11) DEFAULT 2;
 ALTER TABLE `#__csmbadherents` ADD COLUMN `reglement_complet` BOOLEAN DEFAULT TRUE ;
+ALTER TABLE `#__csmbadherents` MODIFY COLUMN `reglement` VARCHAR(11) ;
+ALTER TABLE `#__csmbadherents` MODIFY COLUMN `certificat` VARCHAR(11) ;
+ALTER TABLE `#__csmbadherents` MODIFY COLUMN `datedemandelicence` VARCHAR(11) ;
+ALTER TABLE `#__csmbadherents` MODIFY COLUMN `datereceptionlicence` VARCHAR(11) ;

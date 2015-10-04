@@ -191,7 +191,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
             }
         }
         $document .= $endDocument;
-        $newFile = fopen('components/com_csmbcomponent/fiche_renouvellement.xml', 'w');
+        $newFile = fopen('components/com_csmbcomponent/fiche_renouvellement.doc', 'w');
         fwrite($newFile, $document);
         fclose($newFile);
 
@@ -291,8 +291,8 @@ class CsmbComponentModelAdherent extends JModelAdmin
             }
         }
         $document .= $endDocument;
-        unlink('components/com_csmbcomponent/attestation_generee.xml');
-        $newFile = fopen('components/com_csmbcomponent/attestation_generee.xml', 'w');
+        unlink('components/com_csmbcomponent/attestation_generee.doc');
+        $newFile = fopen('components/com_csmbcomponent/attestation_generee.doc', 'w');
         fwrite($newFile, $document);
         fclose($newFile);
 
