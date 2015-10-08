@@ -55,6 +55,20 @@
                 onchange="this.form.submit();">
                 <option value="" >COM_CSMBCOMPONENT_ADHERENT_SELECT_REGLEMENT</option>
         </field>
+        <field
+                name="federation"
+                type="federation"
+                label="Fédération"
+                hint="COM_CSMBCOMPONENT_ADHERENT_SELECT_FEDERATION"
+                default=""
+                />
+        <field
+                name="date_demande_licence"
+                type="datedemandelicence"
+                label="Date demande licence"
+                hint="COM_CSMBCOMPONENT_ADHERENT_SELECT_DATE_DEMANDE_LICENCE"
+                default=""
+                />
     </fields>
 
     <fields name="list">
