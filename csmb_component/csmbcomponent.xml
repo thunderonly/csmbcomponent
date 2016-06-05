@@ -8,7 +8,7 @@
     <authorUrl>www.csmb13.fr</authorUrl>
     <copyright>libre</copyright>
     <licence>none</licence>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <description>Permet la gestion des adhérents du club</description>
     <scriptfile>script.php</scriptfile>
     <install>
@@ -43,6 +43,7 @@
             <filename>controller.php</filename>
             <filename>template.xml</filename>
             <filename>FicheRenouvellement.xml</filename>
+            <filename>FicheRenouvellement2016.xml</filename>
             <filename>Attestation.xml</filename>
             <folder>sql</folder>
             <folder>tables</folder>

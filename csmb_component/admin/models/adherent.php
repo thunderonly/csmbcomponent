@@ -133,7 +133,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
         $table = $this->getTable();
         // Iterate the items to delete each one.
 
-        $file=file_get_contents('components/com_csmbcomponent/FicheRenouvellement.xml');
+        $file=file_get_contents('components/com_csmbcomponent/FicheRenouvellement2016.xml');
         $pos_begin_sect = strripos($file,"<wx:sect>");
         $pos_end_sect = strripos($file,"</wx:sect>")+10;
 
@@ -178,6 +178,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
                 $sect = str_replace('${Value21}', $this->formatData($table->responsable2_nom, 30), $sect);
                 $sect = str_replace('${Value22}', $this->formatData($table->responsable2_prenom, 30), $sect);
                 $sect = str_replace('${Value23}', $this->formatData($table->responsable2_telephone, 30), $sect);
+                $sect = str_replace('${Value24}', $this->formatData($table->licence, 30), $sect);
                 $document .= $sect;
                 if ($index < count($pks)) {
                     $document .= '<w:p wsp:rsidR="00475ACF" wsp:rsidRDefault="00475ACF" wsp:rsidP="00475ACF"><w:r><w:br w:type="page"/></w:r></w:p>';
@@ -291,7 +292,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
             }
         }
         $document .= $endDocument;
-        unlink('components/com_csmbcomponent/attestation_generee.doc');
+//        unlink('components/com_csmbcomponent/attestation_generee.doc');
         $newFile = fopen('components/com_csmbcomponent/attestation_generee.doc', 'w');
         fwrite($newFile, $document);
         fclose($newFile);

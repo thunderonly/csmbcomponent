@@ -43,7 +43,7 @@ abstract class JHtmlContentAdministrator {
 
         JHtml::_('bootstrap.tooltip');
 
-        $html	= '<a href="components/com_csmbcomponent/attestation_generee.pdf" target="_blank">Télécharger le document</a>';
+        $html	= '<a href="components/com_csmbcomponent/attestation_generee.doc" target="_blank">Télécharger le document</a>';
         return $html;
     }
 }
