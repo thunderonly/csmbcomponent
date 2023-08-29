@@ -133,7 +133,7 @@ class CsmbComponentModelAdherent extends JModelAdmin
         $table = $this->getTable();
         // Iterate the items to delete each one.
 
-        $file=file_get_contents('components/com_csmbcomponent/FicheRenouvellement2016.xml');
+        $file=file_get_contents('components/com_csmbcomponent/FicheRenouvellement2023.xml');
         $pos_begin_sect = strripos($file,"<wx:sect>");
         $pos_end_sect = strripos($file,"</wx:sect>")+10;
 
@@ -145,14 +145,14 @@ class CsmbComponentModelAdherent extends JModelAdmin
         $index = 1;
         foreach ($pks as $i => $pk) {
 
-            if ($table->load($pk) && ($table->etat != "Renouveler")) {
+            if ($table->load($pk) && ($table->etat = "Renouveler")) {
                 $sect = $sectTemplate;
                 $saison = $table->saison;
                 $sect = str_replace('${Value100}', $saison, $sect);
                 $sect = str_replace('${Value101}', $saison + 1, $sect);
                 $sect = str_replace('${Value0}', $this->getSection($table->sectionid), $sect);
-                $sect = str_replace('${Value1}', $this->formatData($table->nom, 50), $sect);
-                $sect = str_replace('${Value2}', $this->formatData($table->prenom, 50), $sect);
+                $sect = str_replace('${Value1}', $this->formatData($table->nom, 40), $sect);
+                $sect = str_replace('${Value2}', $this->formatData($table->prenom, 40), $sect);
                 $sect = str_replace('${Value3}', $table->sexe, $sect);
                 $sect = str_replace('${Value4}', $this->formatData($table->date_naissance, 50), $sect);
                 $sect = str_replace('${Value5}', $this->formatData($table->ville_naissance, 50), $sect);
@@ -232,13 +232,29 @@ class CsmbComponentModelAdherent extends JModelAdmin
                 $tableMail->message=$message;
                 $tableMail->destinataire=$table->nom;
                 $tableMail->store();
+                $from = "contact@csmb13.fr";
+                ini_set("SMTP", "smtp.csmb13.fr");
 
-                $headers ='From: postmaster@csmb13.fr'."\n";
-                $headers .='Reply-To: postmaster@csmb13.fr'."\n";
-                $headers .='Content-Type: text/plain; charset="iso-8859-1"'."\n";
-                $headers .='Content-Transfer-Encoding: 8bit';
-                mail($email, $sujet,
-                    $message, $headers);
+                $mail_Data = "";
+                $mail_Data .= "<html> \n";
+                $mail_Data .= "<head> \n";
+                $mail_Data .= "<title> Subject </title> \n";
+                $mail_Data .= "</head> \n";
+                $mail_Data .= "<body> \n";
+
+                $mail_Data .= "<b>$sujet </b> <br> \n";
+                $mail_Data .= "<br> \n";
+                $mail_Data .= "$message \n";
+                $mail_Data .= "</body> \n";
+                $mail_Data .= "</HTML> \n";
+
+                $headers  = "MIME-Version: 1.0 \n";
+                $headers .= "Content-type: text/html; charset=iso-8859-1 \n";
+                $headers .= "From: $from  \n";
+                //$headers .= "Reply-To: $from  \n";
+                $headers .= "Disposition-Notification-To: $from  \n";
+
+                @mail($email, $sujet,$mail_Data, $headers);
             }
         }
         return true;
